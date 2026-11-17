@@ -1,0 +1,141 @@
+{
+  "infinity_stellaris": {
+    "entropy_percent": 0.1,
+    "entropy_marks": 10,
+    "entropy_blacklist_ticks": 40,
+    "curvature_radius": 32.0,
+    "curvature_tick_interval": 20,
+    "curvature_max_targets": 64,
+    "curvature_burst_marks": 5
+  },
+  "nightfall_dragon": {
+    "judgement_cut_range": 50.0,
+    "judgement_cut_total_cuts": 100,
+    "judgement_cut_interval_ticks": 2,
+    "judgement_cut_damage": 91.0,
+    "judgement_cut_scale": 8.0,
+    "scale_guard_sword_count": 16,
+    "cosmic_descent_max_distance": 120.0,
+    "cosmic_descent_vortex_radius": 72.0,
+    "cosmic_descent_explosion_radius": 72.0,
+    "cosmic_descent_meteor_waves": 20,
+    "cosmic_descent_swords_per_wave": 5,
+    "cosmic_descent_meteor_damage": 78.0,
+    "cosmic_descent_collapse_panel_multiplier": 6.0,
+    "demonic_blood_extra_damage_percent": 0.05,
+    "demonic_blood_phantom_burst_marks": 20,
+    "absolute_domain_radius": 64.0,
+    "absolute_domain_max_targets": 12,
+    "blade_storm_swords": 16,
+    "world_cleaving_range": 72.0
+  },
+  "loli_blade": {
+    "attack_enabled": true,
+    "defense_enabled": true,
+    "reflect_damage": true,
+    "restore_health": true,
+    "grant_flight": true,
+    "void_protection": true,
+    "clear_inventory": false,
+    "kick_player": false,
+    "force_death": true,
+    "remove_entity": false,
+    "attack_range": 48.0,
+    "slash_art_range": 128.0,
+    "max_targets": 128,
+    "facing_cooldown_ticks": 5,
+    "area_cooldown_ticks": 10,
+    "ultimate_obliterate": false,
+    "ultimate_invincible": false,
+    "ultimate_theseus": false
+  },
+  "annihilation_blade.spatial_fracture": {
+    "max_distance": 160.0,
+    "fracture_radius": 20.0,
+    "ray_step": 4.0,
+    "ray_sample_radius": 5.0,
+    "entity_lock_radius": 3.0,
+    "backup_radius": 48.0,
+    "max_targets": 128,
+    "max_visualized_targets": 32,
+    "fracture_slashes": 24,
+    "center_slashes": 12,
+    "visual_scale": 1.0
+  },
+  "annihilation_blade.dankong": {
+    "range": 72.0,
+    "max_targets": 48,
+    "step_interval_ticks": 3,
+    "cooldown_ticks": 12,
+    "visual_scale": 1.0
+  },
+  "annihilation_blade.world_rift": {
+    "radius": 8.0,
+    "max_targets": 24,
+    "chain_count": 3,
+    "chain_range": 256.0,
+    "visual_scale": 1.0
+  },
+  "annihilation_blade.terminus_echo": {
+    "range": 36.0,
+    "width": 4.4,
+    "echo_count": 5,
+    "echo_interval_ticks": 3,
+    "cooldown_ticks": 0,
+    "max_active_sequences": 2,
+    "max_targets_per_wave": 32,
+    "visual_scale": 1.0
+  },
+  "annihilation_blade.void_dominion": {
+    "range": 26.0,
+    "max_targets": 64,
+    "cooldown_ticks": 70,
+    "visual_scale": 1.0
+  },
+  "annihilation_blade.causality_collapse": {
+    "chain_radius": 14.0,
+    "max_chain": 18,
+    "cooldown_ticks": 10,
+    "visual_scale": 1.0
+  },
+  "annihilation_blade.starless_judgement": {
+    "range": 56.0,
+    "width": 8.5,
+    "cooldown_ticks": 34,
+    "max_targets": 80,
+    "visual_scale": 1.0
+  },
+  "annihilation_blade.phantom_judgement": {
+    "range": 40.0,
+    "search_ticks": 20,
+    "search_sword_count": 8,
+    "rain_swords_per_target": 6,
+    "falling_sword_delay_ticks": 24,
+    "linger_ticks": 60,
+    "max_targets": 24,
+    "max_lingering_swords": 96,
+    "cooldown_ticks": 44,
+    "visual_scale": 1.0
+  },
+  "annihilation_blade.abyssal_decree": {
+    "range": 34.0,
+    "max_targets": 16,
+    "strike_interval_ticks": 3,
+    "cooldown_ticks": 82,
+    "visual_scale": 1.0
+  },
+  "blood_prison.domain": {
+    "duration_ticks": 400,
+    "radius": 10.0,
+    "border_interval_ticks": 10,
+    "player_aura_interval_ticks": 4,
+    "pulse_interval_ticks": 20,
+    "visual_scale": 1.0
+  },
+  "blood_prison.phantom_burst": {
+    "sword_count": 10,
+    "sword_delay_ticks": 18,
+    "burst_radius_scale": 2.2,
+    "visual_scale": 1.0
+  }
+}

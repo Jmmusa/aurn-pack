@@ -1,0 +1,67 @@
+[engine]
+	#Disable new corruption effects, spread, conversions, loot corruption, and raids. Existing corruption remains and can still be purified.
+	corruptionDisabled = false
+	#At what stage do biomes start having a chance to mutate? (-1 disables)
+	# Default: 4
+	# Range: -1 ~ 6
+	biomeMutationStage = 4
+	#How frequently does chunk corruption spread? (-1 disables)
+	# Default: 90
+	# Range: -1 ~ 24000
+	chunkSpreadCooldown = 90
+
+[research]
+	#What is the value of a Research Credit (ƒ)?
+	researchCreditValue = 100
+	#How many Research Credit (ƒ) are earned from each corrupted item purification?
+	# Default: 2
+	# Range: 1 ~ 5
+	labTechAnalysisValue = 2
+
+[combat]
+	#At what corruption stage will corrupted entities start to attack?
+	corruptedEntityAggroStage = 3
+	#What base number of days between possible Exteritio raids? -1 disables. (This is reduced by corruption stage.)
+	exteritioRaidCooldown = 3
+	#Do corrupted creatures attack citizens?
+	corruptedCreaturesAttackCitizens = true
+	#Do corrupted creatures attack Visitors?
+	corruptedCreaturesAttackVisitors = true
+	#Do Voraxians attack citizens?
+	voraxiansAttackCitizens = true
+	#Do Voraxians attack Visitors?
+	voraxiansAttackVisitors = true
+
+[notifications]
+	#Cooldown for global notifications (in minutes). 0 disables.
+	globalNotificationCooldown = 15
+	#Cooldown for colony notifications (in minutes). 0 disables.
+	colonyNotificationCooldown = 15
+	#Rolling window for colony mitigation messaging (in Minecraft days).
+	# Default: 14
+	# Range: 1 ~ 100
+	colonyMitigationRollingDays = 14
+	#Percent chance of a citizen making a comment about the corruption?. 0 disables.
+	# Default: 5
+	# Range: 0 ~ 100
+	citizenCommentFrequency = 5
+
+[beacons]
+	#Base beacon power.
+	# Default: 8
+	# Range: 1 ~ 20
+	baseBeaconPower = 8
+	#Beacon pulses per essence.
+	# Default: 10
+	# Range: 1 ~ 50
+	beaconPulsePerEssence = 10
+
+[purification]
+	#How much chunk corruption will Purifying Tree leaf remove before generating Essence of Corruption.
+	# Default: 5
+	# Range: 1 ~ 100
+	purifyingTreeCorruptionPerLeaf = 5
+	#Each time purifying leaves remove corruption, what chance do they have of decaying?
+	# Default: 25
+	# Range: 0 ~ 100
+	chanceOfLeafDecay = 25

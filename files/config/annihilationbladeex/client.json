@@ -1,0 +1,7 @@
+{
+  "client_tooltips": {
+    "enable_annihilation_blade_renderer": true,
+    "enable_infinity_stellaris_renderer": true,
+    "enable_nightfall_dragon_renderer": true
+  }
+}

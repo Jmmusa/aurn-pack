@@ -1,0 +1,19 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Shadow Mounts -> Config",
+	"Enable Shadow Mounts": {
+		"//": "Whether Shadow Mounts is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"darkenHorseTexture": {
+		"//": "Whether the horse's texture should be darkened when equiped with a shadow saddle.",
+		"value": true
+	},
+	"showShadowHorseParticles": {
+		"//": "Whether the particles should be shown for shadow mounts.",
+		"value": true
+	},
+	"onlyShowParticlesWhenRiding": {
+		"//": "If enabled, shadow mount particles are only shown when a player is riding them.",
+		"value": true
+	}
+}

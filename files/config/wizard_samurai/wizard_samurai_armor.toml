@@ -1,0 +1,204 @@
+#Defines armor values and additional values for Wizard Samurai armor.
+wizard_samurai_armor_values = [5, 8, 11, 6]
+#Defines armor values for Ignis Samurai armor.
+ignis_samurai_armor_values = [6, 9, 12, 7]
+#Defines armor values for Ignis Wizard Samurai armor.
+ignis_wizard_samurai_armor_values = [6, 9, 12, 7]
+#Defines armor values for Sculk Wizard Samurai armor.
+sculk_wizard_samurai_armor_values = [3, 6, 8, 3]
+#Defines armor values for Amethyst Wizard Samurai armor.
+amethyst_wizard_samurai_armor_values = [2, 5, 7, 2]
+#Defines armor values for Crimson Wizard Samurai armor.
+crimson_wizard_samurai_armor_values = [4, 6, 8, 4]
+
+	[armor.wizard_samurai]
+		#Wizard Samurai Armor Durability
+		# Default: 375
+		# Range: > 0
+		durability = 375
+		#Wizard Samurai Armor Enchantment Value
+		# Default: 15
+		# Range: 1 ~ 30
+		enchantment = 15
+		#Wizard Samurai Armor Toughness
+		# Default: 6
+		# Range: 0 ~ 30
+		toughness = 6
+		#Wizard Samurai Armor Knockback Resistance
+		# Default: 0.04
+		# Range: 0.0 ~ 10.0
+		knockback_resistance = 0.04
+		#Wizard Samurai Armor Mana
+		# Default: 100
+		# Range: 0 ~ 1000
+		mana = 100
+		#Wizard Samurai Armor Mana Regen
+		# Default: 0.05
+		# Range: 0.0 ~ 100.0
+		mana_regen = 0.05
+		#Wizard Samurai Armor Cast Speed
+		# Default: 0.05
+		# Range: 0.0 ~ 100.0
+		cast_speed = 0.05
+		#Wizard Samurai Armor Spell Resistance
+		# Default: 0.05
+		# Range: 0.0 ~ 100.0
+		spell_resistance = 0.05
+		#Wizard Samurai Armor Spell Power
+		# Default: 0.05
+		# Range: 0.0 ~ 100.0
+		spell_power = 0.05
+		#Wizard Samurai Armor Spell Cooldown
+		# Default: 0.02
+		# Range: 0.0 ~ 100.0
+		spell_cooldown = 0.02
+
+	[armor.ignis_samurai]
+		#Ignis Samurai Armor Durability
+		# Default: 374
+		# Range: > 0
+		durability = 374
+		#Ignis Samurai Armor Enchantment Value
+		# Default: 15
+		# Range: 1 ~ 30
+		enchantment = 15
+		#Ignis Samurai Armor Toughness
+		# Default: 3.0
+		# Range: 0.0 ~ 30.0
+		toughness = 3.0
+		#Ignis Samurai Armor Knockback Resistance
+		# Default: 0.03
+		# Range: 0.0 ~ 10.0
+		knockback_resistance = 0.03
+
+	[armor.ignis_wizard_samurai]
+		#Ignis Wizard Samurai Armor Durability
+		# Default: 374
+		# Range: > 0
+		durability = 374
+		#Ignis Wizard Samurai Armor Enchantment Value
+		# Default: 15
+		# Range: 1 ~ 30
+		enchantment = 15
+		#Ignis Wizard Samurai Armor Toughness
+		# Default: 4.0
+		# Range: 0.0 ~ 30.0
+		toughness = 4.0
+		#Ignis Wizard Samurai Armor Knockback Resistance
+		# Default: 0.03
+		# Range: 0.0 ~ 10.0
+		knockback_resistance = 0.03
+		#Ignis Wizard Samurai Armor Spell Resistance
+		# Default: 0.05
+		# Range: 0.0 ~ 100.0
+		spell_resistance = 0.05
+		#Ignis Wizard Samurai Armor Spell Power
+		# Default: 0.05
+		# Range: 0.0 ~ 100.0
+		spell_power = 0.05
+		#Ignis Wizard Samurai Armor Mana
+		# Default: 75
+		# Range: 0 ~ 1000
+		mana = 75
+
+	[armor.sculk_wizard_samurai]
+		#Sculk Wizard Samurai Armor Durability
+		# Default: 374
+		# Range: > 0
+		durability = 374
+		#Sculk Wizard Samurai Armor Enchantment Value
+		# Default: 15
+		# Range: 1 ~ 30
+		enchantment = 15
+		#Sculk Wizard Samurai Armor Toughness
+		# Default: 6.0
+		# Range: 0.0 ~ 30.0
+		toughness = 6.0
+		#Sculk Wizard Samurai Armor Knockback Resistance
+		# Default: 0.04
+		# Range: 0.0 ~ 10.0
+		knockback_resistance = 0.04
+		#Sculk Wizard Samurai Armor Spell Resistance
+		# Default: 0.05
+		# Range: 0.0 ~ 100.0
+		spell_resistance = 0.05
+		#Sculk Wizard Samurai Armor Mana
+		# Default: 150
+		# Range: 0 ~ 1000
+		mana = 150
+		#Sculk Wizard Samurai Armor Spell Eldritch
+		# Default: 0.1
+		# Range: 0.0 ~ 10.0
+		spell_eldritch = 0.1
+
+	[armor.amethyst_wizard_samurai]
+		#Amethyst Wizard Samurai Armor Durability
+		# Default: 374
+		# Range: > 0
+		durability = 374
+		#Amethyst Wizard Samurai Armor Enchantment Value
+		# Default: 15
+		# Range: 1 ~ 30
+		enchantment = 15
+		#Amethyst Wizard Samurai Armor Toughness
+		# Default: 6.0
+		# Range: 0.0 ~ 30.0
+		toughness = 6.0
+		#Amethyst Wizard Samurai Armor Knockback Resistance
+		# Default: 0.03
+		# Range: 0.0 ~ 10.0
+		knockback_resistance = 0.03
+		#Amethyst Wizard Samurai Armor Spell Resistance
+		# Default: 0.05
+		# Range: 0.0 ~ 100.0
+		spell_resistance = 0.05
+		#Amethyst Wizard Samurai Armor Mana
+		# Default: 150
+		# Range: 0 ~ 1000
+		mana = 150
+		#Amethyst Wizard Samurai Armor Mana Regen
+		# Default: 0.1
+		# Range: 0.0 ~ 10.0
+		mana_regen = 0.1
+		#Amethyst Wizard Samurai Armor Spell Cooldown
+		# Default: 0.1
+		# Range: 0.0 ~ 10.0
+		spell_cooldown = 0.1
+		#Amethyst Wizard Samurai Armor Cast Speed
+		# Default: 0.1
+		# Range: 0.0 ~ 10.0
+		cast_speed = 0.1
+
+	[armor.crimson_wizard_samurai]
+		#Crimson Wizard Samurai Armor Durability
+		# Default: 374
+		# Range: > 0
+		durability = 374
+		#Crimson Wizard Samurai Armor Enchantment Value
+		# Default: 15
+		# Range: 1 ~ 30
+		enchantment = 15
+		#Crimson Wizard Samurai Armor Toughness
+		# Default: 6.0
+		# Range: 0.0 ~ 30.0
+		toughness = 6.0
+		#Crimson Wizard Samurai Armor Knockback Resistance
+		# Default: 0.03
+		# Range: 0.0 ~ 10.0
+		knockback_resistance = 0.03
+		#Crimson Wizard Samurai Armor Mana
+		# Default: 150
+		# Range: 0 ~ 1000
+		mana = 150
+		#Crimson Wizard Samurai Armor Blood Spell Power
+		# Default: 0.1
+		# Range: 0.0 ~ 100.0
+		blood_spell_power = 0.1
+		#Crimson Wizard Samurai Armor Blood Magic Resistance
+		# Default: 0.1
+		# Range: 0.0 ~ 100.0
+		blood_magic_resistance = 0.1
+		#Crimson Wizard Samurai Armor Spell Resistance
+		# Default: 0.05
+		# Range: 0.0 ~ 100.0
+		spell_resistance = 0.05

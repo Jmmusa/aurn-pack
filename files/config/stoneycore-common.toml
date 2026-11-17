@@ -1,0 +1,79 @@
+[combat]
+	#Realistic Combat | Default: true
+	realisticCombat = true
+	#Time (in ticks) to Toggle Visor | Default: 10
+	# Default: 10
+	# Range: 0 ~ 99999
+	toggleVisorTime = 10
+	#Parry | Default: true
+	parry = true
+	#Stamina Recovery Formula
+	staminaRecoveryFormula = "10 - (foodLevel + health) / 5"
+	#Blocking Stamina Constant
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	blockingStaminaConstant = 0.01
+	#On Block Stamina Constant
+	# Default: 0.03
+	# Range: 0.0 ~ 1.0
+	onBlockStaminaConstant = 0.03
+	#On Parry Stamina Constant
+	# Default: 0.025
+	# Range: 0.0 ~ 1.0
+	onParryStaminaConstant = 0.025
+	#Sprinting Stamina Constant
+	# Default: 0.04
+	# Range: 0.0 ~ 1.0
+	sprintingStaminaConstant = 0.04
+	#Jumping Stamina Constant
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	jumpingStaminaConstant = 0.01
+	#Swimming Stamina Constant
+	# Default: 0.02
+	# Range: 0.0 ~ 1.0
+	swimmingStaminaConstant = 0.02
+	#Attack Stamina Constant
+	# Default: 0.02
+	# Range: 0.0 ~ 1.0
+	attackStaminaConstant = 0.02
+	#Stamina Time to Replenish after Using | Default: 60
+	# Default: 60
+	# Range: 0 ~ 99999
+	staminaRecoverTime = 60
+	#Disable Stamina | Default: false
+	disableStamina = false
+	#Parry Window Ticks | Default: 10
+	# Default: 10
+	# Range: 0 ~ 99999
+	parryWindowTicks = 10
+	#Parry Knockback Strength | Default: 0.75
+	# Default: 0.75
+	# Range: 0.0 ~ 99999.0
+	parryKnockbackStrength = 0.75
+
+[technical]
+	#Max Work for Claim Worker per tick
+	#Lower numbers will slow the claim,
+	#but improve performance.
+	# Default: 5000
+	# Range: > 0
+	maxWorkPerTick = 5000
+	#Max Land Expand Radius | Default: -1 (Unlimited)
+	# Default: -1
+	# Range: > -1
+	maxLandExpandRadius = -1
+	#Break or Remove Blocks on siege_engine destroy
+	#false = Break
+	#true = Remove
+	breakOrRemoveSiegeDestroy = false
+
+[land]
+	#Claim Land | Default: true
+	claimLand = true
+	#Remove radius claim on defender death | Default: true
+	removeClaimedSiege = true
+	#Hunger inside a Siege | Default: true
+	hungerSiege = true
+	#[Beta] Villagers can spawn on your land. Improve their mood so they stay there
+	landVisitors = false

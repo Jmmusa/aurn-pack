@@ -1,0 +1,10 @@
+#Lance Cooldown
+# Default: 30
+# Range: > 0
+lanceCooldown = 30
+#Damage Tamed Entities
+damageTamedEntities = false
+#WarDart throw Cooldown
+# Default: 15
+# Range: > 0
+wardartCooldown = 15

@@ -1,0 +1,153 @@
+[marketplace]
+	#What is the value of a Trade Coin (‡)?
+	tradeCoinValue = 1000
+	#For economies balanced around player-sold items, what penalty or bonus is applied to marketplace sales? (0.0 = no change, > 0.0 = % bonus, < 0.0 = % penalty)
+	# Default: -0.0
+	# Range: -1.0 ~ 1.0
+	economicScaling = -0.0
+	#At what building level can the Marketplace withdraw coins?
+	mintingLevel = 2
+	#How long before visitors will consider shopping again?
+	shoppingCooldown = 400
+	#How likely is a sold item to make a cash register sound?
+	# Default: 0.5
+	# Range: -1.0 ~ 1.0
+	registerSoundChance = 0.5
+	#What chance, per building level, do visitors have of deciding to shop?
+	shoppingChance = 5
+	#What currency is used to facilitate trades, and will be extracted from the marketplace? (Restart required if changed.)
+	tradeCurrency = "mctradepost:mctp_coin"
+	#Allow Marketplace Rare Finds, retained searches, and subscriptions.
+	rareFindsEnabled = true
+	#Chance added per retained-search investment level.
+	# Default: 0.11
+	# Range: 0.0 ~ 1.0
+	retainedSearchInvestmentLevelBonus = 0.11
+	#Additional difficulty for each Rare Find tier above Tier 1.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	retainedSearchTierDifficulty = 0.1
+	#Raw player XP charged per investment level for one retained search.
+	# Default: 55
+	# Range: > 0
+	retainedSearchInvestmentBaseXp = 55
+	#MineColonies days added by each retained-search investment purchase.
+	# Default: 5
+	# Range: 1 ~ 99
+	retainedSearchInvestmentDays = 5
+	#Multiplier applied to the greater of an item's economic value and tier price floor for subscriptions.
+	# Default: 1.4
+	# Range: 1.0 ~ 100.0
+	subscriptionPriceMultiplier = 1.4
+
+[incentives]
+	#‡ charged per boosted citizen skill point per pay cycle.
+	# Default: 1000
+	# Range: 100 ~ 100000
+	incentiveCostPerSkillPoint = 1000
+	#MineColonies days in one citizen incentive pay cycle.
+	# Default: 3
+	# Range: 1 ~ 30
+	incentivePayCycleDays = 3
+
+[resort]
+	#Maximum percentage chance of a citizen going on a vacation.
+	vacationMaxChance = 0.2
+	#How much advertising can a citizen withstand before being lured onto a vacation? Negative value disables vacations.
+	maxAdSaturation = 12000
+	#How many ticks must pass between advertising attempts (which may result in vacations)?
+	advertisingCooldown = 300
+	#Under what stat level do citizens become more susceptible to advertising?
+	vacationSusceptibilityThreshold = 6
+	#At what stat level do citizens become immune to advertising?
+	vacationImmunityThreshold = 12
+	#How many stat points will a single vacation restore?
+	vacationHealing = 2
+	#Trade Coin (‡) generated per vacation.
+	vacationIncome = 1
+	#Guests per resort level.
+	guestsPerResortLevel = 2
+
+[recycler]
+	#Recycling grinder belts per building level.
+	grindersPerLevel = 2
+	#Time to complete a recycling cycle.
+	baseRecyclerTime = 100
+	#Stat level at which recycling is performed as well as possible.
+	flawlessRecycling = 50
+	#Frequency of warehouse inventory updates in Colony Ticks (processor intensive).
+	warehouseInventoryCooldown = 50
+	#Scrap Points required to produce one Scrap Pile.
+	# Default: 16
+	# Range: 1 ~ 1000000
+	scrapPointsPerPile = 16
+
+[station]
+	#Tick frequency of verifying tracks remain connected (processor intensive).
+	trackValidationFrequency = 6000
+	#Base trade speed per building level.
+	baseTradeSpeed = 4
+	#Shipment speed multiplier while traveling by rail.
+	# Default: 1.0
+	# Range: 1.0 ~ 100.0
+	railTradeSpeedMultiplier = 1.0
+	#Shipment speed multiplier while traveling by road.
+	# Default: 1.0
+	# Range: 1.0 ~ 100.0
+	roadTradeSpeedMultiplier = 1.0
+	#Shipment speed multiplier while traveling by water.
+	# Default: 1.0
+	# Range: 1.0 ~ 100.0
+	waterTradeSpeedMultiplier = 1.0
+	#Shipment speed multiplier for long-distance air travel.
+	# Default: 10.0
+	# Range: 1.0 ~ 100.0
+	airTradeSpeedMultiplier = 10.0
+	#Shipment speed multiplier for visible air travel.
+	# Default: 4.0
+	# Range: 1.0 ~ 100.0
+	visibleAirTradeSpeedMultiplier = 4.0
+	#Maximum navigable block distance for one dock-to-dock water leg.
+	# Default: 1000
+	# Range: 1 ~ 10000
+	maximumWaterRouteDistance = 1000
+	#Airship cruising height above the higher Mooring Bay or local colony-border terrain.
+	# Default: 16
+	# Range: 1 ~ 128
+	airshipCruisingClearance = 16
+	#Lifting Gas capacity of a Mooring Bay.
+	# Default: 240000
+	# Range: 1000 ~ 10000000
+	mooringBayGasCapacity = 240000
+	#Lifting Gas capacity of a Gasifier.
+	# Default: 16000
+	# Range: 1000 ~ 10000000
+	gasifierGasCapacity = 16000
+	#Maximum Lifting Gas pushed per adjacent face per tick.
+	# Default: 250
+	# Range: 1 ~ 100000
+	gasifierTransferRate = 250
+	#Base Lifting Gas cost per air shipment.
+	# Default: 1000
+	# Range: 0 ~ 1000000
+	airshipBaseGasCost = 1000
+	#Air-route blocks traveled per Lifting Gas unit.
+	# Default: 1
+	# Range: 1 ~ 100000
+	airshipBlocksPerGasUnit = 1
+	#Ready shipment attempts blocked by gas before the Station Master complains.
+	# Default: 3
+	# Range: 1 ~ 100
+	gasComplaintAttempts = 3
+	#Number of imports allowed per Station level.
+	importsPerLevel = 5
+
+[petshop]
+	#Number of pets per building level.
+	petsPerLevel = 2
+
+[outpost]
+	#Allow use of the Outpost.
+	outpostEnabled = true
+	#Maximum distance the outpost can be from the colony center. Note that large values will cause pathing exceptions.
+	maxDistance = 800

@@ -1,0 +1,55 @@
+{
+	id: "44D355363D3500BF"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 8
+			id: "6F946D1B0D79EE19"
+			item: {
+				count: 1
+				id: "minecraft:potato"
+			}
+		}
+		{
+			count: 8
+			id: "7E292226DC2809EB"
+			item: {
+				count: 1
+				id: "minecraft:kelp"
+			}
+		}
+		{
+			count: 8
+			id: "1CB856AF35C3BEDF"
+			item: {
+				count: 1
+				id: "minecraft:dandelion"
+			}
+		}
+		{
+			count: 3
+			id: "775CD48E6F37F877"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+		}
+		{
+			count: 8
+			id: "24C6F66D87EA565C"
+			item: {
+				count: 1
+				id: "minecraft:carrot"
+			}
+		}
+		{
+			count: 3
+			id: "2F0823D0035C14B7"
+			item: {
+				count: 1
+				id: "minecraft:honey_bottle"
+			}
+		}
+	]
+}

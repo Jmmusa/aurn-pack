@@ -1,0 +1,98 @@
+{
+ "parent": "minecraft:item/handheld",
+ "textures": {
+  "layer0": "minecraft:item/netherite_sword"
+ },
+ "overrides": [
+  {
+   "predicate": {
+    "custom_model_data": 7101
+   },
+   "model": "aurn_arsenal:item/kamish_wrath"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 7102
+   },
+   "model": "aurn_arsenal:item/kamish_wrath_twin"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 7103
+   },
+   "model": "aurn_arsenal:item/demon_kings_longsword"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 7104
+   },
+   "model": "aurn_arsenal:item/demon_kings_dagger"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 7105
+   },
+   "model": "aurn_arsenal:item/knight_killer"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 7106
+   },
+   "model": "aurn_arsenal:item/barukas_dagger"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 7107
+   },
+   "model": "aurn_arsenal:item/kasakas_venom_fang"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 7108
+   },
+   "model": "aurn_arsenal:item/kasakas_awakened_venom_fang"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 7109
+   },
+   "model": "aurn_arsenal:item/moonlight_refractor"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 7110
+   },
+   "model": "aurn_arsenal:item/mythic_dagger"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 7111
+   },
+   "model": "aurn_arsenal:item/frost_blade"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 7112
+   },
+   "model": "aurn_arsenal:item/gravity_dagger"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 7113
+   },
+   "model": "aurn_arsenal:item/ice_katana"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 7114
+   },
+   "model": "aurn_arsenal:item/war_axe"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 7115
+   },
+   "model": "aurn_arsenal:item/snow_piercer"
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+["EpicFight Sword Light Modifications"]
+	# Default: 3
+	# Range: 1 ~ 5
+	trailType = 3
+	overlayTrail = []
+	brighter = true
+	# Default: 3
+	# Range: 1 ~ 5
+	PlayerTrailType = 3
+	PlayerOverlayTrail = []
+	enderRiftTexturePath = "zylob:textures/effect/default.png"

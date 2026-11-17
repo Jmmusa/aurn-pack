@@ -1,0 +1,3 @@
+[accessibility]
+	#Enable the animated corruption darkness overlay. Disable this if the vignette, breathing pulse, or smoke motion causes discomfort.
+	corruptionDarknessOverlayEnabled = true

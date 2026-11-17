@@ -1,0 +1,14 @@
+# Don't change this! Version used to track needed updates.
+version = 1
+# Enables/disables - Knaves' Needs' Translucent additions.
+translucentEnabled = true
+# Translucent durability/uses, can be any whole number.
+translucentDurability = 328
+# Translucent attack speed, can be any decimal number.
+translucentSpeed = 7.0
+# Translucent bonus damage, can be any decimal number.
+translucentAttackBonus = 2.0
+# Translucent mining level, can be any whole number.
+translucentMiningLevel = 1
+# Translucent enchantability, can be any whole number.
+translucentEnchantability = 20

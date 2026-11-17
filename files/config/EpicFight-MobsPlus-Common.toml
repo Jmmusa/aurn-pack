@@ -1,0 +1,5 @@
+["Mount Animations"]
+	#Whether The Default Mount Idle Animation Should Be Replaced
+	replace_epic_fight_mount_idle = true
+	#Whether The Player Should Play A Riding Animation When Moving Forward Or Backward On A Mount (Such As A Horse)
+	use_mount_ride_animations = true

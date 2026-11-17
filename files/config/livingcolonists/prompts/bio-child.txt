@@ -1,0 +1,5 @@
+Write a short description of {name}, a child in a city of the Sundered Reach of Aurn (a world of rival kingdoms, nobles, old gods called Echoes, roads and bandits).
+Character: {archetype}
+{gender}. {parents}
+Write {length} in English about their temperament and what they like to do. A child has no past to speak of: describe who they are, not their history.
+Keep it general: no specific events, no catchphrases or signature gestures. Plain text only.

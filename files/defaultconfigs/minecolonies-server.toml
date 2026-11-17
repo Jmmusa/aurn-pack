@@ -1,0 +1,21 @@
+# AURN 2026-11-11: the cities of Aurn are colonies (/aurncolony). Only these values are set; MineColonies fills in the rest.
+[gameplay]
+	allowotherdimcolonies = true
+	maxcitizenpercolony = 300
+	forceloadcolony = false
+
+[claims]
+	minColonyDistance = 4
+	initialColonySize = 4
+	mindistancefromworldspawn = 0
+	maxdistancefromworldspawn = 60000
+
+[combat]
+	# raids paste pirate ships and barbarian camps into the map: off (Aurn has its own bandits, pirates and warbands)
+	enablecolonyraids = false
+	raidersbreakblocks = false
+	raidersbreakdoors = false
+
+[permissions]
+	# the cities belong to their rulers; protection would stop the players building in their own world
+	enablecolonyprotection = false

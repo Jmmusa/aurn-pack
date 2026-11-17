@@ -1,0 +1,30 @@
+#Damage Indicator | Default: false
+damageIndicator = false
+#Visored Helmet Overlay | Default: true
+visoredHelmet = true
+#Visored Helmet Overlay Alpha in Creative | Default: 0.4
+# Default: 0.4
+# Range: 0.0 ~ 1.0
+visoredHelmetAlphaCreative = 0.4
+#Visored Helmet Overlay Alpha in Survival | Default: 1.0
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+visoredHelmetAlphaSurvival = 1.0
+#Visor Overlay being visible in Third Person | Default: true
+overlayThirdPerson = true
+#Low Stamina Indicator | Default: true
+lowStaminaIndicator = true
+#Noise Effect in Low Stamina Indicator | Default: true
+noiseEffect = true
+#Muzzles Smoke Particles Time Active (Seconds) | Default: 60
+# Default: 60
+# Range: > 0
+muzzlesSmokeParticlesTime = 60
+#Stamina Bar Y Offset | Default: 0
+# Default: 0
+# Range: > -2147483648
+staminaBarYOffset = 0
+#Hex Color Too/Far Close
+hexColorTooFarClose = "0xFFFFFF"
+#Claim Outline Render Hex Color
+claimOutlineColor = "0x00FFFF80"
