@@ -5,3 +5,8 @@ and `files/` (only AURN's own files: aurnfolk, AURN resource packs, configs). Th
 the launcher downloads them from Modrinth or CurseForge.
 
 Update: run `tools/build_pack.py --out <this folder>` in the launcher project, then commit and push.
+
+## Play AURN
+
+Download the launcher from the [latest release](https://github.com/Jmmusa/aurn-pack/releases/latest)
+(Windows: `AURN-Launcher-…-windows.exe`), run it, sign in with Microsoft and press Play.
