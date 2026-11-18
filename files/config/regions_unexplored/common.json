@@ -368,7 +368,7 @@
       },
       "regions_unexplored:inferno": {
         // This biome has special placement rules. It can only be enabled or disabled.
-        "special_enabled": true
+        "special_enabled": false
       },
       "regions_unexplored:joshua_desert": {
         "can_replace": [

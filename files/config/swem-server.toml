@@ -173,7 +173,7 @@
 	enableKeyPermission = false
 	# || What horses should spawn? Vanilla horses only, SWEM horses only, or Both?
 	#Allowed Values: VANILLA_ONLY, SWEM_ONLY, BOTH
-	horseSpawn = "BOTH"
+	horseSpawn = "SWEM_ONLY"
 	# || Enables fireworks to be shot out of jumps and barrels when horses touch them.
 	fireworkDisplay = false
 	# || Should winged horse fly without requirement of Amethyst Horse Armor?

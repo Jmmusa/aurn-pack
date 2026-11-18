@@ -9986,6 +9986,111 @@
           "quest": "beastlorist",
           "home_radius": 8,
           "title": "the Beast-Lorist"
+        },
+        {
+          "race": "thalassi",
+          "role": "noble",
+          "weight": 0,
+          "group": [
+            1,
+            1
+          ],
+          "time": "any",
+          "skin_set": "thalassi",
+          "unique": true,
+          "home": [
+            -5666,
+            -999,
+            281
+          ],
+          "name": "Ilyth",
+          "quest": "ilyth",
+          "home_radius": 8,
+          "title": "Keeper of the Recording"
+        },
+        {
+          "race": "endling",
+          "role": "noble",
+          "weight": 0,
+          "group": [
+            1,
+            1
+          ],
+          "time": "any",
+          "skin_set": "endling",
+          "unique": true,
+          "home": [
+            160,
+            76,
+            -46
+          ],
+          "name": "Ossa",
+          "quest": "ossa",
+          "home_radius": 8,
+          "title": "the Listener in Sovereign"
+        },
+        {
+          "race": "citizen",
+          "role": "noble",
+          "weight": 0,
+          "group": [
+            1,
+            1
+          ],
+          "time": "any",
+          "skin_set": "citizen/sazane/leader",
+          "unique": true,
+          "home": [
+            -4716,
+            210,
+            6182
+          ],
+          "name": "Mother Jingxuan",
+          "quest": "jingxuan",
+          "home_radius": 8,
+          "title": "Abbess of the Emei Sect"
+        },
+        {
+          "race": "citizen",
+          "role": "noble",
+          "weight": 0,
+          "group": [
+            1,
+            1
+          ],
+          "time": "any",
+          "skin_set": "citizen/sazane/leader",
+          "unique": true,
+          "home": [
+            -5930,
+            210,
+            3622
+          ],
+          "name": "Namgung Hwang",
+          "quest": "namgung",
+          "home_radius": 8,
+          "title": "Patriarch of the Namgung Clan"
+        },
+        {
+          "race": "citizen",
+          "role": "noble",
+          "weight": 0,
+          "group": [
+            1,
+            1
+          ],
+          "time": "any",
+          "skin_set": "citizen/sazane/leader",
+          "unique": true,
+          "home": [
+            -4436,
+            -999,
+            4486
+          ],
+          "name": "Lan Qiye",
+          "quest": "lanqiye",
+          "home_radius": 8,
+          "title": "Sect Master of the Azure Sect"
         }
       ]
     },
@@ -14342,6 +14447,516 @@
           }
         }
       ]
+    },
+    {
+      "name": "Elven Wilds (plan)",
+      "dimension": "minecraft:overworld",
+      "x": 900000,
+      "z": 900000,
+      "radius": 0,
+      "max_nearby": 4,
+      "folk": [
+        {
+          "race": "sylvani",
+          "role": "common",
+          "weight": 50,
+          "group": [
+            1,
+            2
+          ],
+          "time": "any",
+          "roam": 64
+        },
+        {
+          "race": "sylvani",
+          "role": "guard",
+          "weight": 8,
+          "group": [
+            2,
+            2
+          ],
+          "time": "any",
+          "skin_set": "sylvani/guard",
+          "roam": 64
+        }
+      ]
+    },
+    {
+      "name": "Goblin Camp (plan)",
+      "dimension": "minecraft:overworld",
+      "x": 900000,
+      "z": 900000,
+      "radius": 0,
+      "max_nearby": 7,
+      "folk": [
+        {
+          "race": "goblin",
+          "role": "common",
+          "weight": 60,
+          "group": [
+            2,
+            3
+          ],
+          "time": "any",
+          "skin_set": "goblin",
+          "roam": 28
+        },
+        {
+          "race": "goblin",
+          "role": "soldier",
+          "weight": 15,
+          "group": [
+            1,
+            1
+          ],
+          "time": "any",
+          "skin_set": "goblin",
+          "roam": 28
+        }
+      ]
+    },
+    {
+      "name": "Orc Gathering (plan)",
+      "dimension": "minecraft:overworld",
+      "x": 900000,
+      "z": 900000,
+      "radius": 0,
+      "max_nearby": 12,
+      "folk": [
+        {
+          "race": "grokh",
+          "role": "common",
+          "weight": 60,
+          "group": [
+            2,
+            3
+          ],
+          "time": "any"
+        },
+        {
+          "race": "grokh",
+          "role": "soldier",
+          "weight": 14,
+          "group": [
+            1,
+            2
+          ],
+          "time": "any",
+          "skin_set": "grokh"
+        },
+        {
+          "race": "grokh",
+          "weight": 10,
+          "group": [
+            1,
+            2
+          ],
+          "entity": "orc_hut:orc",
+          "scale": 1.4,
+          "health": 40,
+          "max_alive": 6
+        }
+      ]
+    },
+    {
+      "name": "The Vigil (plan)",
+      "dimension": "minecraft:overworld",
+      "x": 900000,
+      "z": 900000,
+      "radius": 0,
+      "max_nearby": 12,
+      "folk": [
+        {
+          "race": "vampire",
+          "role": "common",
+          "weight": 60,
+          "group": [
+            1,
+            2
+          ],
+          "time": "any",
+          "skin_set": "vampire"
+        },
+        {
+          "race": "vampire",
+          "role": "guard",
+          "weight": 12,
+          "group": [
+            1,
+            2
+          ],
+          "time": "any",
+          "skin_set": "vampire/knight"
+        },
+        {
+          "race": "vampire",
+          "role": "leader",
+          "weight": 0,
+          "group": [
+            1,
+            1
+          ],
+          "time": "any",
+          "skin_set": "vampire/leader",
+          "arms": {
+            "weapons": [
+              "soulsweapons:bloodlust",
+              "soulsweapons:bloodthirster"
+            ],
+            "shields": [],
+            "armor_sets": [
+              {}
+            ]
+          },
+          "unique": true,
+          "home": [
+            5401,
+            188,
+            7310
+          ],
+          "name": "Vampire King",
+          "title": "Sovereign of the Night",
+          "home_radius": 10
+        },
+        {
+          "race": "vampire",
+          "role": "noble",
+          "weight": 0,
+          "group": [
+            1,
+            1
+          ],
+          "time": "any",
+          "skin_set": "vampire/butler",
+          "unique": true,
+          "home": [
+            5383,
+            188,
+            7342
+          ],
+          "name": "Sebastian",
+          "title": "the Royal Butler, Hand of the King",
+          "home_radius": 12,
+          "health": 600,
+          "attack": 18,
+          "effects": [
+            "minecraft:speed:1",
+            "minecraft:resistance:1",
+            "minecraft:regeneration:0",
+            "minecraft:fire_resistance:0"
+          ]
+        },
+        {
+          "race": "vampire",
+          "role": "knight",
+          "weight": 0,
+          "group": [
+            1,
+            1
+          ],
+          "time": "any",
+          "skin_set": "vampire/castle_knight",
+          "arms": {
+            "weapons": [
+              "simplyswords:netherite_twinblade",
+              "tonys_weapons:bloodkatana",
+              "simplyswords:soulstealer"
+            ],
+            "shields": [],
+            "armor_sets": [
+              {}
+            ]
+          },
+          "unique": true,
+          "home": [
+            5348,
+            188,
+            7332
+          ],
+          "name": "Ser Vaelric",
+          "title": "Castle Knight",
+          "home_radius": 14
+        },
+        {
+          "race": "vampire",
+          "role": "knight",
+          "weight": 0,
+          "group": [
+            1,
+            1
+          ],
+          "time": "any",
+          "skin_set": "vampire/castle_knight",
+          "arms": {
+            "weapons": [
+              "simplyswords:netherite_twinblade",
+              "tonys_weapons:bloodkatana",
+              "simplyswords:soulstealer"
+            ],
+            "shields": [],
+            "armor_sets": [
+              {}
+            ]
+          },
+          "unique": true,
+          "home": [
+            5347,
+            188,
+            7294
+          ],
+          "name": "Ser Morvane",
+          "title": "Castle Knight",
+          "home_radius": 14
+        },
+        {
+          "race": "vampire",
+          "role": "knight",
+          "weight": 0,
+          "group": [
+            1,
+            1
+          ],
+          "time": "any",
+          "skin_set": "vampire/castle_knight",
+          "arms": {
+            "weapons": [
+              "simplyswords:netherite_twinblade",
+              "tonys_weapons:bloodkatana",
+              "simplyswords:soulstealer"
+            ],
+            "shields": [],
+            "armor_sets": [
+              {}
+            ]
+          },
+          "unique": true,
+          "home": [
+            5339,
+            189,
+            7352
+          ],
+          "name": "Ser Caldris",
+          "title": "Castle Knight",
+          "home_radius": 14
+        },
+        {
+          "race": "vampire",
+          "role": "knight",
+          "weight": 0,
+          "group": [
+            1,
+            1
+          ],
+          "time": "any",
+          "skin_set": "vampire/castle_knight",
+          "arms": {
+            "weapons": [
+              "simplyswords:netherite_twinblade",
+              "tonys_weapons:bloodkatana",
+              "simplyswords:soulstealer"
+            ],
+            "shields": [],
+            "armor_sets": [
+              {}
+            ]
+          },
+          "unique": true,
+          "home": [
+            5339,
+            198,
+            7352
+          ],
+          "name": "Ser Ysolde",
+          "title": "Castle Knight",
+          "home_radius": 14
+        },
+        {
+          "race": "vampire",
+          "role": "knight",
+          "weight": 0,
+          "group": [
+            1,
+            1
+          ],
+          "time": "any",
+          "skin_set": "vampire/castle_knight",
+          "arms": {
+            "weapons": [
+              "simplyswords:netherite_twinblade",
+              "tonys_weapons:bloodkatana",
+              "simplyswords:soulstealer"
+            ],
+            "shields": [],
+            "armor_sets": [
+              {}
+            ]
+          },
+          "unique": true,
+          "home": [
+            5339,
+            208,
+            7352
+          ],
+          "name": "Ser Draven",
+          "title": "Castle Knight",
+          "home_radius": 14
+        },
+        {
+          "race": "vampire",
+          "role": "knight",
+          "weight": 0,
+          "group": [
+            1,
+            1
+          ],
+          "time": "any",
+          "skin_set": "vampire/castle_knight",
+          "arms": {
+            "weapons": [
+              "simplyswords:netherite_twinblade",
+              "tonys_weapons:bloodkatana",
+              "simplyswords:soulstealer"
+            ],
+            "shields": [],
+            "armor_sets": [
+              {}
+            ]
+          },
+          "unique": true,
+          "home": [
+            5270,
+            194,
+            7347
+          ],
+          "name": "Ser Lucan",
+          "title": "Castle Knight",
+          "home_radius": 14
+        },
+        {
+          "race": "vampire",
+          "role": "knight",
+          "weight": 0,
+          "group": [
+            1,
+            1
+          ],
+          "time": "any",
+          "skin_set": "vampire/castle_knight",
+          "arms": {
+            "weapons": [
+              "simplyswords:netherite_twinblade",
+              "tonys_weapons:bloodkatana",
+              "simplyswords:soulstealer"
+            ],
+            "shields": [],
+            "armor_sets": [
+              {}
+            ]
+          },
+          "unique": true,
+          "home": [
+            5295,
+            210,
+            7383
+          ],
+          "name": "Ser Ilsabet",
+          "title": "Castle Knight",
+          "home_radius": 14
+        },
+        {
+          "race": "vampire",
+          "role": "knight",
+          "weight": 0,
+          "group": [
+            1,
+            1
+          ],
+          "time": "any",
+          "skin_set": "vampire/castle_knight",
+          "arms": {
+            "weapons": [
+              "simplyswords:netherite_twinblade",
+              "tonys_weapons:bloodkatana",
+              "simplyswords:soulstealer"
+            ],
+            "shields": [],
+            "armor_sets": [
+              {}
+            ]
+          },
+          "unique": true,
+          "home": [
+            5349,
+            205,
+            7394
+          ],
+          "name": "Ser Corvin",
+          "title": "Castle Knight",
+          "home_radius": 14
+        },
+        {
+          "race": "vampire",
+          "role": "knight",
+          "weight": 0,
+          "group": [
+            1,
+            1
+          ],
+          "time": "any",
+          "skin_set": "vampire/castle_knight",
+          "arms": {
+            "weapons": [
+              "simplyswords:netherite_twinblade",
+              "tonys_weapons:bloodkatana",
+              "simplyswords:soulstealer"
+            ],
+            "shields": [],
+            "armor_sets": [
+              {}
+            ]
+          },
+          "unique": true,
+          "home": [
+            5286,
+            197,
+            7347
+          ],
+          "name": "Ser Malenne",
+          "title": "Castle Knight",
+          "home_radius": 14
+        },
+        {
+          "race": "vampire",
+          "role": "knight",
+          "weight": 0,
+          "group": [
+            1,
+            1
+          ],
+          "time": "any",
+          "skin_set": "vampire/castle_knight",
+          "arms": {
+            "weapons": [
+              "simplyswords:netherite_twinblade",
+              "tonys_weapons:bloodkatana",
+              "simplyswords:soulstealer"
+            ],
+            "shields": [],
+            "armor_sets": [
+              {}
+            ]
+          },
+          "unique": true,
+          "home": [
+            5286,
+            204,
+            7347
+          ],
+          "name": "Ser Ashkar",
+          "title": "Castle Knight",
+          "home_radius": 14
+        }
+      ]
     }
   ],
   "no_goblin": [
@@ -14700,5 +15315,1075 @@
       2904,
       300
     ]
-  ]
+  ],
+  "plan": {
+    "enabled": true,
+    "cities": {
+      "sovereign_city": "Sovereign City",
+      "dwarf_kingdom": "Dwarf Kingdom",
+      "kaldrhal": "Ice Kingdom (Kaldrhal)",
+      "aldergear": "SteamPunk (Aldergear)",
+      "the_arcanum": "The Arcanum (Magic Castle)",
+      "villager_kingdom": "Villager Kingdom",
+      "egyos_enemus_yar": "Egyos Enemus Yar (the Nasiri)",
+      "hafsah": "Hafsah (the Nasiri)",
+      "parsapura": "Parsapura (the Nasiri)",
+      "nagara_temple": "Nagara Temple (the Nasiri)",
+      "the_desert_town": "Desert Town (the Nasiri)",
+      "the_desert_oasis": "Desert Oasis (the Nasiri)",
+      "viking_isle": "Viking Isle (Skjald-Hold)",
+      "the_viking_fjord": "The Viking Fjord (Skjald-Hold)",
+      "the_hill_hold": "The Hill-Hold (Skjald-Hold)",
+      "the_nordic_village": "The Nordic Village",
+      "the_hobbit_village": "Hobbit Village (new lands)",
+      "the_purple_swamp_village": "Purple Swamp Village",
+      "the_treetop_village": "Treetop Village",
+      "the_river_village": "River Village",
+      "elven_forest": "Elven Citadel (new lands)",
+      "the_vigil": "The Vigil (plan)",
+      "the_holy_city": "Holy City (Mountain Village)",
+      "the_grokh_camp": "Orc Gathering (plan)"
+    },
+    "cultures": {
+      "sovereign": "Sovereign City",
+      "medieval": "Medieval Village (new lands)",
+      "green": "Fantasy Village (new lands)",
+      "sazane": "Sazane Village (new lands)",
+      "sect": "Sazane Village (new lands)",
+      "nasiri": "Nasiri Oasis (new lands)",
+      "egypt": "Nasiri Oasis (new lands)",
+      "kalder": "Winter Hold (new lands)",
+      "nordic": "Nordic Hold (new lands)",
+      "elf": "Elven Village (new lands)",
+      "dusk": "Duskborn Hollow (new lands)",
+      "dwarf": "Dwarf Hold (new lands)",
+      "cog": "SteamPunk (Aldergear)",
+      "imperial": "Imperial Town (new lands)",
+      "mage": "The Arcanum (Magic Castle)",
+      "holy": "Holy City (Mountain Village)",
+      "jungle": "Fantasy Village (new lands)",
+      "draenei": "Fantasy Village (new lands)",
+      "vampire": "The Vigil (plan)",
+      "orc": "Orc Gathering (plan)",
+      "goblin": "Goblin Camp (plan)",
+      "pirate": "Pirate Cove"
+    },
+    "wilds": {
+      "elf": "Elven Wilds (plan)"
+    },
+    "wilds_scale": 2.2,
+    "peaceful": [
+      "sovereign"
+    ],
+    "gate_guards": {
+      "elf": {
+        "race": "sylvani",
+        "skin_set": "sylvani/knight",
+        "role": "guard",
+        "arms": {
+          "weapons": [
+            "simplyswords:iron_rapier",
+            "refm:iron_rapier",
+            "magistuarmoryaddon:steel_rapier",
+            "simplyswords:iron_spear"
+          ],
+          "shields": [
+            "magistuarmory:iron_ellipticalshield",
+            "magistuarmory:steel_ellipticalshield"
+          ],
+          "armor_sets": [
+            {
+              "chest": "fantasy_armor:wind_worshipper_chestplate",
+              "feet": "fantasy_armor:wind_worshipper_boots",
+              "legs": "fantasy_armor:wind_worshipper_leggings",
+              "head": "fantasy_armor:wind_worshipper_helmet"
+            }
+          ]
+        }
+      },
+      "green": {
+        "race": "nimtouched",
+        "skin_set": "nimtouched/knight",
+        "role": "guard",
+        "arms": {
+          "weapons": [
+            "simplyswords:iron_spear",
+            "antiquelegacy:iron_antique_spear",
+            "magistuarmoryaddon:steel_short_spear",
+            "almirisweapons:iron_halberd",
+            "simplyswords:iron_longsword"
+          ],
+          "shields": [
+            "magistuarmory:iron_heatershield",
+            "magistuarmory:steel_heatershield",
+            "magistuarmory:iron_kiteshield",
+            "magistuarmory:steel_kiteshield"
+          ],
+          "armor_sets": [
+            {
+              "chest": "magistuarmory:knight_chestplate",
+              "feet": "magistuarmory:knight_boots",
+              "legs": "magistuarmory:knight_leggings",
+              "head": "epicknights_open_helms:open_armet_helmet"
+            },
+            {
+              "chest": "magistuarmory:xivcenturyknight_chestplate",
+              "feet": "magistuarmory:xivcenturyknight_boots",
+              "legs": "magistuarmory:xivcenturyknight_leggings",
+              "head": "magistuarmory:bascinet"
+            },
+            {
+              "chest": "magistuarmoryaddon:fully_gilded_knight_chestplate",
+              "feet": "magistuarmoryaddon:fully_gilded_knight_boots",
+              "legs": "magistuarmoryaddon:fully_gilded_knight_leggings",
+              "head": "epicknights_open_helms:open_fully_glided_armet_helmet"
+            },
+            {
+              "chest": "magistuarmory:maximilian_chestplate",
+              "feet": "magistuarmory:maximilian_boots",
+              "legs": "magistuarmory:maximilian_leggings",
+              "head": "magistuarmory:maximilian_helmet"
+            }
+          ]
+        }
+      },
+      "holy": {
+        "race": "divinity",
+        "skin_set": "divinity/knight",
+        "role": "guard",
+        "arms": {
+          "weapons": [
+            "simplyswords:iron_longsword",
+            "almirisweapons:iron_halberd"
+          ],
+          "shields": [
+            "magistuarmory:iron_kiteshield",
+            "magistuarmory:steel_kiteshield"
+          ],
+          "armor_sets": [
+            {
+              "chest": "fantasy_armor:hero_chestplate",
+              "feet": "fantasy_armor:hero_boots",
+              "legs": "fantasy_armor:hero_leggings",
+              "head": "fantasy_armor:hero_helmet"
+            }
+          ]
+        }
+      },
+      "nasiri": {
+        "race": "nasiri",
+        "skin_set": "nasiri/knight",
+        "role": "guard",
+        "arms": {
+          "weapons": [
+            "hamzabus_ottoman_mod:kilij",
+            "hamzabus_ottoman_mod:yatagan",
+            "knightsheraldry:scimitar",
+            "magistuarmoryaddon:steel_scimitar",
+            "simplyswords:iron_spear"
+          ],
+          "shields": [
+            "magistuarmory:iron_roundshield",
+            "magistuarmory:steel_roundshield"
+          ],
+          "armor_sets": [
+            {
+              "head": "cataclysm_spellbooks:pharaoh_helmet",
+              "chest": "cataclysm_spellbooks:pharaoh_chestplate",
+              "legs": "cataclysm_spellbooks:pharaoh_leggings",
+              "feet": "magistuarmory:chainmail_boots"
+            }
+          ]
+        }
+      },
+      "egypt": {
+        "race": "nasiri",
+        "skin_set": "nasiri/knight",
+        "role": "guard",
+        "arms": {
+          "weapons": [
+            "simplyswords:iron_spear",
+            "antiquelegacy:iron_antique_spear",
+            "magistuarmoryaddon:steel_short_spear",
+            "almirisweapons:iron_halberd",
+            "simplyswords:iron_longsword"
+          ],
+          "shields": [
+            "magistuarmory:iron_heatershield",
+            "magistuarmory:steel_heatershield",
+            "magistuarmory:iron_kiteshield",
+            "magistuarmory:steel_kiteshield"
+          ],
+          "armor_sets": [
+            {
+              "chest": "magistuarmory:knight_chestplate",
+              "feet": "magistuarmory:knight_boots",
+              "legs": "magistuarmory:knight_leggings",
+              "head": "epicknights_open_helms:open_armet_helmet"
+            },
+            {
+              "chest": "magistuarmory:xivcenturyknight_chestplate",
+              "feet": "magistuarmory:xivcenturyknight_boots",
+              "legs": "magistuarmory:xivcenturyknight_leggings",
+              "head": "magistuarmory:bascinet"
+            },
+            {
+              "chest": "magistuarmoryaddon:fully_gilded_knight_chestplate",
+              "feet": "magistuarmoryaddon:fully_gilded_knight_boots",
+              "legs": "magistuarmoryaddon:fully_gilded_knight_leggings",
+              "head": "epicknights_open_helms:open_fully_glided_armet_helmet"
+            },
+            {
+              "chest": "magistuarmory:maximilian_chestplate",
+              "feet": "magistuarmory:maximilian_boots",
+              "legs": "magistuarmory:maximilian_leggings",
+              "head": "magistuarmory:maximilian_helmet"
+            }
+          ]
+        }
+      },
+      "sovereign": {
+        "race": "citizen",
+        "skin_set": "citizen/knight",
+        "role": "guard",
+        "arms": {
+          "weapons": [
+            "simplyswords:iron_spear",
+            "antiquelegacy:iron_antique_spear",
+            "magistuarmoryaddon:steel_short_spear",
+            "almirisweapons:iron_halberd",
+            "simplyswords:iron_longsword"
+          ],
+          "shields": [
+            "magistuarmory:iron_heatershield",
+            "magistuarmory:steel_heatershield",
+            "magistuarmory:iron_kiteshield",
+            "magistuarmory:steel_kiteshield"
+          ],
+          "armor_sets": [
+            {
+              "chest": "magistuarmory:knight_chestplate",
+              "feet": "magistuarmory:knight_boots",
+              "legs": "magistuarmory:knight_leggings",
+              "head": "epicknights_open_helms:open_armet_helmet"
+            },
+            {
+              "chest": "magistuarmory:xivcenturyknight_chestplate",
+              "feet": "magistuarmory:xivcenturyknight_boots",
+              "legs": "magistuarmory:xivcenturyknight_leggings",
+              "head": "magistuarmory:bascinet"
+            },
+            {
+              "chest": "magistuarmoryaddon:fully_gilded_knight_chestplate",
+              "feet": "magistuarmoryaddon:fully_gilded_knight_boots",
+              "legs": "magistuarmoryaddon:fully_gilded_knight_leggings",
+              "head": "epicknights_open_helms:open_fully_glided_armet_helmet"
+            },
+            {
+              "chest": "magistuarmory:maximilian_chestplate",
+              "feet": "magistuarmory:maximilian_boots",
+              "legs": "magistuarmory:maximilian_leggings",
+              "head": "magistuarmory:maximilian_helmet"
+            }
+          ]
+        }
+      },
+      "draenei": {
+        "race": "citizen",
+        "skin_set": "citizen/knight",
+        "role": "guard",
+        "arms": {
+          "weapons": [
+            "simplyswords:iron_spear",
+            "antiquelegacy:iron_antique_spear",
+            "magistuarmoryaddon:steel_short_spear",
+            "almirisweapons:iron_halberd",
+            "simplyswords:iron_longsword"
+          ],
+          "shields": [
+            "magistuarmory:iron_kiteshield",
+            "magistuarmory:steel_kiteshield"
+          ],
+          "armor_sets": [
+            {
+              "chest": "magistuarmory:knight_chestplate",
+              "feet": "magistuarmory:knight_boots",
+              "legs": "magistuarmory:knight_leggings",
+              "head": "epicknights_open_helms:open_armet_helmet"
+            },
+            {
+              "chest": "magistuarmory:xivcenturyknight_chestplate",
+              "feet": "magistuarmory:xivcenturyknight_boots",
+              "legs": "magistuarmory:xivcenturyknight_leggings",
+              "head": "magistuarmory:bascinet"
+            },
+            {
+              "chest": "magistuarmoryaddon:fully_gilded_knight_chestplate",
+              "feet": "magistuarmoryaddon:fully_gilded_knight_boots",
+              "legs": "magistuarmoryaddon:fully_gilded_knight_leggings",
+              "head": "epicknights_open_helms:open_fully_glided_armet_helmet"
+            },
+            {
+              "chest": "magistuarmory:maximilian_chestplate",
+              "feet": "magistuarmory:maximilian_boots",
+              "legs": "magistuarmory:maximilian_leggings",
+              "head": "magistuarmory:maximilian_helmet"
+            }
+          ]
+        }
+      },
+      "dwarf": {
+        "race": "emberkin",
+        "skin_set": "emberkin/knight",
+        "role": "guard",
+        "arms": {
+          "weapons": [
+            "darkagesarmory:steel_migration_era_axe",
+            "almirisweapons:iron_halberd"
+          ],
+          "shields": [
+            "magistuarmory:iron_roundshield",
+            "magistuarmory:steel_roundshield",
+            "magistuarmory:iron_heatershield",
+            "magistuarmory:steel_heatershield"
+          ],
+          "armor_sets": [
+            {
+              "chest": "fantasy_armor:old_knight_chestplate",
+              "feet": "fantasy_armor:old_knight_boots",
+              "legs": "fantasy_armor:old_knight_leggings",
+              "head": "fantasy_armor:old_knight_helmet"
+            }
+          ]
+        }
+      },
+      "kalder": {
+        "race": "frostborne",
+        "skin_set": "frostborne/knight",
+        "role": "guard",
+        "arms": {
+          "weapons": [
+            "darkagesarmory:steel_viking_sword",
+            "darkagesarmory:steel_harnham_spear",
+            "darkagesarmory:steel_kingston_spear"
+          ],
+          "shields": [
+            "magistuarmory:iron_roundshield",
+            "magistuarmory:steel_roundshield",
+            "magistuarmory:iron_heatershield",
+            "magistuarmory:steel_heatershield"
+          ],
+          "armor_sets": [
+            {
+              "head": "iceandfire:armor_silver_metal_helmet",
+              "chest": "iceandfire:armor_silver_metal_chestplate",
+              "legs": "iceandfire:armor_silver_metal_leggings",
+              "feet": "iceandfire:armor_silver_metal_boots"
+            },
+            {
+              "chest": "mythsandlegends:winter_stalker_chestplate",
+              "feet": "mythsandlegends:winter_stalker_boots",
+              "legs": "mythsandlegends:winter_stalker_leggings",
+              "head": "mythsandlegends:winter_stalker_helmet"
+            }
+          ]
+        }
+      },
+      "medieval": {
+        "race": "citizen",
+        "skin_set": "citizen/knight",
+        "role": "guard",
+        "arms": {
+          "weapons": [
+            "simplyswords:iron_spear",
+            "antiquelegacy:iron_antique_spear",
+            "magistuarmoryaddon:steel_short_spear",
+            "almirisweapons:iron_halberd",
+            "simplyswords:iron_longsword"
+          ],
+          "shields": [
+            "magistuarmory:iron_heatershield",
+            "magistuarmory:steel_heatershield",
+            "magistuarmory:iron_kiteshield",
+            "magistuarmory:steel_kiteshield"
+          ],
+          "armor_sets": [
+            {
+              "chest": "magistuarmory:knight_chestplate",
+              "feet": "magistuarmory:knight_boots",
+              "legs": "magistuarmory:knight_leggings",
+              "head": "epicknights_open_helms:open_armet_helmet"
+            },
+            {
+              "chest": "magistuarmory:xivcenturyknight_chestplate",
+              "feet": "magistuarmory:xivcenturyknight_boots",
+              "legs": "magistuarmory:xivcenturyknight_leggings",
+              "head": "magistuarmory:bascinet"
+            },
+            {
+              "chest": "magistuarmoryaddon:fully_gilded_knight_chestplate",
+              "feet": "magistuarmoryaddon:fully_gilded_knight_boots",
+              "legs": "magistuarmoryaddon:fully_gilded_knight_leggings",
+              "head": "epicknights_open_helms:open_fully_glided_armet_helmet"
+            },
+            {
+              "chest": "magistuarmory:maximilian_chestplate",
+              "feet": "magistuarmory:maximilian_boots",
+              "legs": "magistuarmory:maximilian_leggings",
+              "head": "magistuarmory:maximilian_helmet"
+            }
+          ]
+        }
+      },
+      "mage": {
+        "race": "citizen",
+        "skin_set": "citizen/knight",
+        "role": "guard",
+        "arms": {
+          "weapons": [
+            "simplyswords:iron_longsword",
+            "almirisweapons:iron_halberd"
+          ],
+          "shields": [
+            "magistuarmory:iron_kiteshield",
+            "magistuarmory:steel_kiteshield"
+          ],
+          "armor_sets": [
+            {
+              "chest": "irons_spellbooks:archevoker_chestplate",
+              "feet": "irons_spellbooks:archevoker_boots",
+              "legs": "irons_spellbooks:archevoker_leggings",
+              "head": "irons_spellbooks:archevoker_helmet"
+            }
+          ]
+        }
+      },
+      "sazane": {
+        "race": "citizen",
+        "skin_set": "citizen/sazane/knight",
+        "role": "guard",
+        "arms": {
+          "weapons": [
+            "chineseweapons:iron_sky_piercing_halberd",
+            "simplyswords:iron_spear",
+            "magistuarmory:iron_shortsword"
+          ],
+          "shields": [],
+          "armor_sets": [
+            {
+              "chest": "samurai_dynasty:steel_samurai_chestplate",
+              "feet": "samurai_dynasty:steel_samurai_boots",
+              "legs": "samurai_dynasty:steel_samurai_leggings",
+              "head": "samurai_dynasty:steel_samurai_helmet"
+            }
+          ]
+        }
+      },
+      "orc": {
+        "race": "grokh",
+        "skin_set": "grokh",
+        "role": "guard",
+        "arms": {
+          "weapons": [
+            "simplyswords:iron_longsword",
+            "magistuarmoryaddon:steel_longsword",
+            "magistuarmoryaddon:steel_battleaxe",
+            "magistuarmoryaddon:steel_gallowglass_axe",
+            "darkagesarmory:steel_crayke_axe",
+            "slavicarmory:steel_bardiche",
+            "simplyswords:iron_greataxe",
+            "simplyswords:iron_greathammer",
+            "simplyswords:iron_claymore",
+            "magistuarmory:iron_zweihander",
+            "magistuarmoryaddon:steel_round_mace"
+          ],
+          "shields": [
+            "magistuarmory:iron_roundshield",
+            "magistuarmory:steel_roundshield"
+          ],
+          "armor_sets": [
+            {
+              "chest": "magistuarmoryaddon:gallowglass_chestplate",
+              "feet": "magistuarmoryaddon:gallowglass_boots",
+              "legs": "magistuarmoryaddon:gallowglass_leggings",
+              "head": "magistuarmory:rustedkettlehat"
+            },
+            {
+              "chest": "magistuarmoryaddon:heavy_brigandine_chestplate",
+              "feet": "magistuarmoryaddon:heavy_brigandine_boots",
+              "legs": "magistuarmoryaddon:heavy_brigandine_leggings",
+              "head": "magistuarmoryaddon:late_kettlehat"
+            },
+            {
+              "chest": "magistuarmory:rustedchainmail_chestplate",
+              "feet": "magistuarmory:rustedchainmail_boots",
+              "legs": "magistuarmory:rustedchainmail_leggings",
+              "head": "magistuarmory:rustedchainmail_helmet"
+            }
+          ]
+        }
+      },
+      "imperial": {
+        "race": "citizen",
+        "skin_set": "citizen/knight",
+        "role": "guard",
+        "arms": {
+          "weapons": [
+            "antiquelegacy:iron_triarii_spear",
+            "antiquelegacy:iron_antique_spear",
+            "magistuarmory:iron_shortsword"
+          ],
+          "shields": [
+            "magistuarmory:iron_roundshield",
+            "magistuarmory:steel_roundshield",
+            "magistuarmory:iron_kiteshield",
+            "magistuarmory:steel_kiteshield"
+          ],
+          "armor_sets": [
+            {
+              "head": "medieval_craft:centurion_armor_helmet",
+              "chest": "medieval_craft:centurion_armor_chestplate",
+              "legs": "medieval_craft:centurion_armor_leggings",
+              "feet": "medieval_craft:centurion_armor_boots"
+            }
+          ]
+        }
+      },
+      "jungle": {
+        "race": "citizen",
+        "skin_set": "citizen/knight",
+        "role": "guard",
+        "arms": {
+          "weapons": [
+            "simplyswords:iron_spear",
+            "antiquelegacy:iron_antique_spear",
+            "magistuarmoryaddon:steel_short_spear",
+            "almirisweapons:iron_halberd"
+          ],
+          "shields": [
+            "magistuarmory:iron_roundshield",
+            "magistuarmory:steel_roundshield"
+          ],
+          "armor_sets": [
+            {
+              "chest": "magistuarmoryaddon:gallowglass_chestplate",
+              "feet": "magistuarmoryaddon:gallowglass_boots",
+              "legs": "magistuarmoryaddon:gallowglass_leggings",
+              "head": "magistuarmory:rustedkettlehat"
+            },
+            {
+              "chest": "magistuarmoryaddon:heavy_brigandine_chestplate",
+              "feet": "magistuarmoryaddon:heavy_brigandine_boots",
+              "legs": "magistuarmoryaddon:heavy_brigandine_leggings",
+              "head": "magistuarmoryaddon:late_kettlehat"
+            },
+            {
+              "chest": "magistuarmory:rustedchainmail_chestplate",
+              "feet": "magistuarmory:rustedchainmail_boots",
+              "legs": "magistuarmory:rustedchainmail_leggings",
+              "head": "magistuarmory:rustedchainmail_helmet"
+            }
+          ]
+        }
+      },
+      "sect": {
+        "race": "citizen",
+        "skin_set": "citizen/sazane/knight",
+        "role": "guard",
+        "arms": {
+          "weapons": [
+            "chineseweapons:iron_sky_piercing_halberd",
+            "simplyswords:iron_spear",
+            "magistuarmory:iron_shortsword"
+          ],
+          "shields": [],
+          "armor_sets": [
+            {
+              "chest": "samurai_dynasty:steel_samurai_chestplate",
+              "feet": "samurai_dynasty:steel_samurai_boots",
+              "legs": "samurai_dynasty:steel_samurai_leggings",
+              "head": "samurai_dynasty:steel_samurai_helmet"
+            }
+          ]
+        }
+      },
+      "nordic": {
+        "race": "frostborne",
+        "skin_set": "frostborne/knight",
+        "role": "guard",
+        "arms": {
+          "weapons": [
+            "darkagesarmory:steel_harnham_spear",
+            "darkagesarmory:steel_kingston_spear",
+            "darkagesarmory:steel_viking_sword"
+          ],
+          "shields": [
+            "magistuarmory:iron_roundshield",
+            "magistuarmory:steel_roundshield"
+          ],
+          "armor_sets": [
+            {
+              "head": "darkagesarmory:vendel_helmet",
+              "chest": "darkagesarmory:byrnie_chestplate",
+              "legs": "magistuarmory:chainmail_leggings",
+              "feet": "magistuarmory:chainmail_boots"
+            },
+            {
+              "head": "darkagesarmory:gjermundbu_helmet",
+              "chest": "darkagesarmory:rich_byrnie_chestplate",
+              "legs": "magistuarmory:chainmail_leggings",
+              "feet": "magistuarmory:chainmail_boots"
+            }
+          ]
+        }
+      },
+      "cog": {
+        "race": "citizen",
+        "skin_set": "citizen/knight",
+        "role": "guard",
+        "arms": {
+          "weapons": [
+            "simplyswords:iron_spear",
+            "antiquelegacy:iron_antique_spear",
+            "magistuarmoryaddon:steel_short_spear",
+            "almirisweapons:iron_halberd",
+            "simplyswords:iron_longsword"
+          ],
+          "shields": [
+            "magistuarmory:iron_heatershield",
+            "magistuarmory:steel_heatershield"
+          ],
+          "armor_sets": [
+            {
+              "chest": "immersive_armors:steampunk_chestplate",
+              "feet": "immersive_armors:steampunk_boots",
+              "legs": "immersive_armors:steampunk_leggings",
+              "head": "immersive_armors:steampunk_helmet"
+            }
+          ]
+        }
+      },
+      "dusk": {
+        "race": "duskborn",
+        "skin_set": "duskborn/knight",
+        "role": "guard",
+        "arms": {
+          "weapons": [
+            "darkestsouls:crystalian_chakram",
+            "darkestsouls:crystalian_small_chakram",
+            "wom:emerald_chakra",
+            "simplyswords:iron_rapier",
+            "refm:iron_rapier",
+            "magistuarmoryaddon:steel_rapier"
+          ],
+          "shields": [
+            "magistuarmory:iron_ellipticalshield",
+            "magistuarmory:steel_ellipticalshield"
+          ],
+          "armor_sets": [
+            {
+              "chest": "magistuarmoryaddon:dark_gothic_chestplate",
+              "feet": "magistuarmoryaddon:dark_gothic_boots",
+              "legs": "magistuarmoryaddon:dark_gothic_leggings",
+              "head": "magistuarmoryaddon:dark_gothic_helmet"
+            },
+            {
+              "chest": "fantasy_armor:dark_cover_chestplate",
+              "feet": "fantasy_armor:dark_cover_boots",
+              "legs": "fantasy_armor:dark_cover_leggings",
+              "head": "fantasy_armor:dark_cover_helmet"
+            },
+            {
+              "chest": "fantasy_armor:fog_guard_chestplate",
+              "feet": "fantasy_armor:fog_guard_boots",
+              "legs": "fantasy_armor:fog_guard_leggings",
+              "head": "fantasy_armor:fog_guard_helmet"
+            }
+          ]
+        }
+      }
+    },
+    "story": {
+      "steward": "sovereign_city",
+      "steward#race": "citizen",
+      "steward#skin_set": "citizen/noble",
+      "steward#model": "humanoid",
+      "ukka": "the_grokh_camp",
+      "ukka#race": "grokh",
+      "ukka#skin_set": "grokh/noble",
+      "ukka#model": "humanoid",
+      "lirael": "elven_forest",
+      "lirael#race": "sylvani",
+      "lirael#skin_set": "sylvani",
+      "lirael#model": "humanoid_slim",
+      "veyth": "elven_forest",
+      "veyth#race": "duskborn",
+      "veyth#skin_set": "duskborn",
+      "veyth#model": "humanoid_slim",
+      "maren": "kaldrhal",
+      "maren#race": "frostborne",
+      "maren#skin_set": "frostborne",
+      "maren#model": "humanoid_slim",
+      "hesk": "kaldrhal",
+      "hesk#race": "citizen",
+      "hesk#skin_set": "citizen",
+      "hesk#model": "humanoid",
+      "thrain": "dwarf_kingdom",
+      "thrain#race": "emberkin",
+      "thrain#skin_set": "emberkin",
+      "thrain#model": "humanoid",
+      "aurelle": "the_holy_city",
+      "aurelle#race": "divinity",
+      "aurelle#skin_set": "divinity/knight",
+      "aurelle#model": "humanoid_slim",
+      "hroald": "the_viking_fjord",
+      "hroald#race": "frostborne",
+      "hroald#skin_set": "frostborne/knight",
+      "hroald#model": "humanoid",
+      "rafa": "egyos_enemus_yar",
+      "rafa#race": "citizen",
+      "rafa#skin_set": "citizen",
+      "rafa#model": "humanoid",
+      "varro": "ancient_egypt",
+      "varro#race": "citizen",
+      "varro#skin_set": "citizen/noble",
+      "varro#model": "humanoid",
+      "hoen": "the_walled_town",
+      "hoen#race": "citizen",
+      "hoen#skin_set": "citizen/sazane/leader",
+      "hoen#model": "humanoid",
+      "bramble": "the_villager_capital",
+      "bramble#race": "nimtouched",
+      "bramble#skin_set": "nimtouched",
+      "bramble#model": "humanoid",
+      "pip": "the_hobbit_village",
+      "pip#race": "nimtouched",
+      "pip#skin_set": "nimtouched",
+      "pip#model": "humanoid",
+      "cassia": "aldergear",
+      "cassia#race": "citizen",
+      "cassia#skin_set": "citizen/aldergear",
+      "cassia#model": "humanoid",
+      "archmage": "the_arcanum",
+      "archmage#race": "citizen",
+      "archmage#skin_set": "citizen/mage",
+      "archmage#model": "humanoid",
+      "pactbinder": "the_small_medieval_village",
+      "pactbinder#race": "citizen",
+      "pactbinder#skin_set": "citizen",
+      "pactbinder#model": "humanoid",
+      "soulweaver": "quelos_nira",
+      "soulweaver#race": "sylvani",
+      "soulweaver#skin_set": "sylvani",
+      "soulweaver#model": "humanoid_slim",
+      "sensei": "coast_city",
+      "sensei#race": "citizen",
+      "sensei#skin_set": "citizen/sazane/leader",
+      "sensei#model": "humanoid",
+      "wyrmspeaker": "the_mountain_castle",
+      "wyrmspeaker#race": "citizen",
+      "wyrmspeaker#skin_set": "citizen",
+      "wyrmspeaker#model": "humanoid",
+      "c00": "sovereign_city",
+      "c00#race": "citizen",
+      "c00#skin_set": "citizen/noble",
+      "c00#model": "humanoid",
+      "c01": "villager_kingdom",
+      "c01#race": "nimtouched",
+      "c01#skin_set": "nimtouched",
+      "c01#model": "humanoid",
+      "c02": "dwarf_kingdom",
+      "c02#race": "emberkin",
+      "c02#skin_set": "emberkin",
+      "c02#model": "humanoid",
+      "c03": "elven_forest",
+      "c03#race": "sylvani",
+      "c03#skin_set": "sylvani",
+      "c03#model": "humanoid_slim",
+      "c04": "kaldrhal",
+      "c04#race": "frostborne",
+      "c04#skin_set": "frostborne",
+      "c04#model": "humanoid",
+      "c05": "aldergear",
+      "c05#race": "citizen",
+      "c05#skin_set": "citizen/aldergear",
+      "c05#model": "humanoid",
+      "c06": "aineuate",
+      "c06#race": "thalassi",
+      "c06#skin_set": "thalassi",
+      "c06#model": "humanoid",
+      "c07": "ancient_egypt",
+      "c07#race": "citizen",
+      "c07#skin_set": "citizen/noble",
+      "c07#model": "humanoid",
+      "c08": "odayakana_village",
+      "c08#race": "citizen",
+      "c08#skin_set": "citizen/sazane",
+      "c08#model": "humanoid",
+      "c09": "the_walled_town",
+      "c09#race": "citizen",
+      "c09#skin_set": "citizen/sazane",
+      "c09#model": "humanoid",
+      "c10": "mount_hua_sect",
+      "c10#race": "citizen",
+      "c10#skin_set": "citizen/sazane",
+      "c10#model": "humanoid",
+      "c11": "namgung_clan",
+      "c11#race": "citizen",
+      "c11#skin_set": "citizen/sazane",
+      "c11#model": "humanoid_slim",
+      "c12": "emei_sect",
+      "c12#race": "citizen",
+      "c12#skin_set": "citizen/sazane",
+      "c12#model": "humanoid",
+      "c13": "imabari_castle",
+      "c13#race": "citizen",
+      "c13#skin_set": "citizen/sazane",
+      "c13#model": "humanoid",
+      "c14": "coast_city",
+      "c14#race": "citizen",
+      "c14#skin_set": "citizen/sazane",
+      "c14#model": "humanoid",
+      "c15": "hirajiro_castle",
+      "c15#race": "citizen",
+      "c15#skin_set": "citizen/sazane",
+      "c15#model": "humanoid",
+      "c16": "saosako_castle",
+      "c16#race": "citizen",
+      "c16#skin_set": "citizen/sazane",
+      "c16#model": "humanoid",
+      "c17": "kath_kuni_temple",
+      "c17#race": "citizen",
+      "c17#skin_set": "citizen/sazane",
+      "c17#model": "humanoid",
+      "c18": "the_temple_of_ancients",
+      "c18#race": "citizen",
+      "c18#skin_set": "citizen",
+      "c18#model": "humanoid",
+      "c19": "parsapura",
+      "c19#race": "citizen",
+      "c19#skin_set": "citizen",
+      "c19#model": "humanoid",
+      "c20": "nagara_temple",
+      "c20#race": "citizen",
+      "c20#skin_set": "citizen",
+      "c20#model": "humanoid",
+      "c21": "kaldrhal",
+      "c21#race": "frostborne",
+      "c21#skin_set": "frostborne",
+      "c21#model": "humanoid",
+      "c22": "aspenwood",
+      "c22#race": "citizen",
+      "c22#skin_set": "citizen",
+      "c22#model": "humanoid",
+      "c23": "egyos_enemus_yar",
+      "c23#race": "citizen",
+      "c23#skin_set": "citizen",
+      "c23#model": "humanoid",
+      "c24": "the_colosseum_of_koll",
+      "c24#race": "citizen",
+      "c24#skin_set": "citizen/noble",
+      "c24#model": "humanoid",
+      "c25": "the_colosseum_of_rome",
+      "c25#race": "citizen",
+      "c25#skin_set": "citizen/noble",
+      "c25#model": "humanoid",
+      "c26": "argos",
+      "c26#race": "citizen",
+      "c26#skin_set": "citizen/noble",
+      "c26#model": "humanoid",
+      "c27": "athos",
+      "c27#race": "citizen",
+      "c27#skin_set": "citizen/noble",
+      "c27#model": "humanoid",
+      "c28": "viking_isle",
+      "c28#race": "frostborne",
+      "c28#skin_set": "frostborne/nordic",
+      "c28#model": "humanoid",
+      "c29": "the_viking_fjord",
+      "c29#race": "frostborne",
+      "c29#skin_set": "frostborne/nordic",
+      "c29#model": "humanoid",
+      "c30": "the_hill_hold",
+      "c30#race": "frostborne",
+      "c30#skin_set": "frostborne/nordic",
+      "c30#model": "humanoid",
+      "c31": "clennshire",
+      "c31#race": "nimtouched",
+      "c31#skin_set": "nimtouched",
+      "c31#model": "humanoid",
+      "c32": "the_draenei_village",
+      "c32#race": "citizen",
+      "c32#skin_set": "citizen",
+      "c32#model": "humanoid",
+      "c33": "the_hobbit_village",
+      "c33#race": "nimtouched",
+      "c33#skin_set": "nimtouched",
+      "c33#model": "humanoid",
+      "c34": "foxshire",
+      "c34#race": "nimtouched",
+      "c34#skin_set": "nimtouched",
+      "c34#model": "humanoid",
+      "c35": "arch_village",
+      "c35#race": "citizen",
+      "c35#skin_set": "citizen",
+      "c35#model": "humanoid",
+      "c36": "harukaze",
+      "c36#race": "citizen",
+      "c36#skin_set": "citizen/sazane",
+      "c36#model": "humanoid",
+      "c37": "the_small_medieval_village",
+      "c37#race": "citizen",
+      "c37#skin_set": "citizen",
+      "c37#model": "humanoid",
+      "c38": "the_mountain_castle",
+      "c38#race": "citizen",
+      "c38#skin_set": "citizen",
+      "c38#model": "humanoid",
+      "c39": "aineuate",
+      "c39#race": "sylvani",
+      "c39#skin_set": "sylvani",
+      "c39#model": "humanoid_slim",
+      "c40": "quelos_nira",
+      "c40#race": "sylvani",
+      "c40#skin_set": "sylvani",
+      "c40#model": "humanoid_slim",
+      "c41": "hafsah",
+      "c41#race": "citizen",
+      "c41#skin_set": "citizen",
+      "c41#model": "humanoid",
+      "c42": "the_small_medieval_village",
+      "c42#race": "citizen",
+      "c42#skin_set": "citizen",
+      "c42#model": "humanoid",
+      "c43": "the_dwarven_village",
+      "c43#race": "emberkin",
+      "c43#skin_set": "emberkin",
+      "c43#model": "humanoid",
+      "c44": "the_river_village",
+      "c44#race": "sylvani",
+      "c44#skin_set": "sylvani",
+      "c44#model": "humanoid_slim",
+      "c45": "the_medieval_village",
+      "c45#race": "citizen",
+      "c45#skin_set": "citizen",
+      "c45#model": "humanoid",
+      "c46": "the_desert_oasis",
+      "c46#race": "citizen",
+      "c46#skin_set": "citizen",
+      "c46#model": "humanoid",
+      "c47": "the_desert_town",
+      "c47#race": "citizen",
+      "c47#skin_set": "citizen",
+      "c47#model": "humanoid",
+      "c48": "the_purple_swamp_village",
+      "c48#race": "duskborn",
+      "c48#skin_set": "duskborn",
+      "c48#model": "humanoid_slim",
+      "c49": "the_fortified_island",
+      "c49#race": "citizen",
+      "c49#skin_set": "citizen",
+      "c49#model": "humanoid",
+      "c50": "the_treetop_village",
+      "c50#race": "sylvani",
+      "c50#skin_set": "sylvani",
+      "c50#model": "humanoid_slim",
+      "c51": "aspenwood",
+      "c51#race": "citizen",
+      "c51#skin_set": "citizen",
+      "c51#model": "humanoid",
+      "c52": "winter_s_sanctuary",
+      "c52#race": "frostborne",
+      "c52#skin_set": "frostborne",
+      "c52#model": "humanoid",
+      "c53": "arendelle",
+      "c53#race": "frostborne",
+      "c53#skin_set": "frostborne",
+      "c53#model": "humanoid",
+      "c54": "glimpse_of_winter",
+      "c54#race": "frostborne",
+      "c54#skin_set": "frostborne",
+      "c54#model": "humanoid",
+      "c55": "the_winter_outpost",
+      "c55#race": "frostborne",
+      "c55#skin_set": "frostborne",
+      "c55#model": "humanoid",
+      "c56": "the_nordic_village",
+      "c56#race": "frostborne",
+      "c56#skin_set": "frostborne/nordic",
+      "c56#model": "humanoid",
+      "c57": "ancient_egypt",
+      "c57#race": "citizen",
+      "c57#skin_set": "citizen/noble",
+      "c57#model": "humanoid",
+      "c58": "the_villager_capital",
+      "c58#race": "nimtouched",
+      "c58#skin_set": "nimtouched",
+      "c58#model": "humanoid",
+      "c59": "gallardon",
+      "c59#race": "citizen",
+      "c59#skin_set": "citizen",
+      "c59#model": "humanoid",
+      "c60": "the_treetop_village",
+      "c60#race": "citizen",
+      "c60#skin_set": "citizen",
+      "c60#model": "humanoid",
+      "c61": "the_holy_city",
+      "c61#race": "divinity",
+      "c61#skin_set": "divinity/knight",
+      "c61#model": "humanoid",
+      "c62": "the_grokh_camp",
+      "c62#race": "grokh",
+      "c62#skin_set": "grokh",
+      "c62#model": "humanoid",
+      "c63": "the_vigil",
+      "c63#race": "vampire",
+      "c63#skin_set": "vampire/guard",
+      "c63#model": "humanoid",
+      "c70": "the_arcanum",
+      "c70#race": "citizen",
+      "c70#skin_set": "citizen/mage",
+      "c70#model": "humanoid_slim",
+      "glyphwright": "elven_forest",
+      "glyphwright#race": "sylvani",
+      "glyphwright#skin_set": "sylvani",
+      "glyphwright#model": "humanoid_slim",
+      "delver": "dwarf_kingdom",
+      "delver#race": "emberkin",
+      "delver#skin_set": "emberkin",
+      "delver#model": "humanoid",
+      "nightwarden": "sovereign_city",
+      "nightwarden#race": "citizen",
+      "nightwarden#skin_set": "citizen/knight",
+      "nightwarden#model": "humanoid",
+      "beastlorist": "the_villager_capital",
+      "beastlorist#race": "nimtouched",
+      "beastlorist#skin_set": "nimtouched",
+      "beastlorist#model": "humanoid",
+      "ilyth": "aineuate",
+      "ilyth#race": "thalassi",
+      "ilyth#skin_set": "thalassi",
+      "ilyth#model": "humanoid",
+      "ossa": "sovereign_city",
+      "ossa#race": "endling",
+      "ossa#skin_set": "endling",
+      "ossa#model": "humanoid",
+      "jingxuan": "emei_sect",
+      "jingxuan#race": "citizen",
+      "jingxuan#skin_set": "citizen/sazane/leader",
+      "jingxuan#model": "humanoid",
+      "namgung": "namgung_clan",
+      "namgung#race": "citizen",
+      "namgung#skin_set": "citizen/sazane/leader",
+      "namgung#model": "humanoid",
+      "lanqiye": "the_walled_town",
+      "lanqiye#race": "citizen",
+      "lanqiye#skin_set": "citizen/sazane/leader",
+      "lanqiye#model": "humanoid"
+    },
+    "max_nearby": 18,
+    "patrols": 2,
+    "mounted": 1,
+    "court_kingdom": "Courts of Aurn (minecraft:overworld)"
+  }
 }

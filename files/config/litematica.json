@@ -86,7 +86,7 @@
     "commandNameSetblock": "setblock",
     "commandNameSummon": "summon",
     "commandTaskInterval": 1,
-    "customSchematicBaseDirectory": "${GAME_DIR_ESC}\\schematics",
+    "customSchematicBaseDirectory": "C:\\Users\\joaoo\\curseforge\\minecraft\\Instances\\AURN\\schematics",
     "easyPlaceSwapInterval": 0,
     "pickBlockableSlots": "1,2,3,4,5",
     "toolItem": "minecraft:stick",

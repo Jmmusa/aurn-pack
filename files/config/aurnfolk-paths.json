@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "steps": 60,
+  "plant_steps": 8,
+  "sample_ticks": 10,
+  "radius": 64,
+  "heal_days": 14,
+  "forget_days": 4,
+  "road_margin": 2,
+  "building_margin": 2,
+  "players": true,
+  "folk": true,
+  "horses": true,
+  "wear": {
+    "minecraft:grass_block": "minecraft:dirt_path"
+  }
+}

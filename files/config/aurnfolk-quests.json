@@ -67,6 +67,17 @@
       "I could use someone like you."
      ],
      "starts": "s_ore"
+    },
+    {
+     "id": "q_gk3",
+     "label": "The paint that went in...",
+     "lines": [
+      "The seal in you is waiting for one thing: that you walk your people's trial and become the Hero of the Grokh.",
+      "Walk it. Then come back to me."
+     ],
+     "starts": "gk3",
+     "after": "gk2",
+     "path": "grokh"
     }
    ]
   },
@@ -90,6 +101,17 @@
      "lines": [
       "Vael'Thorn is the wound closing. Life always closes wounds. Patience is the highest virtue — the Scream is over, whatever the Duskborn whisper."
      ]
+    },
+    {
+     "id": "q_sy3",
+     "label": "The leaves on my hands...",
+     "lines": [
+      "The seal in you is waiting for one thing: that you walk your people's trial and become the Hero of the Grove of Vael'Thorn.",
+      "Walk it. Then come back to me."
+     ],
+     "starts": "sy3",
+     "after": "sy2",
+     "path": "sylvani"
     }
    ]
   },
@@ -121,6 +143,17 @@
       "I could use someone like you."
      ],
      "starts": "s_dark"
+    },
+    {
+     "id": "q_du3",
+     "label": "The lamps under my eyes...",
+     "lines": [
+      "The seal in you is waiting for one thing: that you walk your people's trial and become the Hero of the Root-Halls of Ourin.",
+      "Walk it. Then come back to me."
+     ],
+     "starts": "du3",
+     "after": "du2",
+     "path": "duskborn"
     }
    ]
   },
@@ -145,6 +178,17 @@
       "She walked into the sea and did not stop walking. She is still down there, under the harbour, one hand raised.",
       "The Crown says she founded a kingdom. We say she is holding. Every Kalder alive is alive on borrowed stillness."
      ]
+    },
+    {
+     "id": "q_fb3",
+     "label": "The frost at my temples...",
+     "lines": [
+      "The seal in you is waiting for one thing: that you walk your people's trial and become the Hero of Kaldrhal.",
+      "Walk it. Then come back to me."
+     ],
+     "starts": "fb3",
+     "after": "fb2",
+     "path": "frostborne"
     }
    ]
   },
@@ -215,6 +259,17 @@
       "I could use someone like you."
      ],
      "starts": "s_ledger"
+    },
+    {
+     "id": "q_em3",
+     "label": "The iron in the forge-song...",
+     "lines": [
+      "The seal in you is waiting for one thing: that you walk your people's trial and become the Hero of Mount Kharuun.",
+      "Walk it. Then come back to me."
+     ],
+     "starts": "em3",
+     "after": "em2",
+     "path": "emberkin"
     }
    ]
   },
@@ -370,6 +425,23 @@
       "I could use someone like you."
      ],
      "starts": "s_cut"
+    },
+    {
+     "id": "q_hua_d1",
+     "label": "Teach me the way of Mount Hua",
+     "lines": [
+      "Master Hoen will not teach a sword to someone who cannot breathe. First the heart, then the blade."
+     ],
+     "starts": "hua_d1"
+    },
+    {
+     "id": "q_hua_d2",
+     "label": "I am ready for the sword",
+     "lines": [
+      "Twenty-four cuts, each a blossom. Master Hoen wants to see your blade tested against swords that never tire."
+     ],
+     "starts": "hua_d2",
+     "after": "hua_d1"
     }
    ]
   },
@@ -401,6 +473,17 @@
       "I could use someone like you."
      ],
      "starts": "s_bread"
+    },
+    {
+     "id": "q_nm3",
+     "label": "The gold on my nose...",
+     "lines": [
+      "The seal in you is waiting for one thing: that you walk your people's trial and become the Hero of Greenhollow.",
+      "Walk it. Then come back to me."
+     ],
+     "starts": "nm3",
+     "after": "nm2",
+     "path": "nimtouched"
     }
    ]
   },
@@ -479,6 +562,17 @@
       "Nine gods. Nine scraps of one corpse. We have heard the whole voice, every hour, for four hundred years.",
       "The world is deaf. Deafness is the only damnation. We would only ask the question again — and let everyone hear the answer."
      ]
+    },
+    {
+     "id": "q_sc3",
+     "label": "The crack at my lips...",
+     "lines": [
+      "The seal in you is waiting for one thing: that you walk your people's trial and become the Hero of Malgorath.",
+      "Walk it. Then come back to me."
+     ],
+     "starts": "sc3",
+     "after": "sc2",
+     "path": "screamborn"
     }
    ]
   },
@@ -541,6 +635,17 @@
       "The Valkyries test every groundling who climbs this high. Most fall. Fall gracefully."
      ],
      "starts": "ae1"
+    },
+    {
+     "id": "q_uf3",
+     "label": "The light at my ankles...",
+     "lines": [
+      "The seal in you is waiting for one thing: that you walk your people's trial and become the Hero of Aetherhold.",
+      "Walk it. Then come back to me."
+     ],
+     "starts": "uf3",
+     "after": "uf2",
+     "path": "unfallen"
     }
    ]
   },
@@ -572,6 +677,17 @@
       "I could use someone like you."
      ],
      "starts": "s_echo"
+    },
+    {
+     "id": "q_en3",
+     "label": "The dark at my fingertips...",
+     "lines": [
+      "The seal in you is waiting for one thing: that you walk your people's trial and become the Hero of the Far Side.",
+      "Walk it. Then come back to me."
+     ],
+     "starts": "en3",
+     "after": "en2",
+     "path": "endling"
     }
    ]
   },
@@ -595,6 +711,17 @@
      "lines": [
       "His Majesty has no name. A name is the first thing the Lightbringer asks you to give up. He kept three guards and gave up everything else."
      ]
+    },
+    {
+     "id": "q_vg3",
+     "label": "The mark on my neck...",
+     "lines": [
+      "The seal in you is waiting for one thing: that you walk your people's trial and become the Hero of the Vigil of Vaelmoor.",
+      "Walk it. Then come back to me."
+     ],
+     "starts": "vg3",
+     "after": "vg2",
+     "path": "vigilborn"
     }
    ]
   },
@@ -4405,6 +4532,164 @@
      "starts": "my1"
     }
    ]
+  },
+  {
+   "id": "ilyth",
+   "name": "Ilyth",
+   "dim": "minecraft:overworld",
+   "pos": [
+    -5666,
+    80,
+    281
+   ],
+   "greet": [
+    "The tide remembers. We only write it down.",
+    "Speak slowly. Everything said in Isar-Thal is kept."
+   ],
+   "topics": [
+    {
+     "id": "recording",
+     "label": "The Recording",
+     "lines": [
+      "Every people of the Reach tells the Scream its own way. We do not tell it. We keep it: what was said, in what order, by whom.",
+      "Some of it the other peoples would not like to hear. That is why the Recording is under the sea."
+     ]
+    },
+    {
+     "id": "q_th3",
+     "label": "The gills on land...",
+     "lines": [
+      "The seal in you is waiting for one thing: that you walk your people's trial and become the Hero of Isar-Thal.",
+      "Walk it. Then come back to me."
+     ],
+     "starts": "th3",
+     "after": "th2",
+     "path": "thalassi"
+    }
+   ]
+  },
+  {
+   "id": "ossa",
+   "name": "Ossa",
+   "dim": "minecraft:overworld",
+   "pos": [
+    160,
+    76,
+    -46
+   ],
+   "greet": [
+    "Shh... no. Go on. I was only listening.",
+    "The Far Side is very quiet. Sovereign is very loud. I came for the noise."
+   ],
+   "topics": [
+    {
+     "id": "thrown",
+     "label": "Thrown, not unmade",
+     "lines": [
+      "When the Scream came, most of Aurnath came apart. We did not. We were thrown, past the edge, where there is nothing to echo off.",
+      "Some of us came back the long way. The Steward lets me sit by the tenth plinth. I like the room it leaves."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "jingxuan",
+   "name": "Mother Jingxuan",
+   "dim": "minecraft:overworld",
+   "pos": [
+    -4716,
+    210,
+    6182
+   ],
+   "greet": [
+    "An open hand holds more than a fist.",
+    "Sit, if you came to listen. Leave, if you came to win."
+   ],
+   "topics": [
+    {
+     "id": "q_emei_d1",
+     "label": "Will Emei teach me?",
+     "lines": [
+      "The Abbess of Emei teaches the Heart Sutra to anyone who will carry bamboo up the mountain without complaining."
+     ],
+     "starts": "emei_d1"
+    },
+    {
+     "id": "q_emei_d2",
+     "label": "Teach me the palm",
+     "lines": [
+      "The restless dead gather at the foot of the mountain. The Abbess says an open hand can still end them."
+     ],
+     "starts": "emei_d2",
+     "after": "emei_d1"
+    }
+   ]
+  },
+  {
+   "id": "namgung",
+   "name": "Namgung Hwang",
+   "dim": "minecraft:overworld",
+   "pos": [
+    -5930,
+    210,
+    3622
+   ],
+   "greet": [
+    "The Namgung sword cuts the sky. Everything under it is only practice.",
+    "You stand like a farmer. Fix that first."
+   ],
+   "topics": [
+    {
+     "id": "q_namgung_d1",
+     "label": "Show me the Namgung sword",
+     "lines": [
+      "The Patriarch of the Namgung Clan says outsiders never learn the clan's sword. He might teach the breath that carries it."
+     ],
+     "starts": "namgung_d1"
+    },
+    {
+     "id": "q_namgung_d2",
+     "label": "Teach me to cut the sky",
+     "lines": [
+      "'Everything under the sky is practice.' To learn the Sky-Splitting Sword you must first cut what flies."
+     ],
+     "starts": "namgung_d2",
+     "after": "namgung_d1"
+    }
+   ]
+  },
+  {
+   "id": "lanqiye",
+   "name": "Lan Qiye",
+   "dim": "minecraft:overworld",
+   "pos": [
+    -4436,
+    80,
+    4486
+   ],
+   "greet": [
+    "The pine does not fight the wind. It keeps standing until the wind is tired.",
+    "Climb, if you can still breathe up here."
+   ],
+   "topics": [
+    {
+     "id": "q_azure_d1",
+     "label": "Teach me to breathe like the pine",
+     "lines": [
+      "Lan Qiye of the Azure Sect, on the pine peak, teaches the Pine Wind Breath to anyone who climbs to the gate."
+     ],
+     "starts": "azure_d1"
+    },
+    {
+     "id": "q_azure_d2",
+     "label": "Show me the Azure Dragon",
+     "lines": [
+      "The Azure Dragon form is taught only to those who have stood in a storm of wind and not bent."
+     ],
+     "starts": "azure_d2",
+     "after": "azure_d1"
+    }
+   ]
   }
  ],
  "quests": [
@@ -4522,7 +4807,7 @@
    "id": "m2",
    "chapter": "Chapter II",
    "title": "Two Echoes",
-   "next": "sl1|dv1",
+   "next": "sl1|dv1|fb1|em1|sy1|du1|gk1|nm1|vg1|uf1|th1|sc1|en1",
    "intro": "Ukka sends you on — each to the ones who will claim you. Go together; the road is long.",
    "stages": [
     {
@@ -7731,6 +8016,1545 @@
      ]
     },
     "message": "Book III of the Sundered Reach is told. The Reach goes on."
+   }
+  },
+  {
+   "id": "fb1",
+   "path": "frostborne",
+   "chapter": "Chapter III — Kaldrhal",
+   "title": "The Singing at the Grey Wall",
+   "next": "fb2",
+   "intro": "Sister Maren's Choir sings at the Grey Wall every dusk, so the Saint under the harbour does not let go. Last night the singing faltered.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Go to Sister Maren of the Choir of Still Water in Kaldrhal",
+     "npc": "maren",
+     "lines": [
+      "You are Kalder. Then you know the rule: if the singing stops, she lets go.",
+      "Three of my sisters lost their voices on the same night. Something on the ice is feeding on the cold. Go out past the Wall."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Silence 10 Strays on the ice beyond the Grey Wall",
+     "target": "minecraft:stray",
+     "count": 10
+    },
+    {
+     "type": "bring",
+     "text": "Bring Sister Maren 16 packed ice to mend the Wall",
+     "npc": "maren",
+     "item": "minecraft:packed_ice",
+     "count": 16,
+     "lines": [
+      "Ice from the harbour's edge. Yes. The Wall is mended with what she made."
+     ]
+    },
+    {
+     "type": "talk",
+     "text": "Stand with the Choir at dusk",
+     "npc": "maren",
+     "lines": [
+      "Listen. Hold. Hold. Hold.",
+      "...You felt that. The cold at your temples, answering. Most Kalder carry a little frost of her. You carry more than a little."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 380,
+    "items": [],
+    "path_items": {
+     "frostborne": [
+      [
+       "lowlands_clothing:snowtigerarmor_helmet",
+       1
+      ],
+      [
+       "lowlands_clothing:snowtigerarmor_chestplate",
+       1
+      ],
+      [
+       "lowlands_clothing:snowtigerarmor_leggings",
+       1
+      ],
+      [
+       "lowlands_clothing:snowtigerarmor_boots",
+       1
+      ],
+      [
+       "born_in_chaos_v1:frostbitten_blade",
+       1
+      ]
+     ]
+    },
+    "grant": [
+     "aurnfolk:heroes/frostborne/trial#kaldrhal"
+    ]
+   }
+  },
+  {
+   "id": "fb2",
+   "path": "frostborne",
+   "chapter": "Chapter IV — Kaldrhal",
+   "title": "Borrowed Stillness",
+   "next": "m3",
+   "intro": "Hroald Many-Verses of the Oar-Breakers keeps a different saga of the Saint. Maren says not to believe it. Maren also says to go.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Find Hroald Many-Verses, skald of the Fjord",
+     "npc": "hroald",
+     "lines": [
+      "Kalder, and walking north to the Oar-Breakers? Sit. The Choir sings that she is holding. Our saga says she is waiting.",
+      "Something under the White March woke when the singing faltered. A great white beast that breathes winter. Kill it, and I will sing you the verse the Choir will not."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Slay the Yeti that woke under the White March",
+     "target": "block_factorys_bosses:yeti",
+     "count": 1
+    },
+    {
+     "type": "talk",
+     "text": "Return to the skald",
+     "npc": "hroald",
+     "lines": [
+      "'And the sea stood still at one word, and the word was not hers.' That is the verse.",
+      "Go back to Maren. Do not tell her I said it. She already knows."
+     ]
+    },
+    {
+     "type": "talk",
+     "text": "Return to Sister Maren",
+     "npc": "maren",
+     "lines": [
+      "So the skald sang you the verse. Every Kalder alive is alive on borrowed stillness. You are the part of it that walks.",
+      "There is a trial for those who carry her cold. When you have walked it, come back. The frost at your temples is not decoration."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 480,
+    "items": [],
+    "path_items": {
+     "frostborne": [
+      [
+       "iceandfire:frost_troll_leather_helmet",
+       1
+      ],
+      [
+       "iceandfire:frost_troll_leather_chestplate",
+       1
+      ],
+      [
+       "iceandfire:frost_troll_leather_leggings",
+       1
+      ],
+      [
+       "iceandfire:frost_troll_leather_boots",
+       1
+      ],
+      [
+       "goety:frost_staff",
+       1
+      ],
+      [
+       "simplyswords:icewhisper",
+       1
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "em1",
+   "path": "emberkin",
+   "chapter": "Chapter III — Mount Kharuun",
+   "title": "The Short Year",
+   "next": "em2",
+   "intro": "Thrain Ledgerhand keeps the Ledger: what the Emberkin feed Kaurash, the Everfed, every year. This year the Ledger is short.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Go to Thrain Ledgerhand in the Deep Halls",
+     "npc": "thrain",
+     "lines": [
+      "Kharuun-born. Good. Read this line. And this. Short. Short. Short.",
+      "The lower shafts are full of things that crawled up when the mountain grew warm. Nobody will carry coal past them."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Clear the lower shafts (16 of what crawled up)",
+     "target": "minecraft:cave_spider|minecraft:silverfish|minecraft:zombie|minecraft:skeleton",
+     "count": 16
+    },
+    {
+     "type": "bring",
+     "text": "Bring Thrain 12 blocks of coal for the Everfed",
+     "npc": "thrain",
+     "item": "minecraft:coal_block",
+     "count": 12,
+     "lines": [
+      "Entered. In your own name — the Ledger knows Emberkin names."
+     ]
+    },
+    {
+     "type": "talk",
+     "text": "Hear the Ledger read",
+     "npc": "thrain",
+     "lines": [
+      "Some years the Ledger was short. We are ashamed of those years. This one will not be among them."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 380,
+    "items": [],
+    "path_items": {
+     "emberkin": [
+      [
+       "lowlands_clothing:furnacemasteramor_helmet",
+       1
+      ],
+      [
+       "lowlands_clothing:furnacemasteramor_chestplate",
+       1
+      ],
+      [
+       "lowlands_clothing:furnacemasteramor_leggings",
+       1
+      ],
+      [
+       "lowlands_clothing:furnacemasteramor_boots",
+       1
+      ],
+      [
+       "lowlands_clothing:blacksmith_hammer",
+       1
+      ]
+     ]
+    },
+    "grant": [
+     "aurnfolk:heroes/emberkin/trial#halls"
+    ]
+   }
+  },
+  {
+   "id": "em2",
+   "path": "emberkin",
+   "chapter": "Chapter IV — Mount Kharuun",
+   "title": "Iron Before Flame",
+   "next": "m3",
+   "intro": "Brakka Deepdelve, the Under-Delver, says the oldest feeders of Kaurash came out of the forge different. Thrain says that is a story for children.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Find Brakka Deepdelve, the Under-Delver",
+     "npc": "delver",
+     "lines": [
+      "Thrain told you it's a children's story? Thrain keeps numbers. I keep the old forge-songs.",
+      "The ones who fed the dragon longest came back from the forge with iron in their skin. Bring me iron, and I'll show you what the song means."
+     ]
+    },
+    {
+     "type": "bring",
+     "text": "Bring the Under-Delver 4 blocks of iron",
+     "npc": "delver",
+     "item": "minecraft:iron_block",
+     "count": 4,
+     "lines": [
+      "Good iron. Now the heat. The Nether's cubes of fire are the dragon's leavings. Break them."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Break 10 magma cubes - the Everfed's leavings",
+     "target": "minecraft:magma_cube",
+     "count": 10
+    },
+    {
+     "type": "talk",
+     "text": "Return to the Under-Delver",
+     "npc": "delver",
+     "lines": [
+      "Hold out your arm. ...There. The forge-brand. Every Kharuun child has it. On you it's warm.",
+      "Walk the trial of the Deepest Ledger. Then come back to Thrain, and the iron will come when you call it."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 480,
+    "items": [],
+    "path_items": {
+     "emberkin": [
+      [
+       "mythsandlegends:ironshade_helmet",
+       1
+      ],
+      [
+       "mythsandlegends:ironshade_chestplate",
+       1
+      ],
+      [
+       "mythsandlegends:ironshade_leggings",
+       1
+      ],
+      [
+       "mythsandlegends:ironshade_boots",
+       1
+      ],
+      [
+       "fantasy_weapons:weapon_old_knight_hammer",
+       1
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "sy1",
+   "path": "sylvani",
+   "chapter": "Chapter III — the Grove of Vael'Thorn",
+   "title": "Where the Forest Reaches",
+   "next": "sy2",
+   "intro": "Lirael, Warden of the High Bough, says the forest reaches further every season. Someone is cutting it back.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Go to Lirael, Warden of the High Bough",
+     "npc": "lirael",
+     "lines": [
+      "A child of the Grove. Then you feel it too: the wood at the edge of the Wilds is crying.",
+      "Axe-bearers. Grey cloaks, grey faces. They cut the young trees and leave the stumps to rot."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Drive out 10 axe-bearers from the edge of the Wilds",
+     "target": "minecraft:vindicator|minecraft:pillager",
+     "count": 10
+    },
+    {
+     "type": "bring",
+     "text": "Bring Lirael 32 bone meal for the cut ground",
+     "npc": "lirael",
+     "item": "minecraft:bone_meal",
+     "count": 32,
+     "lines": [
+      "The wound closes. Life always closes wounds."
+     ]
+    },
+    {
+     "type": "talk",
+     "text": "Walk the cut ground with Lirael",
+     "npc": "lirael",
+     "lines": [
+      "Look at your hands. The leaf-veins on the back of them. Every Sylvani has them. Yours are green."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 380,
+    "items": [],
+    "path_items": {
+     "sylvani": [
+      [
+       "weapons_of_mythology_:druid_armour_helmet",
+       1
+      ],
+      [
+       "weapons_of_mythology_:druid_armour_chestplate",
+       1
+      ],
+      [
+       "weapons_of_mythology_:druid_armour_leggings",
+       1
+      ],
+      [
+       "weapons_of_mythology_:druid_armour_boots",
+       1
+      ],
+      [
+       "lfs_magic_fantasy:elven_sword",
+       1
+      ],
+      [
+       "ekotsk:weirwood_longbow",
+       1
+      ]
+     ]
+    },
+    "grant": [
+     "aurnfolk:heroes/sylvani/trial#vael_thorn"
+    ]
+   }
+  },
+  {
+   "id": "sy2",
+   "path": "sylvani",
+   "chapter": "Chapter IV — the Grove of Vael'Thorn",
+   "title": "The Accord's Price",
+   "next": "m3",
+   "intro": "The Forest Accord lets a Sylvani walk into the dark hollows once, and be heard. Lirael asks you to use yours.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Go down into the hollows to Veyth, Envoy of the Roots",
+     "npc": "veyth",
+     "lines": [
+      "A green one, under my leaves. The Accord says I may not shoot you. It does not say I must like it.",
+      "Hedge-witches have been poisoning the roots. Ours and yours. Even the Accord agrees they should stop."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Stop 4 hedge-witches poisoning the roots",
+     "target": "minecraft:witch",
+     "count": 4
+    },
+    {
+     "type": "talk",
+     "text": "Return to Veyth",
+     "npc": "veyth",
+     "lines": [
+      "Thank you. Now listen to the thing your Warden will not say: the tree is not healing the wound. It is eating.",
+      "...You do not have to believe me. Ask yourself why it grows faster every year."
+     ]
+    },
+    {
+     "type": "talk",
+     "text": "Return to Lirael",
+     "npc": "lirael",
+     "lines": [
+      "He told you the old lie. Patience, child. The Scream is over.",
+      "When you have walked the trial of the Closing Wound, come back to me. The leaves on your hands will remember the rest."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 480,
+    "items": [],
+    "path_items": {
+     "sylvani": [
+      [
+       "fantasy_armor:wind_worshipper_helmet",
+       1
+      ],
+      [
+       "fantasy_armor:wind_worshipper_chestplate",
+       1
+      ],
+      [
+       "fantasy_armor:wind_worshipper_leggings",
+       1
+      ],
+      [
+       "fantasy_armor:wind_worshipper_boots",
+       1
+      ],
+      [
+       "lfs_magic_fantasy:elven_glaive_halberd",
+       1
+      ],
+      [
+       "simplyswords:bramblethorn",
+       1
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "du1",
+   "path": "duskborn",
+   "chapter": "Chapter III — the Root-Halls of Ourin",
+   "title": "Under the Leaves",
+   "next": "du2",
+   "intro": "Veyth, Envoy of the Roots, has lamps going dark in the Root-Halls and a swamp full of things that do not stay dead.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Go down to Veyth, Envoy of the Roots",
+     "npc": "veyth",
+     "lines": [
+      "One of ours. Speak quietly. Ourin is digesting.",
+      "The Matron of the Swamp sends word: the drowned bones of the Purple Swamp are walking again, and they walk toward the halls."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Put down 12 walking bones of the swamp",
+     "target": "minecraft:bogged|minecraft:skeleton|minecraft:witch",
+     "count": 12
+    },
+    {
+     "type": "bring",
+     "text": "Bring Veyth 24 glow berries for the Root-Halls' lamps",
+     "npc": "veyth",
+     "item": "minecraft:glow_berries",
+     "count": 24,
+     "lines": [
+      "Light we grow, not light we steal. Good."
+     ]
+    },
+    {
+     "type": "talk",
+     "text": "Sit in the dark with Veyth",
+     "npc": "veyth",
+     "lines": [
+      "Close your eyes. ...Now open them. The marks under your eyes are lit. Ours do that, in the dark, when the Serpent is near."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 380,
+    "items": [],
+    "path_items": {
+     "duskborn": [
+      [
+       "knightquest:bat_helmet",
+       1
+      ],
+      [
+       "knightquest:bat_chestplate",
+       1
+      ],
+      [
+       "knightquest:bat_leggings",
+       1
+      ],
+      [
+       "knightquest:bat_boots",
+       1
+      ],
+      [
+       "epicfight_dd:night_ritus_dagger",
+       1
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "du2",
+   "path": "duskborn",
+   "chapter": "Chapter IV — the Root-Halls of Ourin",
+   "title": "Ourin Is Digesting",
+   "next": "m3",
+   "intro": "Under the Accord a Duskborn may cross the green once. Veyth wants you to see what hunts the night above the canopy.",
+   "stages": [
+    {
+     "type": "kill",
+     "text": "Hunt 6 phantoms - the night-hunters that see the dark",
+     "target": "minecraft:phantom",
+     "count": 6
+    },
+    {
+     "type": "talk",
+     "text": "Cross the green under the Accord and speak with Lirael",
+     "npc": "lirael",
+     "lines": [
+      "A root-child in the open. The Accord holds; I will not draw. Say what you came to say.",
+      "...We make peace with ending, you say. We plant more trees. Perhaps we are both right, and that is the worst of it."
+     ]
+    },
+    {
+     "type": "talk",
+     "text": "Return to Veyth",
+     "npc": "veyth",
+     "lines": [
+      "You walked in the sun and came back. Good. Now walk where the dark goes to be alone: the trial of the Unlocated.",
+      "When you come back from it, you will be the dark's own lamp. Come to me then."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 480,
+    "items": [],
+    "path_items": {
+     "duskborn": [
+      [
+       "fantasy_armor:forgotten_trace_helmet",
+       1
+      ],
+      [
+       "fantasy_armor:forgotten_trace_chestplate",
+       1
+      ],
+      [
+       "fantasy_armor:forgotten_trace_leggings",
+       1
+      ],
+      [
+       "fantasy_armor:forgotten_trace_boots",
+       1
+      ],
+      [
+       "legendary_arsenal:nightsword",
+       1
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "gk1",
+   "path": "grokh",
+   "chapter": "Chapter III — the Grokh",
+   "title": "No Towers",
+   "next": "gk2",
+   "intro": "Ukka Old-Tusk says the axe-men are building towers on the dry side again. The Grokh do not like towers.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Go to Ukka Old-Tusk in the Grokh camp",
+     "npc": "ukka",
+     "lines": [
+      "Hrm. One of ours, smelling of the sound. Good.",
+      "Towers. The last time anyone built towers, the world screamed. Pull them down."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Bring down the tower-men: 12 pillagers on the dry side",
+     "target": "minecraft:pillager",
+     "count": 12
+    },
+    {
+     "type": "talk",
+     "text": "Return to Ukka",
+     "npc": "ukka",
+     "lines": [
+      "Twelve. The towers will rot. Grokh remember what towers do. The memory comes with the blood, whole."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 380,
+    "items": [],
+    "path_items": {
+     "grokh": [
+      [
+       "immersive_armors:bone_helmet",
+       1
+      ],
+      [
+       "immersive_armors:bone_chestplate",
+       1
+      ],
+      [
+       "immersive_armors:bone_leggings",
+       1
+      ],
+      [
+       "immersive_armors:bone_boots",
+       1
+      ],
+      [
+       "fantasy_weapons:weapon_savage_hammer",
+       1
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "gk2",
+   "path": "grokh",
+   "chapter": "Chapter IV — the Grokh",
+   "title": "The Blood Remembers",
+   "next": "m3",
+   "intro": "Ukka says war paint is not decoration. It is remembering, worn on the outside.",
+   "stages": [
+    {
+     "type": "bring",
+     "text": "Bring Ukka 24 red dye for the paint",
+     "npc": "ukka",
+     "item": "minecraft:red_dye",
+     "count": 24,
+     "lines": [
+      "Red. Like the first time. Sit. Close your eyes. This is the band over the eyes. This is the claw on the shoulder."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Wear the paint into battle: 8 axe-bearers and their summoners",
+     "target": "minecraft:vindicator|minecraft:evoker",
+     "count": 8
+    },
+    {
+     "type": "talk",
+     "text": "Return to Ukka",
+     "npc": "ukka",
+     "lines": [
+      "The paint stayed on. On most it washes off. On you it went in.",
+      "Walk the trial - No Towers, the old one. Then come back, and I tell you what the paint does when the blood is up."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 480,
+    "items": [],
+    "path_items": {
+     "grokh": [
+      [
+       "rpg_style_more_weapons_r:diamond_berserk_armor_helmet",
+       1
+      ],
+      [
+       "rpg_style_more_weapons_r:diamond_berserk_armor_chestplate",
+       1
+      ],
+      [
+       "rpg_style_more_weapons_r:diamond_berserk_armor_leggings",
+       1
+      ],
+      [
+       "rpg_style_more_weapons_r:diamond_berserk_armor_boots",
+       1
+      ],
+      [
+       "lfs_magic_fantasy:heartbreaker_waraxe",
+       1
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "nm1",
+   "path": "nimtouched",
+   "chapter": "Chapter III — Greenhollow",
+   "title": "There Is Enough",
+   "next": "nm2",
+   "intro": "Mayor Bramble's harvest festival is in three days, and the far towns of Greenhollow are hungry.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Go to Mayor Bramble in Greenhollow",
+     "npc": "bramble",
+     "lines": [
+      "One of Nimtal's own! Have you eaten? You haven't eaten. Here.",
+      "The far towns are hungry and the hungry dead are at the field edges. There is enough here - there always is - but somebody has to carry it."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Clear the hungry dead from the field edges (12)",
+     "target": "minecraft:zombie|minecraft:husk|minecraft:zombie_villager",
+     "count": 12
+    },
+    {
+     "type": "bring",
+     "text": "Bring Mayor Bramble 48 wheat for the far towns",
+     "npc": "bramble",
+     "item": "minecraft:wheat",
+     "count": 48,
+     "lines": [
+      "Enough! There's always enough."
+     ]
+    },
+    {
+     "type": "talk",
+     "text": "Open the festival with the Mayor",
+     "npc": "bramble",
+     "lines": [
+      "Look - there's gold on your nose. Freckles of it. Nimtal's thumbprint, my grandmother called it. Lucky child."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 380,
+    "items": [],
+    "path_items": {
+     "nimtouched": [
+      [
+       "knightquest:strawhat_helmet",
+       1
+      ],
+      [
+       "knightquest:strawhat_chestplate",
+       1
+      ],
+      [
+       "knightquest:strawhat_leggings",
+       1
+      ],
+      [
+       "knightquest:strawhat_boots",
+       1
+      ],
+      [
+       "deep_aether:blade_of_luck",
+       1
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "nm2",
+   "path": "nimtouched",
+   "chapter": "Chapter IV — Greenhollow",
+   "title": "Nimtal's Open Hands",
+   "next": "m3",
+   "intro": "Mother Orsa, the Beast-Lorist, knows an old song about the lucky ones of Greenhollow. It has a verse about you.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Go to Mother Orsa, the Beast-Lorist",
+     "npc": "beastlorist",
+     "lines": [
+      "Sit. Soup first. ...Gold freckles. Hm. The song says the lucky ones are the ones Nimtal's hands are open for.",
+      "Luck is not free. It goes where it's given. Give some away."
+     ]
+    },
+    {
+     "type": "bring",
+     "text": "Bring Mother Orsa 12 golden carrots for the sick animals of the farms",
+     "npc": "beastlorist",
+     "item": "minecraft:golden_carrot",
+     "count": 12,
+     "lines": [
+      "The goats will live. The song was right about you."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Stop 3 witches cursing the farm animals",
+     "target": "minecraft:witch",
+     "count": 3
+    },
+    {
+     "type": "talk",
+     "text": "Return to Mayor Bramble",
+     "npc": "bramble",
+     "lines": [
+      "Orsa sang you the verse? Then there's a trial for you: There Is Enough. Walk it.",
+      "And when you have - come back. The flowers come out on the lucky ones, after. I've seen it once."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 480,
+    "items": [],
+    "path_items": {
+     "nimtouched": [
+      [
+       "fantasy_armor:gilded_hunt_helmet",
+       1
+      ],
+      [
+       "fantasy_armor:gilded_hunt_chestplate",
+       1
+      ],
+      [
+       "fantasy_armor:gilded_hunt_leggings",
+       1
+      ],
+      [
+       "fantasy_armor:gilded_hunt_boots",
+       1
+      ],
+      [
+       "relics:clot_of_time",
+       1
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "vg1",
+   "path": "vigilborn",
+   "chapter": "Chapter III — the Vigil of Vaelmoor",
+   "title": "The Vigil Keeps",
+   "next": "vg2",
+   "intro": "Sebastian, Hand of the King, has a word for the Isle's own blood. Hunters have been crossing from the mainland.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Go to Sebastian, Hand of the King, at the Vigil",
+     "npc": "sebastian",
+     "lines": [
+      "One of ours. Welcome home, though you were never here.",
+      "Bounty-men cross to the Isle by night with silver and stakes. His Majesty does not receive them. You will."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Turn back 10 bounty-men on the roads to the Isle",
+     "target": "race:bandit",
+     "count": 10
+    },
+    {
+     "type": "talk",
+     "text": "Return to Sebastian",
+     "npc": "sebastian",
+     "lines": [
+      "Ten. Quietly done. The Vigil keeps.",
+      "You have a mark on your neck. Old. Everyone of the Vigil's blood has one. Do not let the mainland see it bleed."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 380,
+    "items": [],
+    "path_items": {
+     "vigilborn": [
+      [
+       "magistuarmoryaddon:dark_gothic_helmet",
+       1
+      ],
+      [
+       "magistuarmoryaddon:dark_gothic_chestplate",
+       1
+      ],
+      [
+       "magistuarmoryaddon:dark_gothic_leggings",
+       1
+      ],
+      [
+       "magistuarmoryaddon:dark_gothic_boots",
+       1
+      ],
+      [
+       "lfs_magic_fantasy:bloodline_dagger",
+       1
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "vg2",
+   "path": "vigilborn",
+   "chapter": "Chapter IV — the Vigil of Vaelmoor",
+   "title": "Continuing Is Holy",
+   "next": "m3",
+   "intro": "Ser Ysolde holds one hall of the Vigil and does not leave it. Sebastian says she asked for you by name. You do not have one yet.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Go to Ser Ysolde in her hall",
+     "npc": "ysolde",
+     "lines": [
+      "Do not ask about my name. Ask about the statue.",
+      "The Kalder worship a woman who stopped. We worship the light that refused to. The dead that walk the night refuse badly. Show them how it is done."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Walk the night and end 20 of the dead who continue badly",
+     "target": "minecraft:zombie|minecraft:skeleton|minecraft:spider|minecraft:creeper|minecraft:husk|minecraft:stray|minecraft:drowned|minecraft:witch|minecraft:pillager|minecraft:vindicator",
+     "count": 20
+    },
+    {
+     "type": "talk",
+     "text": "Walk back into Kaldrhal, which exiled the Vigil, and face Sister Maren",
+     "npc": "maren",
+     "lines": [
+      "One of the Vigil's blood, at the Grey Wall. We sing so she holds. You were the ones who would not stop.",
+      "...Go in peace. The Choir does not hate. It only remembers."
+     ]
+    },
+    {
+     "type": "talk",
+     "text": "Return to Ser Ysolde",
+     "npc": "ysolde",
+     "lines": [
+      "Continuing is holy. You understand it now, in the blood.",
+      "There is a trial: Continuing Is Holy. Refuse death; unmake the Dead King; walk into the city that exiled us. Then Sebastian will open the last door."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 480,
+    "items": [],
+    "path_items": {
+     "vigilborn": [
+      [
+       "armory_rpgs:scarlet_robe_head",
+       1
+      ],
+      [
+       "armory_rpgs:scarlet_robe_chest",
+       1
+      ],
+      [
+       "armory_rpgs:scarlet_robe_legs",
+       1
+      ],
+      [
+       "armory_rpgs:scarlet_robe_feet",
+       1
+      ],
+      [
+       "lfs_magic_fantasy:bloodline_greatsword",
+       1
+      ]
+     ]
+    },
+    "grant": [
+     "aurnfolk:heroes/vigilborn/trial#kaldrhal"
+    ]
+   }
+  },
+  {
+   "id": "uf1",
+   "path": "unfallen",
+   "chapter": "Chapter III — Aetherhold",
+   "title": "Mud on the Glass",
+   "next": "uf2",
+   "intro": "Ascendant Seraphine keeps the third Sky Castle clean. Something on the sky-roads is not clean.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Rise to Ascendant Seraphine in the third Sky Castle (the Aether)",
+     "npc": "seraphine",
+     "lines": [
+      "One of ours, with the ground still on you. Wash. Then work.",
+      "Cockatrices and zephyrs foul the sky-roads. Clear them."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Clear 10 sky-road pests",
+     "target": "aether:cockatrice|aether:zephyr|aether:whirlwind",
+     "count": 10
+    },
+    {
+     "type": "bring",
+     "text": "Bring Seraphine 32 feathers for the falling-cloaks",
+     "npc": "seraphine",
+     "item": "minecraft:feather",
+     "count": 32,
+     "lines": [
+      "For the novices who still fall. We never touch the ground. We teach it."
+     ]
+    },
+    {
+     "type": "talk",
+     "text": "Stand on the outer glass with Seraphine",
+     "npc": "seraphine",
+     "lines": [
+      "Look at your ankles. That light. It is where the ground does not want you. Good."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 380,
+    "items": [],
+    "path_items": {
+     "unfallen": [
+      [
+       "deep_aether:skyjade_helmet",
+       1
+      ],
+      [
+       "deep_aether:skyjade_chestplate",
+       1
+      ],
+      [
+       "deep_aether:skyjade_leggings",
+       1
+      ],
+      [
+       "deep_aether:skyjade_boots",
+       1
+      ],
+      [
+       "deep_aether:skyjade_sword",
+       1
+      ]
+     ]
+    },
+    "grant": [
+     "aurnfolk:heroes/unfallen/trial#aetherhold"
+    ]
+   }
+  },
+  {
+   "id": "uf2",
+   "path": "unfallen",
+   "chapter": "Chapter IV — Aetherhold",
+   "title": "The Silence Above",
+   "next": "m3",
+   "intro": "The Holy Commander of the Silent Throne says the Silence Above answered once, and said 'Hold'. Seraphine wants you to ask him how he knows.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Go to the Holy Commander in the Sky Kingdom",
+     "npc": "commander",
+     "lines": [
+      "An Unfallen at my door. Aetherhold thinks the sky never answered. It answered once.",
+      "The Valkyries keep the high sky and let no one ask anything. Prove you can stand among them, and I will tell you what it said."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Stand against 4 Valkyries of the high sky",
+     "target": "aether:valkyrie",
+     "count": 4
+    },
+    {
+     "type": "talk",
+     "text": "Return to the Holy Commander",
+     "npc": "commander",
+     "lines": [
+      "It said: Hold. I do not ask you to believe it. I ask you to remember that we heard it."
+     ]
+    },
+    {
+     "type": "talk",
+     "text": "Return to Seraphine",
+     "npc": "seraphine",
+     "lines": [
+      "He told you it answered? We pray upward into nothing and nothing answers. That is how we know it is clean.",
+      "Walk the trial: An Answer From Above. When you come back, the light in your ankles will be all of you."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 480,
+    "items": [],
+    "path_items": {
+     "unfallen": [
+      [
+       "aether:gravitite_helmet",
+       1
+      ],
+      [
+       "aether:gravitite_chestplate",
+       1
+      ],
+      [
+       "aether:gravitite_leggings",
+       1
+      ],
+      [
+       "aether:gravitite_boots",
+       1
+      ],
+      [
+       "aether:gravitite_sword",
+       1
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "th1",
+   "path": "thalassi",
+   "chapter": "Chapter III — Isar-Thal",
+   "title": "The Recording",
+   "next": "th2",
+   "intro": "Ilyth, Keeper of the Recording, keeps what was really said when the world broke. The drowned are digging at its halls.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Go down to Ilyth, Keeper of the Recording, in Isar-Thal",
+     "npc": "ilyth",
+     "lines": [
+      "One of the tide's own. You breathe the sea already; good. Most of what I keep is down here for a reason.",
+      "The drowned dig at the Recording's lower halls. They want something in it. Stop them."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Stop 14 drowned digging at the Recording's halls",
+     "target": "minecraft:drowned",
+     "count": 14
+    },
+    {
+     "type": "bring",
+     "text": "Bring Ilyth 24 prismarine shards to reseal the halls",
+     "npc": "ilyth",
+     "item": "minecraft:prismarine_shard",
+     "count": 24,
+     "lines": [
+      "Sealed. The Recording stays the Recording."
+     ]
+    },
+    {
+     "type": "talk",
+     "text": "Hear one line of the Recording",
+     "npc": "ilyth",
+     "lines": [
+      "One line, then: 'The question was asked by many, together.' That is all you get today.",
+      "Your gills are opening on land. That happens to some of us, near the Recording. It means it knows you."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 380,
+    "items": [],
+    "path_items": {
+     "thalassi": [
+      [
+       "immersive_armors:prismarine_helmet",
+       1
+      ],
+      [
+       "immersive_armors:prismarine_chestplate",
+       1
+      ],
+      [
+       "immersive_armors:prismarine_leggings",
+       1
+      ],
+      [
+       "immersive_armors:prismarine_boots",
+       1
+      ],
+      [
+       "iceandfire:tide_trident",
+       1
+      ]
+     ]
+    },
+    "grant": [
+     "aurnfolk:heroes/thalassi/trial#isar_thal"
+    ]
+   }
+  },
+  {
+   "id": "th2",
+   "path": "thalassi",
+   "chapter": "Chapter IV — Isar-Thal",
+   "title": "The Black Flag",
+   "next": "m3",
+   "intro": "Pirates of the Black Flag dive for Thalassi relics above Isar-Thal and sell them north, to the Cold Vault.",
+   "stages": [
+    {
+     "type": "kill",
+     "text": "Sink the relic-trade: 10 pirates of the Black Flag",
+     "target": "race:pirate",
+     "count": 10
+    },
+    {
+     "type": "talk",
+     "text": "Ask Hroald Many-Verses where the relics go",
+     "npc": "hroald",
+     "lines": [
+      "Thalassi relics? North, friend. Into Vorrik's Cold Vault, with everything else that is old and said too much."
+     ]
+    },
+    {
+     "type": "talk",
+     "text": "Return to Ilyth",
+     "npc": "ilyth",
+     "lines": [
+      "The Cold Vault. Of course. The Kalder keep what we keep, and lock it away.",
+      "Walk the trial of the Recording. When you come back, the scales will come when the tide calls them."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 480,
+    "items": [],
+    "path_items": {
+     "thalassi": [
+      [
+       "knightquest:sea_helmet",
+       1
+      ],
+      [
+       "knightquest:sea_chestplate",
+       1
+      ],
+      [
+       "knightquest:sea_leggings",
+       1
+      ],
+      [
+       "knightquest:sea_boots",
+       1
+      ],
+      [
+       "cataclysm:coral_spear",
+       1
+      ],
+      [
+       "simplyswords:dreadtide",
+       1
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "sc1",
+   "path": "screamborn",
+   "chapter": "Chapter III — Malgorath",
+   "title": "Inside the Instant",
+   "next": "sc2",
+   "intro": "Envoy Quillon of Malgorath is always polite. To one of his own he is nearly warm.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Go to Envoy Quillon in the Nether",
+     "npc": "quillon",
+     "lines": [
+      "Ah. Not a fragment - one of ours, born inside the only true word. Welcome back into the instant.",
+      "The deaf beasts of the crimson woods trample the quiet places. Teach them to listen."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Teach 8 deaf beasts to listen (hoglins, piglin brutes)",
+     "target": "minecraft:hoglin|minecraft:piglin_brute",
+     "count": 8
+    },
+    {
+     "type": "bring",
+     "text": "Bring Quillon 6 crying obsidian",
+     "npc": "quillon",
+     "item": "minecraft:crying_obsidian",
+     "count": 6,
+     "lines": [
+      "Stone that weeps because it heard. Lovely."
+     ]
+    },
+    {
+     "type": "talk",
+     "text": "Listen with Quillon",
+     "npc": "quillon",
+     "lines": [
+      "Open your mouth. Not to speak - to listen. ...There. The crack at the corner of your lips. It burns when the Wound is near."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 380,
+    "items": [],
+    "path_items": {
+     "screamborn": [
+      [
+       "knightquest:blaze_helmet",
+       1
+      ],
+      [
+       "knightquest:blaze_chestplate",
+       1
+      ],
+      [
+       "knightquest:blaze_leggings",
+       1
+      ],
+      [
+       "knightquest:blaze_boots",
+       1
+      ],
+      [
+       "simplyswords:emberlash",
+       1
+      ]
+     ]
+    },
+    "grant": [
+     "aurnfolk:heroes/screamborn/trial#wound"
+    ]
+   }
+  },
+  {
+   "id": "sc2",
+   "path": "screamborn",
+   "chapter": "Chapter IV — Malgorath",
+   "title": "The World Is Deaf",
+   "next": "m3",
+   "intro": "Quillon wants you to see the empty tenth plinth in Sovereign, and to tell him whom it is for.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Go to the Steward in Sovereign and ask about the tenth plinth",
+     "npc": "steward",
+     "lines": [
+      "A Screamborn in my Hall of Shards. The Concord lets you in. I would rather it did not.",
+      "The tenth plinth? 'Leave room.' That is all the charter says. Whatever Malgorath told you it is for, it is wrong."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Gather the Wound's fire: slay 8 blazes",
+     "target": "minecraft:blaze",
+     "count": 8
+    },
+    {
+     "type": "talk",
+     "text": "Return to Envoy Quillon",
+     "npc": "quillon",
+     "lines": [
+      "Leave room. Yes. They do not know what for. We do. We are patient.",
+      "Walk the trial: Return to the Wound. When you come back, you will not need to open your mouth for them to hear you."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 480,
+    "items": [],
+    "path_items": {
+     "screamborn": [
+      [
+       "armory_rpgs:smouldering_robe_head",
+       1
+      ],
+      [
+       "armory_rpgs:smouldering_robe_chest",
+       1
+      ],
+      [
+       "armory_rpgs:smouldering_robe_legs",
+       1
+      ],
+      [
+       "armory_rpgs:smouldering_robe_feet",
+       1
+      ],
+      [
+       "simplyswords:molten_edge",
+       1
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "en1",
+   "path": "endling",
+   "chapter": "Chapter III — the Far Side",
+   "title": "What Comes Back",
+   "next": "en2",
+   "intro": "Ossa, an Endling who came back the long way, sits by the tenth plinth in Sovereign and listens.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Find Ossa by the Hall of Shards in Sovereign",
+     "npc": "ossa",
+     "lines": [
+      "Shh. ...You hear it too. Of course you do. You were thrown, like me.",
+      "The tall dark walkers carry the edge's noise around with them. It hurts to hear it come out of something so rude. Quiet them."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Quiet 10 endermen carrying the noise of the edge",
+     "target": "minecraft:enderman",
+     "count": 10
+    },
+    {
+     "type": "bring",
+     "text": "Bring Ossa 8 ender pearls",
+     "npc": "ossa",
+     "item": "minecraft:ender_pearl",
+     "count": 8,
+     "lines": [
+      "Little pieces of the far side. Hold one to your ear. ...No? Practice."
+     ]
+    },
+    {
+     "type": "talk",
+     "text": "Listen with Ossa",
+     "npc": "ossa",
+     "lines": [
+      "Your fingertips. They go dark sometimes, don't they? Like the night beyond the edge got into them. Mine did too."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 380,
+    "items": [],
+    "path_items": {
+     "endling": [
+      [
+       "knightquest:enderman_helmet",
+       1
+      ],
+      [
+       "knightquest:enderman_chestplate",
+       1
+      ],
+      [
+       "knightquest:enderman_leggings",
+       1
+      ],
+      [
+       "knightquest:enderman_boots",
+       1
+      ],
+      [
+       "legendary_monsters:chorus_blade",
+       1
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "en2",
+   "path": "endling",
+   "chapter": "Chapter IV — the Far Side",
+   "title": "Crystal to Catch It",
+   "next": "m3",
+   "intro": "The Endlings build towers of crystal to catch the last of the Scream as it comes back from the void. Ossa wants to build a small one here.",
+   "stages": [
+    {
+     "type": "bring",
+     "text": "Bring Ossa 24 amethyst shards",
+     "npc": "ossa",
+     "item": "minecraft:amethyst_shard",
+     "count": 24,
+     "lines": [
+      "It hums. Same as the sound, quieter. Good."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Silence 8 phantoms and endermites drawn to the humming",
+     "target": "minecraft:phantom|minecraft:endermite",
+     "count": 8
+    },
+    {
+     "type": "talk",
+     "text": "Return to Ossa",
+     "npc": "ossa",
+     "lines": [
+      "...There. Did you hear it come back? Faint. It said nothing. It always says nothing. That is the Far Side's whole hymn.",
+      "Walk the trial of the Far Side. Then go to Nhal at the Crystal Towers. He will open the rest of you."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 480,
+    "items": [],
+    "path_items": {
+     "endling": [
+      [
+       "weapons_of_mythology_:ender_armor_helmet",
+       1
+      ],
+      [
+       "weapons_of_mythology_:ender_armor_chestplate",
+       1
+      ],
+      [
+       "weapons_of_mythology_:ender_armor_leggings",
+       1
+      ],
+      [
+       "weapons_of_mythology_:ender_armor_boots",
+       1
+      ],
+      [
+       "simplyswords:stars_edge",
+       1
+      ]
+     ]
+    }
    }
   },
   {
@@ -18589,6 +20413,880 @@
      "shadowlord": [],
      "divinity": []
     }
+   }
+  },
+  {
+   "id": "fb3",
+   "path": "frostborne",
+   "chapter": "Heroes",
+   "title": "The Awakening — Rime",
+   "intro": "Every one of the Frostborne carries the sealed mark. Only the Hero of Kaldrhal can open it.",
+   "stages": [
+    {
+     "type": "hero",
+     "text": "Walk your people's trial and become the Hero of Kaldrhal (/aurnhero shows it)"
+    },
+    {
+     "type": "talk",
+     "text": "Return to Sister Maren",
+     "npc": "maren",
+     "lines": [
+      "You walked the trial. She held you, the whole way. I could hear it from the Wall.",
+      "Now let her cold in. Do not fight it. When you call it, the ice will come up from the ground and over you, and you will be as still and as hard as she is."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 1500,
+    "items": [],
+    "path_items": {
+     "frostborne": [
+      [
+       "iceandfire:dragonsteel_ice_helmet",
+       1
+      ],
+      [
+       "iceandfire:dragonsteel_ice_chestplate",
+       1
+      ],
+      [
+       "iceandfire:dragonsteel_ice_leggings",
+       1
+      ],
+      [
+       "iceandfire:dragonsteel_ice_boots",
+       1
+      ],
+      [
+       "iceandfire:dragonsteel_ice_sword",
+       1
+      ]
+     ]
+    },
+    "message": "The seal opens: Rime. Press Y to awaken; press it again to seal it. It breaks if you are badly hurt."
+   }
+  },
+  {
+   "id": "em3",
+   "path": "emberkin",
+   "chapter": "Heroes",
+   "title": "The Awakening — Iron Body",
+   "intro": "Every one of the Emberkin carries the sealed mark. Only the Hero of Mount Kharuun can open it.",
+   "stages": [
+    {
+     "type": "hero",
+     "text": "Walk your people's trial and become the Hero of Mount Kharuun (/aurnhero shows it)"
+    },
+    {
+     "type": "talk",
+     "text": "Return to Thrain Ledgerhand",
+     "npc": "thrain",
+     "lines": [
+      "The Under-Delver said you'd come. Sit. I'll enter it: one Emberkin, iron-born.",
+      "Call it from the fists. It climbs the arms and closes over you like a plate over a forge-mouth. Smaller. Heavier. Nothing will move you."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 1500,
+    "items": [],
+    "path_items": {
+     "emberkin": [
+      [
+       "knightquest:warlord_helmet",
+       1
+      ],
+      [
+       "knightquest:warlord_chestplate",
+       1
+      ],
+      [
+       "knightquest:warlord_leggings",
+       1
+      ],
+      [
+       "knightquest:warlord_boots",
+       1
+      ],
+      [
+       "lfs_magic_fantasy:mountain_smasher_greathammer",
+       1
+      ]
+     ]
+    },
+    "message": "The seal opens: Iron Body. Press Y to awaken; press it again to seal it. It breaks if you are badly hurt."
+   }
+  },
+  {
+   "id": "sy3",
+   "path": "sylvani",
+   "chapter": "Heroes",
+   "title": "The Awakening — Bloom",
+   "intro": "Every one of the Sylvani carries the sealed mark. Only the Hero of the Grove of Vael'Thorn can open it.",
+   "stages": [
+    {
+     "type": "hero",
+     "text": "Walk your people's trial and become the Hero of the Grove of Vael'Thorn (/aurnhero shows it)"
+    },
+    {
+     "type": "talk",
+     "text": "Return to Lirael",
+     "npc": "lirael",
+     "lines": [
+      "The Closing Wound is walked. Hold out your hands.",
+      "When you call the Grove, the vines will climb from your fingers to your crown. Swift. Healing. The green will grow where you stand."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 1500,
+    "items": [],
+    "path_items": {
+     "sylvani": [
+      [
+       "armory_rpgs:tempest_robe_head",
+       1
+      ],
+      [
+       "armory_rpgs:tempest_robe_chest",
+       1
+      ],
+      [
+       "armory_rpgs:tempest_robe_legs",
+       1
+      ],
+      [
+       "armory_rpgs:tempest_robe_feet",
+       1
+      ],
+      [
+       "lfs_magic_fantasy:plague_willow_sword",
+       1
+      ]
+     ]
+    },
+    "message": "The seal opens: Bloom. Press Y to awaken; press it again to seal it. It breaks if you are badly hurt."
+   }
+  },
+  {
+   "id": "du3",
+   "path": "duskborn",
+   "chapter": "Heroes",
+   "title": "The Awakening — Lumen",
+   "intro": "Every one of the Duskborn carries the sealed mark. Only the Hero of the Root-Halls of Ourin can open it.",
+   "stages": [
+    {
+     "type": "hero",
+     "text": "Walk your people's trial and become the Hero of the Root-Halls of Ourin (/aurnhero shows it)"
+    },
+    {
+     "type": "talk",
+     "text": "Return to Veyth",
+     "npc": "veyth",
+     "lines": [
+      "You came back from the Unlocated. Few do. The Serpent let you.",
+      "Call the dusk and it veils you. The lamps wake along your body, and in the dark nothing that hunts will find you."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 1500,
+    "items": [],
+    "path_items": {
+     "duskborn": [
+      [
+       "epicpaladins:assassin_helmet",
+       1
+      ],
+      [
+       "epicpaladins:assassin_chestplate",
+       1
+      ],
+      [
+       "epicpaladins:assassin_leggings",
+       1
+      ],
+      [
+       "epicpaladins:assassin_boots",
+       1
+      ],
+      [
+       "born_in_chaos_v1:nightmare_scythe",
+       1
+      ]
+     ]
+    },
+    "message": "The seal opens: Lumen. Press Y to awaken; press it again to seal it. It breaks if you are badly hurt."
+   }
+  },
+  {
+   "id": "gk3",
+   "path": "grokh",
+   "chapter": "Heroes",
+   "title": "The Awakening — Bloodpaint",
+   "intro": "Every one of the Grokh carries the sealed mark. Only the Hero of the Grokh can open it.",
+   "stages": [
+    {
+     "type": "hero",
+     "text": "Walk your people's trial and become the Hero of the Grokh (/aurnhero shows it)"
+    },
+    {
+     "type": "talk",
+     "text": "Return to Ukka Old-Tusk",
+     "npc": "ukka",
+     "lines": [
+      "No Towers. Walked. Hrm. Good.",
+      "When the blood is up, the paint comes up with it. Across the eyes, down the arms. You get bigger. Everything you hit, stays hit."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 1500,
+    "items": [],
+    "path_items": {
+     "grokh": [
+      [
+       "armory_rpgs:onslaught_armor_head",
+       1
+      ],
+      [
+       "armory_rpgs:onslaught_armor_chest",
+       1
+      ],
+      [
+       "armory_rpgs:onslaught_armor_legs",
+       1
+      ],
+      [
+       "armory_rpgs:onslaught_armor_feet",
+       1
+      ],
+      [
+       "lfs_magic_fantasy:double_sharp_waraxe_greatsword",
+       1
+      ]
+     ]
+    },
+    "message": "The seal opens: Bloodpaint. Press Y to awaken; press it again to seal it. It breaks if you are badly hurt."
+   }
+  },
+  {
+   "id": "nm3",
+   "path": "nimtouched",
+   "chapter": "Heroes",
+   "title": "The Awakening — Fey Fortune",
+   "intro": "Every one of the Nimtouched carries the sealed mark. Only the Hero of Greenhollow can open it.",
+   "stages": [
+    {
+     "type": "hero",
+     "text": "Walk your people's trial and become the Hero of Greenhollow (/aurnhero shows it)"
+    },
+    {
+     "type": "talk",
+     "text": "Return to Mayor Bramble",
+     "npc": "bramble",
+     "lines": [
+      "You walked it! There Is Enough. Of course there is.",
+      "When you call Nimtal's luck, the flowers come out in your hair and the gold dust over you. Blows miss. Loot is better. The farmers will feed you for free - more than usual, I mean."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 1500,
+    "items": [],
+    "path_items": {
+     "nimtouched": [
+      [
+       "knightquest:apple_helmet",
+       1
+      ],
+      [
+       "knightquest:apple_chestplate",
+       1
+      ],
+      [
+       "knightquest:apple_leggings",
+       1
+      ],
+      [
+       "knightquest:apple_boots",
+       1
+      ],
+      [
+       "relics:golden_tooth",
+       1
+      ]
+     ]
+    },
+    "message": "The seal opens: Fey Fortune. Press Y to awaken; press it again to seal it. It breaks if you are badly hurt."
+   }
+  },
+  {
+   "id": "vg3",
+   "path": "vigilborn",
+   "chapter": "Heroes",
+   "title": "The Awakening — Crimson Vigil",
+   "intro": "Every one of the Vigilborn carries the sealed mark. Only the Hero of the Vigil of Vaelmoor can open it.",
+   "stages": [
+    {
+     "type": "hero",
+     "text": "Walk your people's trial and become the Hero of the Vigil of Vaelmoor (/aurnhero shows it)"
+    },
+    {
+     "type": "talk",
+     "text": "Return to sebastian",
+     "npc": "sebastian",
+     "lines": [
+      "The trial is walked, and the Dead King unmade. His Majesty has been told. He did not look up. That is a compliment.",
+      "Open the old bite. The crimson runs from it to your fingertips. You will not tire, and every life you end gives you back your own."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 1500,
+    "items": [],
+    "path_items": {
+     "vigilborn": [
+      [
+       "fantasy_armor:malenia_helmet",
+       1
+      ],
+      [
+       "fantasy_armor:malenia_chestplate",
+       1
+      ],
+      [
+       "fantasy_armor:malenia_leggings",
+       1
+      ],
+      [
+       "fantasy_armor:malenia_boots",
+       1
+      ],
+      [
+       "tonys_weapons:bloodkatana",
+       1
+      ]
+     ]
+    },
+    "message": "The seal opens: Crimson Vigil. Press Y to awaken; press it again to seal it. It breaks if you are badly hurt."
+   }
+  },
+  {
+   "id": "uf3",
+   "path": "unfallen",
+   "chapter": "Heroes",
+   "title": "The Awakening — Unbound",
+   "intro": "Every one of the Unfallen carries the sealed mark. Only the Hero of Aetherhold can open it.",
+   "stages": [
+    {
+     "type": "hero",
+     "text": "Walk your people's trial and become the Hero of Aetherhold (/aurnhero shows it)"
+    },
+    {
+     "type": "talk",
+     "text": "Return to Ascendant Seraphine",
+     "npc": "seraphine",
+     "lines": [
+      "An Answer From Above. And none came. Good. Clean.",
+      "Unbind yourself and the light takes all of you. Your feet leave the ground and do not come back to it. You will walk on water and fall like a feather."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 1500,
+    "items": [],
+    "path_items": {
+     "unfallen": [
+      [
+       "deep_aether:stormforged_helmet",
+       1
+      ],
+      [
+       "deep_aether:stormforged_chestplate",
+       1
+      ],
+      [
+       "deep_aether:stormforged_leggings",
+       1
+      ],
+      [
+       "deep_aether:stormforged_boots",
+       1
+      ],
+      [
+       "deep_aether:storm_sword",
+       1
+      ],
+      [
+       "deep_aether:storm_bow",
+       1
+      ]
+     ]
+    },
+    "message": "The seal opens: Unbound. Press Y to awaken; press it again to seal it. It breaks if you are badly hurt."
+   }
+  },
+  {
+   "id": "th3",
+   "path": "thalassi",
+   "chapter": "Heroes",
+   "title": "The Awakening — Tideborn",
+   "intro": "Every one of the Thalassi carries the sealed mark. Only the Hero of Isar-Thal can open it.",
+   "stages": [
+    {
+     "type": "hero",
+     "text": "Walk your people's trial and become the Hero of Isar-Thal (/aurnhero shows it)"
+    },
+    {
+     "type": "talk",
+     "text": "Return to Ilyth",
+     "npc": "ilyth",
+     "lines": [
+      "The Recording is kept, and you walked its trial. It knows you now.",
+      "Call the tide and the scales come up from the gills over your shoulders and arms. Fins. The sea will carry you, and the rain will make you strong."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 1500,
+    "items": [],
+    "path_items": {
+     "thalassi": [
+      [
+       "iceandfire:sea_serpent_helmet",
+       1
+      ],
+      [
+       "iceandfire:sea_serpent_chestplate",
+       1
+      ],
+      [
+       "iceandfire:sea_serpent_leggings",
+       1
+      ],
+      [
+       "iceandfire:sea_serpent_boots",
+       1
+      ],
+      [
+       "block_factorys_bosses:kraken_trident",
+       1
+      ]
+     ]
+    },
+    "message": "The seal opens: Tideborn. Press Y to awaken; press it again to seal it. It breaks if you are badly hurt."
+   }
+  },
+  {
+   "id": "sc3",
+   "path": "screamborn",
+   "chapter": "Heroes",
+   "title": "The Awakening — the Scream",
+   "intro": "Every one of the Screamborn carries the sealed mark. Only the Hero of Malgorath can open it.",
+   "stages": [
+    {
+     "type": "hero",
+     "text": "Walk your people's trial and become the Hero of Malgorath (/aurnhero shows it)"
+    },
+    {
+     "type": "talk",
+     "text": "Return to Envoy Quillon",
+     "npc": "quillon",
+     "lines": [
+      "You went back to the Wound and came out again. Of course. You were born there.",
+      "Scream. Not with your voice. The cracks open from your mouth over all of you, and the fire inside them is the instant. They will falter. They will burn."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 1500,
+    "items": [],
+    "path_items": {
+     "screamborn": [
+      [
+       "cataclysm_spellbooks:ignis_helmet",
+       1
+      ],
+      [
+       "cataclysm_spellbooks:ignis_chestplate",
+       1
+      ],
+      [
+       "cataclysm_spellbooks:ignis_leggings",
+       1
+      ],
+      [
+       "cataclysm_spellbooks:ignis_boots",
+       1
+      ],
+      [
+       "simplycataclysm:ignitium_claymore",
+       1
+      ]
+     ]
+    },
+    "message": "The seal opens: the Scream. Press Y to awaken; press it again to seal it. It breaks if you are badly hurt."
+   }
+  },
+  {
+   "id": "en3",
+   "path": "endling",
+   "chapter": "Heroes",
+   "title": "The Awakening — Starfall",
+   "intro": "Every one of the Endling carries the sealed mark. Only the Hero of the Far Side can open it.",
+   "stages": [
+    {
+     "type": "hero",
+     "text": "Walk your people's trial and become the Hero of the Far Side (/aurnhero shows it)"
+    },
+    {
+     "type": "talk",
+     "text": "Return to Nhal",
+     "npc": "nhal",
+     "lines": [
+      "Shh. Listen. ...There. You came back. Ossa said you would.",
+      "Let the night beyond the edge in. It starts at your hands and feet and fills you until only your face is left. Struck, you will not be there. You will be a little further on."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 1500,
+    "items": [],
+    "path_items": {
+     "endling": [
+      [
+       "legendary_monsters:void_sword",
+       1
+      ],
+      [
+       "goety:void_staff",
+       1
+      ],
+      [
+       "relics:chorus_staff",
+       1
+      ]
+     ]
+    },
+    "message": "The seal opens: Starfall. Press Y to awaken; press it again to seal it. It breaks if you are badly hurt."
+   }
+  },
+  {
+   "id": "hua_d1",
+   "chapter": "Sects",
+   "title": "Mount Hua: The Plum Blossom Heart",
+   "intro": "Master Hoen will not teach a sword to someone who cannot breathe. First the heart, then the blade.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Ask Master Hoen of Mount Hua for teaching",
+     "npc": "hoen",
+     "lines": [
+      "Breathe in as the blossom opens. Out as it falls. Again. ...Badly. Go and practise on the roads."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Practise the breathing in real fights: 8 bandits on the roads",
+     "target": "race:bandit",
+     "count": 8
+    },
+    {
+     "type": "bring",
+     "text": "Bring Master Hoen 16 pink petals from a blossom grove",
+     "npc": "hoen",
+     "item": "minecraft:pink_petals",
+     "count": 16,
+     "lines": [
+      "You picked them without crushing them. Your hands are learning."
+     ]
+    },
+    {
+     "type": "talk",
+     "text": "Sit with Master Hoen",
+     "npc": "hoen",
+     "lines": [
+      "Good. This is the Plum Blossom Heart. Read it slowly. The sword comes after."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 500,
+    "items": [
+     [
+      "aurnskills:manual_plum_blossom_heart",
+      1
+     ]
+    ],
+    "message": "A martial manual: right-click it to study the art."
+   }
+  },
+  {
+   "id": "hua_d2",
+   "chapter": "Sects",
+   "title": "Mount Hua: Twenty-Four Plum Blossoms",
+   "intro": "Twenty-four cuts, each a blossom. Master Hoen wants to see your blade tested against swords that never tire.",
+   "stages": [
+    {
+     "type": "kill",
+     "text": "Test your blade against 6 burnt swordsmen of the Nether fortresses",
+     "target": "minecraft:wither_skeleton",
+     "count": 6
+    },
+    {
+     "type": "talk",
+     "text": "Return to Master Hoen",
+     "npc": "hoen",
+     "lines": [
+      "Six. None the same. The blade is disposable; the cut is not.",
+      "Twenty-four blossoms. Mount Hua has taught them to perhaps forty outsiders in four hundred years. Make it forty-one."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 900,
+    "items": [
+     [
+      "aurnskills:manual_plum_blossom_sword",
+      1
+     ]
+    ],
+    "message": "A martial manual: right-click it to study the art."
+   }
+  },
+  {
+   "id": "emei_d1",
+   "chapter": "Sects",
+   "title": "Emei: The Heart Sutra",
+   "intro": "The Abbess of Emei teaches the Heart Sutra to anyone who will carry bamboo up the mountain without complaining.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Ask Mother Jingxuan, Abbess of the Emei Sect",
+     "npc": "jingxuan",
+     "lines": [
+      "Everyone asks to learn the palm. No one asks to learn the breath under it. Carry bamboo. Do not complain."
+     ]
+    },
+    {
+     "type": "bring",
+     "text": "Carry 64 bamboo up to the Abbess",
+     "npc": "jingxuan",
+     "item": "minecraft:bamboo",
+     "count": 64,
+     "lines": [
+      "You complained twice. Under your breath. That is improvement."
+     ]
+    },
+    {
+     "type": "talk",
+     "text": "Sit in the hall with the Abbess",
+     "npc": "jingxuan",
+     "lines": [
+      "The Emei Heart Sutra. Read it on the mountain, not in a tavern."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 500,
+    "items": [
+     [
+      "aurnskills:manual_heart_sutra",
+      1
+     ]
+    ],
+    "message": "A martial manual: right-click it to study the art."
+   }
+  },
+  {
+   "id": "emei_d2",
+   "chapter": "Sects",
+   "title": "Emei: The Golden Lotus Palm",
+   "intro": "The restless dead gather at the foot of the mountain. The Abbess says an open hand can still end them.",
+   "stages": [
+    {
+     "type": "kill",
+     "text": "Lay 16 of the restless dead to rest at the mountain's foot",
+     "target": "minecraft:zombie|minecraft:husk|minecraft:drowned",
+     "count": 16
+    },
+    {
+     "type": "talk",
+     "text": "Return to the Abbess",
+     "npc": "jingxuan",
+     "lines": [
+      "An open hand held more than your fist would have. The Golden Lotus Palm is yours. Do not strike anyone who is already kneeling."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 900,
+    "items": [
+     [
+      "aurnskills:manual_golden_lotus_palm",
+      1
+     ]
+    ],
+    "message": "A martial manual: right-click it to study the art."
+   }
+  },
+  {
+   "id": "namgung_d1",
+   "chapter": "Sects",
+   "title": "Namgung: Sword Qi",
+   "intro": "The Patriarch of the Namgung Clan says outsiders never learn the clan's sword. He might teach the breath that carries it.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Ask Namgung Hwang, Patriarch of the Namgung Clan",
+     "npc": "namgung",
+     "lines": [
+      "Fix your stance. Better. Now go and cut something that cuts back."
+     ]
+    },
+    {
+     "type": "kill",
+     "text": "Cut down 10 bandits with the Namgung stance",
+     "target": "race:bandit",
+     "count": 10
+    },
+    {
+     "type": "talk",
+     "text": "Return to the Patriarch",
+     "npc": "namgung",
+     "lines": [
+      "Your blade lands before your feet do. Good. Namgung Sword Qi: the breath that carries the cut."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 500,
+    "items": [
+     [
+      "aurnskills:manual_sword_qi",
+      1
+     ]
+    ],
+    "message": "A martial manual: right-click it to study the art."
+   }
+  },
+  {
+   "id": "namgung_d2",
+   "chapter": "Sects",
+   "title": "Namgung: The Sky-Splitting Sword",
+   "intro": "'Everything under the sky is practice.' To learn the Sky-Splitting Sword you must first cut what flies.",
+   "stages": [
+    {
+     "type": "kill",
+     "text": "Cut 8 phantoms out of the night sky",
+     "target": "minecraft:phantom",
+     "count": 8
+    },
+    {
+     "type": "bring",
+     "text": "Bring the Patriarch 16 feathers, cut clean",
+     "npc": "namgung",
+     "item": "minecraft:feather",
+     "count": 16,
+     "lines": [
+      "Clean cuts. Every one. The sky splits for you now."
+     ]
+    },
+    {
+     "type": "talk",
+     "text": "Kneel before the Patriarch",
+     "npc": "namgung",
+     "lines": [
+      "The Namgung Sky-Splitting Sword. My grandfather would have killed me for this. My grandfather was wrong about many things."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 900,
+    "items": [
+     [
+      "aurnskills:manual_heavenly_sky_sword",
+      1
+     ]
+    ],
+    "message": "A martial manual: right-click it to study the art."
+   }
+  },
+  {
+   "id": "azure_d1",
+   "chapter": "Sects",
+   "title": "Azure Sect: Pine Wind Breath",
+   "intro": "Lan Qiye of the Azure Sect, on the pine peak, teaches the Pine Wind Breath to anyone who climbs to the gate.",
+   "stages": [
+    {
+     "type": "talk",
+     "text": "Climb to Lan Qiye, Sect Master of the Azure Sect",
+     "npc": "lanqiye",
+     "lines": [
+      "You climbed. Most stop at the second bridge. Plant pines on the scree where the old ones fell."
+     ]
+    },
+    {
+     "type": "bring",
+     "text": "Bring Lan Qiye 16 spruce saplings for the scree",
+     "npc": "lanqiye",
+     "item": "minecraft:spruce_sapling",
+     "count": 16,
+     "lines": [
+      "In a hundred years they will be a forest. You will not see it. Breathe anyway."
+     ]
+    },
+    {
+     "type": "talk",
+     "text": "Breathe with the Sect Master on the peak",
+     "npc": "lanqiye",
+     "lines": [
+      "Pine Wind Breath. It does not make you strong. It makes you hard to tire."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 500,
+    "items": [
+     [
+      "aurnskills:manual_pine_wind",
+      1
+     ]
+    ],
+    "message": "A martial manual: right-click it to study the art."
+   }
+  },
+  {
+   "id": "azure_d2",
+   "chapter": "Sects",
+   "title": "Azure Sect: The Azure Dragon Descends",
+   "intro": "The Azure Dragon form is taught only to those who have stood in a storm of wind and not bent.",
+   "stages": [
+    {
+     "type": "kill",
+     "text": "Stand against 4 breezes, the wind-spirits of the trial chambers",
+     "target": "minecraft:breeze",
+     "count": 4
+    },
+    {
+     "type": "talk",
+     "text": "Return to Lan Qiye",
+     "npc": "lanqiye",
+     "lines": [
+      "You did not bend. The Azure Dragon Descends: when you strike with it, the sect's dragon strikes with you."
+     ]
+    }
+   ],
+   "reward": {
+    "xp": 900,
+    "items": [
+     [
+      "aurnskills:manual_azure_dragon",
+      1
+     ]
+    ],
+    "message": "A martial manual: right-click it to study the art."
    }
   }
  ],

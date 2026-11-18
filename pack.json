@@ -2,7 +2,7 @@
  "schema": 1,
  "name": "AURN",
  "title": "The Sundered Reach of Aurn",
- "version": "2026.11.17-2",
+ "version": "2026.11.18-newworld",
  "minecraft": "1.21.1",
  "loader": {
   "type": "neoforge",
@@ -42,9 +42,9 @@
  ],
  "bundles": {
   "_bundles/config.bin.gz": {
-   "sha1": "5637ec3c2d9fd8396b1bdc7662efd50de4a456d1",
-   "size": 1436339,
-   "files": 2656
+   "sha1": "a2d75f66bacc9b1c6a52c8ff5be7a0044a6d36d2",
+   "size": 1498643,
+   "files": 2566
   },
   "_bundles/resourcepacks_AURN_Monarch_Arsenal.bin.gz": {
    "sha1": "e4a470ed9c0b66e994256b48f53eb44227bd3e04",
@@ -90,8 +90,8 @@
   },
   {
    "path": "config/DistantHorizons.toml",
-   "sha1": "587742a781f5aff9c8e502b32a6145e0918b75e0",
-   "size": 37978,
+   "sha1": "acc3300e593e8096be77e42c365807d934c4eb5b",
+   "size": 37006,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -1033,6 +1033,22 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
+   "path": "config/alpinewhispers-common.toml",
+   "sha1": "3eb01f122c83fa302154a9f3a7dd9cc5ed62dc4f",
+   "size": 3336,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/alpinewhispers-startup.toml",
+   "sha1": "d30a290631d81e60026751e8062f683a1d049b6d",
+   "size": 391,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
    "path": "config/ambientsounds-client.json",
    "sha1": "e29bba5ead5073bd4f0149c3c6738084d8d8e307",
    "size": 4198,
@@ -1044,6 +1060,22 @@
    "path": "config/amc.json",
    "sha1": "10e79237e06761c2e301c46be5803fa9fcaec8ab",
    "size": 42937,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/amendments-client.toml",
+   "sha1": "37778c0e36b676d10660e4ca07016400dbd1616d",
+   "size": 5819,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/amendments-common.toml",
+   "sha1": "fad9a233b57fc2c245810d5fe64e6564542e33d3",
+   "size": 5764,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -1114,16 +1146,16 @@
   },
   {
    "path": "config/apotheosis/enchantments.cfg",
-   "sha1": "f8c7e1abcda38f79cc3891d9ba00be4d388846a5",
-   "size": 195118,
+   "sha1": "9c95851b19a855357f0e264100301dfe22a1542a",
+   "size": 197550,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
   },
   {
    "path": "config/apotheosis/name_generation.cfg",
-   "sha1": "5926bcb627ab0d3330e8f17926feeff470d9300e",
-   "size": 509645,
+   "sha1": "63eb85fd367ebf5df797de0df618a1154606e7d5",
+   "size": 509201,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -1897,32 +1929,32 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
-   "path": "config/ars_nouveau/search_index/_c.cfe",
-   "sha1": "eeb00c466a6b29f7dfdf30604765ce28be5a6ab5",
+   "path": "config/ars_nouveau/search_index/_d.cfe",
+   "sha1": "cc56d7d547dd3ab6f6c408d630fc61744c5526a4",
    "size": 390,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
   },
   {
-   "path": "config/ars_nouveau/search_index/_c.cfs",
-   "sha1": "e12aad67e5faaa98235c114b5ba610b69c584904",
+   "path": "config/ars_nouveau/search_index/_d.cfs",
+   "sha1": "4d50891f851d8374566861de646d27e5563ee529",
    "size": 49551,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
   },
   {
-   "path": "config/ars_nouveau/search_index/_c.si",
-   "sha1": "4bb22462134e76b237929d438c94ad71ff9958f8",
+   "path": "config/ars_nouveau/search_index/_d.si",
+   "sha1": "8eeb21d502ae5abfa208e9eda77fed263ccfbf4f",
    "size": 326,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
   },
   {
-   "path": "config/ars_nouveau/search_index/segments_d",
-   "sha1": "55edb87d835319eecc1c90df884f682f0f0e83de",
+   "path": "config/ars_nouveau/search_index/segments_e",
+   "sha1": "7838e9b75be6fc83cc9159cb2bf53879ca20422e",
    "size": 155,
    "mode": "config",
    "hosted": true,
@@ -3945,7 +3977,7 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
-   "path": "config/aurnfolk-colonies.json",
+   "path": "config/aurnfolk-colonies.json.off_for_testworld",
    "sha1": "78d3642c2e29897f9d21f864c677b0868a578f1e",
    "size": 850219,
    "mode": "config",
@@ -3961,9 +3993,17 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
+   "path": "config/aurnfolk-paths.json",
+   "sha1": "5e2bdd9370dae30a2531fbf6e63976975bec6326",
+   "size": 298,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
    "path": "config/aurnfolk-quests.json",
-   "sha1": "24fd7f4b611fe720ef2c17608b8e5af78ad2a1b5",
-   "size": 423001,
+   "sha1": "be34ae8945fe51671208919050e409dda60ba910",
+   "size": 494652,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -3978,8 +4018,8 @@
   },
   {
    "path": "config/aurnfolk-spawns.json",
-   "sha1": "20d09b82155186bb6a14c5e6feca499ce63dbe2f",
-   "size": 384788,
+   "sha1": "dce6cb2de93dbe91bf573dd91930fd63303ea46d",
+   "size": 437836,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -4164,6 +4204,14 @@
    "path": "config/bosses_of_mass_destruction.json5",
    "sha1": "e31000c44459219584440e097d728af959629ab1",
    "size": 1475,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/bountiful/bountiful.json",
+   "sha1": "a4a3cc3f468bca1cbc7b17a62e22ff167b99412d",
+   "size": 869,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -6393,22 +6441,6 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
-   "path": "config/compatlink/generated_resources/assets/cataclysm_spellbooks/item_skins/murasama_blade.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/cgs/item_skins/axe.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
    "path": "config/compatlink/generated_resources/assets/cgs/item_skins/axe_diamond.json",
    "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
    "size": 223,
@@ -7186,22 +7218,6 @@
   },
   {
    "path": "config/compatlink/generated_resources/assets/deeperdarker/item_skins/warden_sword.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/devil_may_cry_weapons_rebirth/item_skins/devil_sword_dante.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/devil_may_cry_weapons_rebirth/item_skins/devil_sword_sparda.json",
    "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
    "size": 221,
    "mode": "config",
@@ -8457,22 +8473,6 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
-   "path": "config/compatlink/generated_resources/assets/knightquest/item_skins/water_axe.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/knightquest/item_skins/water_sword.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
    "path": "config/compatlink/generated_resources/assets/knightsheraldry/item_skins/arming_sword.json",
    "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
    "size": 221,
@@ -9345,65 +9345,9 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/axe_of_lightning1.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/axe_of_lightning2.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/axe_of_lightning3.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
    "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/chorus_blade.json",
    "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
    "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/chorus_blade1.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/chorus_blade2.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/dino_club1.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/dino_club2.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -9417,23 +9361,7 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/ender_hammer.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
    "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/enderitium_axe.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/enderitium_sickle.json",
    "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
    "size": 223,
    "mode": "config",
@@ -9444,22 +9372,6 @@
    "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/enderitium_sword.json",
    "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
    "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/golden_halberd1.json",
-   "sha1": "9e75f2ab61ce206505d83056b4608f07340c2456",
-   "size": 219,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/golden_halberd2.json",
-   "sha1": "9e75f2ab61ce206505d83056b4608f07340c2456",
-   "size": 219,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -9481,30 +9393,6 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/m_anchor1.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/m_anchor2.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/m_anchor3.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
    "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/monstrous_anchor.json",
    "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
    "size": 220,
@@ -9514,54 +9402,6 @@
   },
   {
    "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/mossy_hammer.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/mossy_hammer1.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/mossy_hammer2.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/mossy_hammer3.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/mossy_hammer4.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/mossy_hammer5.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/reinforced_monstrous_anchor.json",
    "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
    "size": 220,
    "mode": "config",
@@ -9585,33 +9425,9 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/sharp_sai.json",
-   "sha1": "3308d9304b1d4f726f1568da687c39079ef28a20",
-   "size": 218,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
    "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/shattered_greatsword.json",
    "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
    "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/shattered_greatsword1.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/sickle_of_harvest.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -9633,54 +9449,6 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/soul_great_sword1.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/soul_great_sword2.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/soul_great_sword3.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/soul_great_sword4.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/soul_great_sword5.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/spiky_spear.json",
-   "sha1": "9e75f2ab61ce206505d83056b4608f07340c2456",
-   "size": 219,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
    "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/void_sword.json",
    "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
    "size": 221,
@@ -9690,22 +9458,6 @@
   },
   {
    "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/withered_scythe.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/withered_scythe1.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/legendary_monsters/item_skins/withered_scythe2.json",
    "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
    "size": 220,
    "mode": "config",
@@ -10345,238 +10097,6 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/arming_sword_blade.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/arming_sword_guard.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/battleaxe.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/creativesword.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/dagger.json",
-   "sha1": "3308d9304b1d4f726f1568da687c39079ef28a20",
-   "size": 218,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/gladius.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/greatsword.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/greatsword_blade.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/greatsword_guard.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/hammer.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/hiddenblade.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/hot_arming_sword_blade.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/hot_longsword_blade.json",
-   "sha1": "e95f18f5db61917c8e3303030bf61647a86098dd",
-   "size": 218,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/katana.json",
-   "sha1": "29b8545b1f5d89332efb27fa33c4f5279ea57a8e",
-   "size": 219,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/lance.json",
-   "sha1": "9e75f2ab61ce206505d83056b4608f07340c2456",
-   "size": 219,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/long_sword.json",
-   "sha1": "e95f18f5db61917c8e3303030bf61647a86098dd",
-   "size": 218,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/long_sword_blade.json",
-   "sha1": "e95f18f5db61917c8e3303030bf61647a86098dd",
-   "size": 218,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/long_sword_guard.json",
-   "sha1": "e95f18f5db61917c8e3303030bf61647a86098dd",
-   "size": 218,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/longsword_2.json",
-   "sha1": "e95f18f5db61917c8e3303030bf61647a86098dd",
-   "size": 218,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/longsword_guard_2.json",
-   "sha1": "e95f18f5db61917c8e3303030bf61647a86098dd",
-   "size": 218,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/mace.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/pole_axe.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/rapier.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/saber.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/scimitar.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/spear_1.json",
-   "sha1": "9e75f2ab61ce206505d83056b4608f07340c2456",
-   "size": 219,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/spear_2.json",
-   "sha1": "9e75f2ab61ce206505d83056b4608f07340c2456",
-   "size": 219,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/sword_1.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medieval_craft/item_skins/vikingsword.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
    "path": "config/compatlink/generated_resources/assets/medieval_craft_weapons/item_skins/arming_sword_blade.json",
    "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
    "size": 221,
@@ -10732,382 +10252,6 @@
    "path": "config/compatlink/generated_resources/assets/medieval_craft_weapons/item_skins/vikingsword.json",
    "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
    "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/arming_sword_blade.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/arming_sword_guard.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/gladius.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/greatsword.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/greatsword_blade.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/greatsword_guard.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/hammer.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/hot_arming_sword_blade.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/hot_longsword_blade.json",
-   "sha1": "e95f18f5db61917c8e3303030bf61647a86098dd",
-   "size": 218,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/katana.json",
-   "sha1": "29b8545b1f5d89332efb27fa33c4f5279ea57a8e",
-   "size": 219,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/long_sword.json",
-   "sha1": "e95f18f5db61917c8e3303030bf61647a86098dd",
-   "size": 218,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/long_sword_blade.json",
-   "sha1": "e95f18f5db61917c8e3303030bf61647a86098dd",
-   "size": 218,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/long_sword_guard.json",
-   "sha1": "e95f18f5db61917c8e3303030bf61647a86098dd",
-   "size": 218,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/longsword_2.json",
-   "sha1": "e95f18f5db61917c8e3303030bf61647a86098dd",
-   "size": 218,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/longsword_guard_2.json",
-   "sha1": "e95f18f5db61917c8e3303030bf61647a86098dd",
-   "size": 218,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/mace.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/pole_axe.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/rapier.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/saber.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/spear_1.json",
-   "sha1": "9e75f2ab61ce206505d83056b4608f07340c2456",
-   "size": 219,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/spear_2.json",
-   "sha1": "9e75f2ab61ce206505d83056b4608f07340c2456",
-   "size": 219,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/medievalforgemod/item_skins/sword_1.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/anchor.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/bone_cudgel_scythe.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/boneclub_scythe.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/broad_sword_claymore.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/broken_sawblade.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/claymore.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/cursed_axe_double_axe.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/cutlass.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/dagger.json",
-   "sha1": "3308d9304b1d4f726f1568da687c39079ef28a20",
-   "size": 218,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/double_axe.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/encrusted_anchor.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/fangs_of_frost_dagger.json",
-   "sha1": "3308d9304b1d4f726f1568da687c39079ef28a20",
-   "size": 218,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/firebrand_axe.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/great_hammer.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/great_hammer_of_gravity.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/mace.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/nameless_blade_cutlass.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/nightmares_bite_sickle.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/reinforced_diamond_sword.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/reinforced_iron_axe.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/reinforced_iron_sword.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/sickle.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/spooky_sword.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/stormlander_great_hammer.json",
-   "sha1": "32a17ba88580157ec690ac9659393f25e55797ed",
-   "size": 220,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/minecraftdungeonsv1/item_skins/suns_grace_mace.json",
-   "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
-   "size": 223,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -11323,30 +10467,6 @@
   {
    "path": "config/compatlink/generated_resources/assets/mobs_of_mythology/item_skins/kobold_spear.json",
    "sha1": "9e75f2ab61ce206505d83056b4608f07340c2456",
-   "size": 219,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/mythic_dynasty/item_skins/inosukekatana.json",
-   "sha1": "29b8545b1f5d89332efb27fa33c4f5279ea57a8e",
-   "size": 219,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/mythic_dynasty/item_skins/tanjirokatana.json",
-   "sha1": "29b8545b1f5d89332efb27fa33c4f5279ea57a8e",
-   "size": 219,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/mythic_dynasty/item_skins/zenitsukatana.json",
-   "sha1": "29b8545b1f5d89332efb27fa33c4f5279ea57a8e",
    "size": 219,
    "mode": "config",
    "hosted": true,
@@ -12089,14 +11209,6 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
-   "path": "config/compatlink/generated_resources/assets/samurai_dynasty/item_skins/katana_akaname.json",
-   "sha1": "29b8545b1f5d89332efb27fa33c4f5279ea57a8e",
-   "size": 219,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
    "path": "config/compatlink/generated_resources/assets/samurai_dynasty/item_skins/odachi.json",
    "sha1": "29b8545b1f5d89332efb27fa33c4f5279ea57a8e",
    "size": 219,
@@ -12106,54 +11218,6 @@
   },
   {
    "path": "config/compatlink/generated_resources/assets/samurai_dynasty/item_skins/odachi_netherite.json",
-   "sha1": "29b8545b1f5d89332efb27fa33c4f5279ea57a8e",
-   "size": 219,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/screweds_katana/item_skins/diamond_katana.json",
-   "sha1": "29b8545b1f5d89332efb27fa33c4f5279ea57a8e",
-   "size": 219,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/screweds_katana/item_skins/golden_katana.json",
-   "sha1": "29b8545b1f5d89332efb27fa33c4f5279ea57a8e",
-   "size": 219,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/screweds_katana/item_skins/iron_katana.json",
-   "sha1": "29b8545b1f5d89332efb27fa33c4f5279ea57a8e",
-   "size": 219,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/screweds_katana/item_skins/netherite_katana.json",
-   "sha1": "29b8545b1f5d89332efb27fa33c4f5279ea57a8e",
-   "size": 219,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/screweds_katana/item_skins/stone_katana.json",
-   "sha1": "29b8545b1f5d89332efb27fa33c4f5279ea57a8e",
-   "size": 219,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/screweds_katana/item_skins/wooden_katana.json",
    "sha1": "29b8545b1f5d89332efb27fa33c4f5279ea57a8e",
    "size": 219,
    "mode": "config",
@@ -12833,65 +11897,9 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
-   "path": "config/compatlink/generated_resources/assets/slashblade_addon/item_skins/katana.json",
-   "sha1": "29b8545b1f5d89332efb27fa33c4f5279ea57a8e",
-   "size": 219,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/slashblade_addon/item_skins/slashblade_tofu_diamond.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/slashblade_addon/item_skins/slashblade_tofu_ishi.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/slashblade_addon/item_skins/slashblade_tofu_metal.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/slashblade_addon/item_skins/tachi.json",
-   "sha1": "29b8545b1f5d89332efb27fa33c4f5279ea57a8e",
-   "size": 219,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/slashblade_addon/item_skins/terra_blade.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
    "path": "config/compatlink/generated_resources/assets/soulsweapons/item_skins/moonstone_axe.json",
    "sha1": "c3b81f7fb0c73f5ab3619213627040a688940b3a",
    "size": 223,
-   "mode": "config",
-   "hosted": true,
-   "bundle": "_bundles/config.bin.gz"
-  },
-  {
-   "path": "config/compatlink/generated_resources/assets/soulsweapons/item_skins/pure_moonlight_shortsword.json",
-   "sha1": "c2ea7f5ed40e5660e07ce0f22cda6e4e6035fb02",
-   "size": 221,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -14970,8 +13978,8 @@
   },
   {
    "path": "config/compatlink/mappings/aurn_weapons.json",
-   "sha1": "1decdb53d36fba5f1869be06f31b1a255f7cd33c",
-   "size": 135997,
+   "sha1": "8ea5800402e294eb21b4c6173159006e1f24789d",
+   "size": 57,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -15545,6 +14553,38 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
+   "path": "config/cristellib/cherry_samurai_temple/structure_placement_config.json5",
+   "sha1": "e51d8754aa21db0cf8ccd617527142cdda51b671",
+   "size": 129,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/cristellib/cherry_samurai_temple/structure_toggle_config.json5",
+   "sha1": "f21399a1bde9a0c2c223caaa9c6581a0d48a96f4",
+   "size": 95,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/cristellib/chineseflyingislandtower/structure_placement_config.json5",
+   "sha1": "0c75fc3525d2f969b433905b33ac802d1f9dbc5c",
+   "size": 126,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/cristellib/chineseflyingislandtower/structure_toggle_config.json5",
+   "sha1": "d2d28dbfe22fcca431717ac88b86c13829e47028",
+   "size": 95,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
    "path": "config/cristellib/darkestsouls/structure_placement_config.json5",
    "sha1": "ef3c6e30e9e26d152eb1f4730671f01089a2d85a",
    "size": 374,
@@ -15668,6 +14708,38 @@
    "path": "config/cristellib/friendsandfoes/structure_toggle_config.json5",
    "sha1": "dd5eafd734cea413eb70242b8daf2897e435d358",
    "size": 265,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/cristellib/giant_bamboo/structure_placement_config.json5",
+   "sha1": "2c53a7bf3c749c1e184a029d8d343f52f128409b",
+   "size": 127,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/cristellib/giant_bamboo/structure_toggle_config.json5",
+   "sha1": "7337c42e5a706eb8a3397cd56c5b3af77991209c",
+   "size": 93,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/cristellib/giant_cherry_blossom_bonsai_tree/structure_placement_config.json5",
+   "sha1": "6135f51d29982769cce6ca2e5ddebacc93707b8f",
+   "size": 126,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/cristellib/giant_cherry_blossom_bonsai_tree/structure_toggle_config.json5",
+   "sha1": "669a7208985f685f5b20e5c3e72b2f8d1e714f58",
+   "size": 91,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -15913,6 +14985,54 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
+   "path": "config/cristellib/mr_japanese_castle/structure_placement_config.json5",
+   "sha1": "33bdda01961fca4eb5cb06b4aa0b755f406e1207",
+   "size": 126,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/cristellib/mr_japanese_castle/structure_toggle_config.json5",
+   "sha1": "d8c3e27730629a108ef7157a57860e38db152757",
+   "size": 107,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/cristellib/mr_japanese_offeringshrines/structure_placement_config.json5",
+   "sha1": "c3e1fbae7e797ac4f6706f77079238438c26a841",
+   "size": 200,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/cristellib/mr_japanese_offeringshrines/structure_toggle_config.json5",
+   "sha1": "66d4765d84027fb43e463aca984c1c8880721fec",
+   "size": 159,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/cristellib/mr_japanese_temple/structure_placement_config.json5",
+   "sha1": "329f0def8f03f102c6bd487703fe62e8cc686b57",
+   "size": 128,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/cristellib/mr_japanese_temple/structure_toggle_config.json5",
+   "sha1": "fc1af7781c1572a8fff3604ab0fbdbd3e554f5a6",
+   "size": 111,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
    "path": "config/cristellib/mr_towers_ofthewildmoddedextratowers/structure_placement_config.json5",
    "sha1": "79db92507300e5a30dded9b0843033d0469d3ac2",
    "size": 1848,
@@ -16057,6 +15177,22 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
+   "path": "config/cristellib/supplementaries/structure_placement_config.json5",
+   "sha1": "1251a2a602e2ca7c12fddbd79abe5c181c9a4a36",
+   "size": 201,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/cristellib/supplementaries/structure_toggle_config.json5",
+   "sha1": "00f18a97ea7d8e0ab3de7154c0782ead89cf05a4",
+   "size": 125,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
    "path": "config/cristellib/swem/structure_placement_config.json5",
    "sha1": "08493930cf7441ad3b2664f3628af66122a419f7",
    "size": 141,
@@ -16068,6 +15204,22 @@
    "path": "config/cristellib/swem/structure_toggle_config.json5",
    "sha1": "9f2d91af1905a55de9cbbecef4cb4910a6ae9644",
    "size": 117,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/cristellib/taxtg/structure_placement_config.json5",
+   "sha1": "5ee72ea14754a81494919c709b1f4c30d6d3b0c7",
+   "size": 478,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/cristellib/taxtg/structure_toggle_config.json5",
+   "sha1": "f4a6d843c415f0e8cb847b3af3251001d0c0fe5a",
+   "size": 333,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -16105,6 +15257,22 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
+   "path": "config/cristellib/villager_pagoda_house/structure_placement_config.json5",
+   "sha1": "4126becc5d037544f4775e0f6c3fe7968844aea8",
+   "size": 130,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/cristellib/villager_pagoda_house/structure_toggle_config.json5",
+   "sha1": "701e654bf94dc74013b2ec5ca0244fe670483b57",
+   "size": 99,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
    "path": "config/cristellib/weapons_of_mythology_/structure_placement_config.json5",
    "sha1": "f38ba03a140fd6b458b69ed3012d2980bbfe7c34",
    "size": 218,
@@ -16116,6 +15284,22 @@
    "path": "config/cristellib/weapons_of_mythology_/structure_toggle_config.json5",
    "sha1": "562071c8fd9909dc42aa2777f429fe815f7e9eda",
    "size": 153,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/cristellib/worldx_trees/structure_placement_config.json5",
+   "sha1": "2f350898c4cd89a53640cc6be5b25db9be82d765",
+   "size": 1711,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/cristellib/worldx_trees/structure_toggle_config.json5",
+   "sha1": "2667a0f0eb6e5896bbfe5527754c47258170fb6e",
+   "size": 1295,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -16689,6 +15873,14 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
+   "path": "config/epicfight-server.toml",
+   "sha1": "19976e71a8623810b6239d412bb367239f210367",
+   "size": 33,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
    "path": "config/epicfight/native/ServerCommunicationHelper.dll",
    "sha1": "de88db603af19542ea89cc47dfeaffc1e4f81bb9",
    "size": 233472,
@@ -16786,7 +15978,7 @@
   },
   {
    "path": "config/fabric/indigo-renderer.properties",
-   "sha1": "5f7d20ba6b317622b5810677a47681d7f82d4363",
+   "sha1": "0547cba4a13efe3c960393ecf27a96ede73f4b64",
    "size": 290,
    "mode": "config",
    "hosted": true,
@@ -17290,8 +16482,8 @@
   },
   {
    "path": "config/invmove/unrecognized.json",
-   "sha1": "c03a1ef35cb6a80c76cec310bf5aa2710d72e397",
-   "size": 5008,
+   "sha1": "d0fb5b10672172f5cbe4a012e878452174c60b43",
+   "size": 5175,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -17314,8 +16506,8 @@
   },
   {
    "path": "config/iris.properties",
-   "sha1": "deaa73a02404013489f5a149838b5d93f17b613b",
-   "size": 295,
+   "sha1": "9ba3923d28a3b4a1bdf219084c789fdbf4d8f6db",
+   "size": 296,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -17378,16 +16570,24 @@
   },
   {
    "path": "config/jade/plugins.json",
-   "sha1": "66d253fad02b7f7d0a733516eef70f178270b8a7",
-   "size": 3312,
+   "sha1": "736d2f156f3803bb23970a5bb58de0ffc762a803",
+   "size": 3362,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/jade/server-plugin-overrides.json",
+   "sha1": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f",
+   "size": 2,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
   },
   {
    "path": "config/jade/sort-order.json",
-   "sha1": "904f407e2a172d7f432d8563b6750cb0e6d71ae5",
-   "size": 3621,
+   "sha1": "2be615090d4bb291f8bf059a1d8a57800417786c",
+   "size": 3725,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -17465,6 +16665,14 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
+   "path": "config/leavesbegone-server.toml",
+   "sha1": "a43b30e6b300efc280eaeaed4356b5d509ad7c98",
+   "size": 442,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
    "path": "config/legendary_monsters-common.toml",
    "sha1": "decbb2134f03aa716280beb2830a4d4714a6a131",
    "size": 23983,
@@ -17474,10 +16682,25 @@
   },
   {
    "path": "config/litematica.json",
-   "sha1": "4db943a6d28fc10cbf65f4a17b3720ab43bc4258",
-   "size": 10946,
+   "sha1": "bd39afdd9769d9bfe866afc8a43f89d3d400e405",
+   "size": 10987,
    "mode": "config",
-   "template": true,
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/litematica/litematica_AURN New World.json",
+   "sha1": "af8ee9713b815975fe500bc58d13cd6424fb4895",
+   "size": 95,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/litematica/litematica_AURN New World_dim_minecraft_overworld.json",
+   "sha1": "05659cfe990452c0724fed43871164c07113285e",
+   "size": 758,
+   "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
   },
@@ -18114,6 +17337,14 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
+   "path": "config/minecolonies-server.toml",
+   "sha1": "fbb18ff50816fdcdb5427e5c48d44a9bed0a9cdf",
+   "size": 9068,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
    "path": "config/minecolonies_compatibility-server.toml",
    "sha1": "cba9900a358a7bb6541388f8d47f6bde5969dc81",
    "size": 7177,
@@ -18195,8 +17426,8 @@
   },
   {
    "path": "config/moonlight-client.toml",
-   "sha1": "74af5357fd1834b5fc17291ab1834162342996e8",
-   "size": 2136,
+   "sha1": "e88b87fb5f58e4f6b55b5f41abac3dadf1d62860",
+   "size": 2320,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -18315,8 +17546,8 @@
   },
   {
    "path": "config/neoorigins/content.toml",
-   "sha1": "76bcd1d855cf4fd4897e5ec7d7b72d7b92907a5f",
-   "size": 3009,
+   "sha1": "e404a430d700a0cc2b563f55199e6190e4c4e5d6",
+   "size": 3084,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -18427,8 +17658,8 @@
   },
   {
    "path": "config/openloader/packs/AurnOrigins.zip",
-   "sha1": "dc8f830da29301d6b5541d6dc530025afaf498d9",
-   "size": 82965,
+   "sha1": "7ac87fc9134a2274eb15f63a9053274279e34a69",
+   "size": 73898,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -18442,32 +17673,12 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
-   "path": "config/openloader/packs/Structory_26.2_v1.3.7.zip",
-   "sha1": "8a9a1a1b3f74398310420b6fbe2c26ef142bed42",
-   "size": 1261346,
+   "path": "config/openloader/packs/aurn_weapon_caps.zip",
+   "sha1": "cbb28c75b37470ca4fb2083443a7aa9418f6be69",
+   "size": 617027,
    "mode": "config",
-   "url": "https://cdn.modrinth.com/data/aKCwCJlY/versions/TUbwu7eG/Structory_26.2_v1.3.7.jar"
-  },
-  {
-   "path": "config/openloader/packs/Structory_Towers_26.2_v1.0.17.zip",
-   "sha1": "fa40253068726262f9db9fa048c41b96750fd4b7",
-   "size": 491515,
-   "mode": "config",
-   "url": "https://cdn.modrinth.com/data/j3FONRYr/versions/ziO4YIv1/Structory_Towers_26.2_v1.0.17.jar"
-  },
-  {
-   "path": "config/openloader/packs/aurn_villages.zip",
-   "sha1": "402f9310d67d65cc156570b1f4256145372aa65c",
-   "size": 4939824,
-   "mode": "config",
-   "hosted": true
-  },
-  {
-   "path": "config/openloader/packs/tidal-towns-2.0.zip",
-   "sha1": "f48816fb1b0759350b60e96cd595512fe2b24baf",
-   "size": 586133,
-   "mode": "config",
-   "url": "https://cdn.modrinth.com/data/EEIwvQVo/versions/ahvrY85Y/tidal-towns-2.0.jar"
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
   },
   {
    "path": "config/paraglider-common.toml",
@@ -18551,6 +17762,14 @@
   },
   {
    "path": "config/regions_unexplored/common.json",
+   "sha1": "2b2af99885f660b5da95560d183cab8d98c1c19c",
+   "size": 21804,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/regions_unexplored/common.json.orig",
    "sha1": "36a9cbcbc86179d0e1eb7c34e4e6c1726fb28a39",
    "size": 21803,
    "mode": "config",
@@ -19038,6 +18257,22 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
+   "path": "config/sereneseasons/fertility.toml",
+   "sha1": "f200236ef142693565674c774f4de3bf99a8bb2c",
+   "size": 481,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/sereneseasons/seasons.toml",
+   "sha1": "df1806078025ad5e1fa733a963f71aea24221b43",
+   "size": 21059,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
    "path": "config/serilum/collective.json",
    "sha1": "3b3c39eb6a301206887b67d556e5fd446305ad6f",
    "size": 3280,
@@ -19303,8 +18538,8 @@
   },
   {
    "path": "config/sound_physics_remastered/sound_rates.properties",
-   "sha1": "4b71bbb57a402a2a38732394926112b1fd0b37ac",
-   "size": 709708,
+   "sha1": "4308f7191e302531c6e3bd993b6fb3ac8d1fed70",
+   "size": 713340,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -19487,16 +18722,16 @@
   },
   {
    "path": "config/supplementaries-client.toml",
-   "sha1": "2cf3b0c5e68d8f284ed1f50f03efda2ae83a5b4d",
-   "size": 9605,
+   "sha1": "07a4865a5eb0ab735105d999b9a4ffccb9470155",
+   "size": 9306,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
   },
   {
    "path": "config/supplementaries-common.toml",
-   "sha1": "df47cb9ea26bf7afcd067bb1ac9d229464b6858c",
-   "size": 31128,
+   "sha1": "1f2412f8c224220bff579a7ea9aae845214828ac",
+   "size": 33317,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -19511,8 +18746,8 @@
   },
   {
    "path": "config/swem-server.toml",
-   "sha1": "0f3ce05b8382bfaa9c1771300419883ed2a2147c",
-   "size": 8203,
+   "sha1": "b78c2e6b0b457566e5d17e8473edd9c12fdb4a81",
+   "size": 8024,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -19561,6 +18796,14 @@
    "path": "config/takeitout.json",
    "sha1": "d22fb07c97143793eece53b1b489833f2b3d9fdd",
    "size": 499,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/tectonic.json",
+   "sha1": "9230b9f5a3bae63908bf373e5a8fdf4570bb4066",
+   "size": 4366,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
@@ -19782,6 +19025,14 @@
    "bundle": "_bundles/config.bin.gz"
   },
   {
+   "path": "config/warntax/active_wars.json",
+   "sha1": "e3274417488b4af68504cda9bd48ce32f351c3b0",
+   "size": 16,
+   "mode": "config",
+   "hosted": true,
+   "bundle": "_bundles/config.bin.gz"
+  },
+  {
    "path": "config/warntax/colonyTaxData.json",
    "sha1": "8b359dc1b91891d5d6db502659e5d256f9a1994e",
    "size": 14,
@@ -19815,15 +19066,15 @@
   },
   {
    "path": "config/warntax/firstColonyData.json",
-   "sha1": "039197ea25da72ac69b6bf65fa09d75a52b8b9a7",
-   "size": 3683,
+   "sha1": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f",
+   "size": 2,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
   },
   {
    "path": "config/warntax/lastTaxGeneration.json",
-   "sha1": "c90b37b9aa255ebf2121c735fcc6a59c527359d1",
+   "sha1": "9e516805f1f0a9e1909820983ce88e7b81d5a52b",
    "size": 56,
    "mode": "config",
    "hosted": true,
@@ -21159,7 +20410,7 @@
   },
   {
    "path": "config/worldedit/worldedit.properties",
-   "sha1": "c16d42aaea3c696439d21cc3ac02ad017520ab7d",
+   "sha1": "406c16bb75b2424bf7c6f282413d517701e93563",
    "size": 2546,
    "mode": "config",
    "hosted": true,
@@ -21386,6 +20637,13 @@
    "url": "https://cdn.modrinth.com/data/3P2XnNW6/versions/9l6te4eG/AetherVillages-1.21.1-1.0.8-neoforge.jar"
   },
   {
+   "path": "mods/AmbientSounds_NEOFORGE_v6.3.11_mc1.21.1.jar",
+   "sha1": "9762244f9c116c85a6af3469da686650ed455bb1",
+   "size": 84815086,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/fM515JnW/versions/WGalCQAo/AmbientSounds_NEOFORGE_v6.3.11_mc1.21.1.jar"
+  },
+  {
    "path": "mods/Apotheosis-1.21.1-8.9.0.jar",
    "sha1": "2d8b59070a221bcc2e3ea08b3b48cbf034b77c71",
    "size": 7184314,
@@ -21484,6 +20742,13 @@
    "url": "https://cdn.modrinth.com/data/xv94TkTM/versions/FaNppCJJ/Controlling-neoforge-1.21.1-19.0.5.jar"
   },
   {
+   "path": "mods/Corgilib-NeoForge-1.21.1-5.0.0.10.jar",
+   "sha1": "78a1b2f0b4e2b816aeffb0e6a2cc0062aa343e46",
+   "size": 309788,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/ziOp6EO8/versions/Za7PInLk/Corgilib-NeoForge-1.21.1-5.0.0.10.jar"
+  },
+  {
    "path": "mods/CreateDragonsPlus-1.11.7b.jar",
    "sha1": "36085362f1123273a2d8e8e7e8af86c32ac10251",
    "size": 1038830,
@@ -21524,6 +20789,13 @@
    "size": 10258455,
    "mode": "sync",
    "url": "https://cdn.modrinth.com/data/w57LPWu0/versions/dBvf0HJy/DarkestSouls-Neoforge1.21.1-v1.2.3.3.jar"
+  },
+  {
+   "path": "mods/Data_Anchor-neoforge-1.21.1-2.0.0.18.jar",
+   "sha1": "cb04d2f1ecbe5ecbca3b1ea4d7a6cc1fa74e3aee",
+   "size": 119264,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/z2XEADmE/versions/WwTx4TaQ/Data_Anchor-neoforge-1.21.1-2.0.0.18.jar"
   },
   {
    "path": "mods/DecorativeBlocks-Reborn-neoforge-1.21.1-6.0.2.jar",
@@ -21580,6 +20852,13 @@
    "size": 152297,
    "mode": "sync",
    "url": "https://cdn.modrinth.com/data/OZBR5JT5/versions/fSQSKhdF/EasyAnvils-v21.1.0-1.21.1-NeoForge.jar"
+  },
+  {
+   "path": "mods/Enhanced-Celestials-NeoForge-1.21.1-6.0.2.6.jar",
+   "sha1": "fa59a7bb69e3973980f525083897a2d5d74fea10",
+   "size": 1538905,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/2rL16t1O/versions/bPhEKzZO/Enhanced-Celestials-NeoForge-1.21.1-6.0.2.6.jar"
   },
   {
    "path": "mods/Epic Fight x Curios Compat 2.2.jar",
@@ -21706,6 +20985,13 @@
    "size": 73375667,
    "mode": "sync",
    "url": "https://cdn.modrinth.com/data/46KJle7n/versions/PsPYpoCC/L_Ender%27s%20Cataclysm%201.21.1-3.33.jar"
+  },
+  {
+   "path": "mods/LeavesBeGone-v21.1.1-1.21.1-NeoForge.jar",
+   "sha1": "1d8eec39ed44414af14d14c0dfb5abd097e77491",
+   "size": 55937,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/AVq17PqV/versions/kAbmpvF3/LeavesBeGone-v21.1.1-1.21.1-NeoForge.jar"
   },
   {
    "path": "mods/Luminara-Collection-1.3.0-1.21.1.jar",
@@ -21862,6 +21148,13 @@
    "url": "https://cdn.modrinth.com/data/fuuu3xnx/versions/iEE85X0w/Searchables-neoforge-1.21.1-1.0.2.jar"
   },
   {
+   "path": "mods/SereneSeasons-neoforge-1.21.1-10.1.0.9.jar",
+   "sha1": "6b98eb4e64344bb8aba424187ed08bf04e59dccf",
+   "size": 163020,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/e0bNACJD/versions/pHEgQQUE/SereneSeasons-neoforge-1.21.1-10.1.0.9.jar"
+  },
+  {
    "path": "mods/SimplyTooltips-neoforge-0.1.3.jar",
    "sha1": "2bbc2c8b5eb0fcc7ece66e336639a4fd554fd746",
    "size": 5320037,
@@ -21881,6 +21174,13 @@
    "size": 391053,
    "mode": "sync",
    "url": "https://cdn.modrinth.com/data/PuyPazRT/versions/O5EpeqI3/SmartBrainLib-neoforge-1.21.1-1.16.11.jar"
+  },
+  {
+   "path": "mods/SubtleEffects-neoforge-1.21.1-1.15.2-hotfix.1.jar",
+   "sha1": "8698d9caca926a3b90bf8efbbe32b7e70b3fd9ab",
+   "size": 3476220,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/4q8UOK1d/versions/w4f4zz6I/SubtleEffects-neoforge-1.21.1-1.15.2-hotfix.1.jar"
   },
   {
    "path": "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
@@ -22016,6 +21316,13 @@
    "url": "https://cdn.modrinth.com/data/hKyJVhhR/versions/txgVLLNU/almirisweapons-1.21.1_neoforge_v3.0.0.jar"
   },
   {
+   "path": "mods/amendments-1.21-2.2.7-neoforge.jar",
+   "sha1": "f8db6e9b5610fab90a7c545c374feb9140fc7832",
+   "size": 1212703,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/6iTJugQR/versions/w19mjFoT/amendments-1.21-2.2.7-neoforge.jar"
+  },
+  {
    "path": "mods/appleskin-neoforge-mc1.21-3.0.9.jar",
    "sha1": "81cf0e668f991f83ac8820c386fbd6c9c3602246",
    "size": 75804,
@@ -22094,8 +21401,22 @@
   },
   {
    "path": "mods/aurnfolk-1.0.0.jar",
-   "sha1": "84379f10a2e7a46a73ad8421dc8824e0e55b5dd7",
-   "size": 508053,
+   "sha1": "1b763875d108660a5d740a33a595983e19c45260",
+   "size": 3605827,
+   "mode": "sync",
+   "hosted": true
+  },
+  {
+   "path": "mods/aurnplan-0.1.0.jar",
+   "sha1": "62c6da0c1ede0410352907e90838da9aa2bec9a1",
+   "size": 71044,
+   "mode": "sync",
+   "hosted": true
+  },
+  {
+   "path": "mods/aurnskills-0.1.0.jar",
+   "sha1": "f42381a02fecd1cf9758a2dcf06881eea49566a8",
+   "size": 263504,
    "mode": "sync",
    "hosted": true
   },
@@ -22231,6 +21552,13 @@
    "size": 11842184,
    "mode": "sync",
    "url": "https://cdn.modrinth.com/data/1kcHy4de/versions/ttcWWp3r/born_in_chaos_%5BNeoforge%5D_1.21.1_1.7.6.jar"
+  },
+  {
+   "path": "mods/bountiful-neoforge-8.0.0-beta.2.jar",
+   "sha1": "8c1786d2850bd15c3a2dd0f50fccfda09125faa5",
+   "size": 721006,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/BpwWFOVM/versions/swTb6NU9/bountiful-neoforge-8.0.0-beta.2.jar"
   },
   {
    "path": "mods/caelus-neoforge-7.0.1+1.21.1.jar",
@@ -22786,6 +22114,13 @@
    "url": "https://edge.forgecdn.net/files/8291/245/expanded_armor-1.0.0.jar"
   },
   {
+   "path": "mods/fallingleaves-1.21.1-2.6.0.jar",
+   "sha1": "c1ae4a2ca27be388d4c2fc75eff208059eaf4cc9",
+   "size": 153794,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/2JAUNCL4/versions/ZTfOTZtM/fallingleaves-1.21.1-2.6.0.jar"
+  },
+  {
    "path": "mods/fantasy-weapons-1.0-1.21.1-neoforge.jar",
    "sha1": "67b91bf5a235611ea10c81d348f7bbc7c7a125d9",
    "size": 241315,
@@ -22912,6 +22247,13 @@
    "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/tPkJmim6/geckolib-neoforge-1.21.1-4.9.2.jar"
   },
   {
+   "path": "mods/giant_bamboo-1.0.0-neoforge-1.21.1.jar",
+   "sha1": "2d0d2f09b7155cb4b468d29618fd87ec32fcf023",
+   "size": 11750,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/AhD6uuku/versions/de1Axf7a/giant_bamboo-1.0.0-neoforge-1.21.1.jar"
+  },
+  {
    "path": "mods/goety-3.1.2.jar",
    "sha1": "94f43d0d9093b006c8570924cb95b7509ada5ecf",
    "size": 78380259,
@@ -23031,6 +22373,13 @@
    "url": "https://cdn.modrinth.com/data/XbiLGMMU/versions/Jpcw76rq/jupiter-2.3.7-1.21.1-neoforge.jar"
   },
   {
+   "path": "mods/kambrik-neoforge-8.0.0-beta.2.jar",
+   "sha1": "9e41688287925e7a65375d96f32eefca7ab2a821",
+   "size": 436428,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/zfbCkvdZ/versions/rCSmCZpX/kambrik-neoforge-8.0.0-beta.2.jar"
+  },
+  {
    "path": "mods/knavesneeds-neoforge-1.21.1-3.0.0-beta.1.jar",
    "sha1": "36f43fd7fcf44e7355cee54908610e72ac7507d0",
    "size": 1392971,
@@ -23080,18 +22429,46 @@
    "url": "https://cdn.modrinth.com/data/9d9Bkqva/versions/zkH9rSlF/legendary_monsters-2.2.4%20MC%201.21.1.jar"
   },
   {
-   "path": "mods/letsdo-bakery-neoforge-2.1.6.jar",
-   "sha1": "1784df19be895a8aeff5c3b51675a04b7e1fb254",
-   "size": 1039749,
+   "path": "mods/letsdo-alpinewhispers-neoforge-1.0.4.jar",
+   "sha1": "5dd398501c5e5d6aa6ad6a9b8323e6365a73ca66",
+   "size": 3799633,
    "mode": "sync",
-   "url": "https://cdn.modrinth.com/data/oNB5jhlA/versions/toe1Cb0E/letsdo-bakery-neoforge-2.1.6.jar"
+   "url": "https://cdn.modrinth.com/data/SSPTBIrB/versions/2x7mdiTd/letsdo-alpinewhispers-neoforge-1.0.4.jar"
   },
   {
-   "path": "mods/letsdo-farm_and_charm-neoforge-1.1.23.jar",
-   "sha1": "92febd01301604d4f4a9a3c5b1188b1ac8250edc",
-   "size": 2586013,
+   "path": "mods/letsdo-bakery-neoforge-2.1.11.jar",
+   "sha1": "4bedf5b71939e9f907b2f265a979389da4262ff6",
+   "size": 1649471,
    "mode": "sync",
-   "url": "https://cdn.modrinth.com/data/HJetCzWo/versions/DlXdACqc/letsdo-farm_and_charm-neoforge-1.1.23.jar"
+   "url": "https://cdn.modrinth.com/data/oNB5jhlA/versions/4pEnkp1M/letsdo-bakery-neoforge-2.1.11.jar"
+  },
+  {
+   "path": "mods/letsdo-brewery-neoforge-2.1.13.jar",
+   "sha1": "20e30e1a182fdfbfff3df91f43e068a16e04798e",
+   "size": 2230362,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/b7NV2plI/versions/ZhOX0GeI/letsdo-brewery-neoforge-2.1.13.jar"
+  },
+  {
+   "path": "mods/letsdo-candlelight-neoforge-2.1.15.jar",
+   "sha1": "1d73e2765367f1b221ce6785225a22b0b42b435f",
+   "size": 3048545,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/qwbArkQk/versions/4QhmIK8c/letsdo-candlelight-neoforge-2.1.15.jar"
+  },
+  {
+   "path": "mods/letsdo-farm_and_charm-neoforge-1.1.29.jar",
+   "sha1": "60b4e599fafc84fb6854d5ef771ee6ae8981a920",
+   "size": 3414667,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/HJetCzWo/versions/2eW1JdC8/letsdo-farm_and_charm-neoforge-1.1.29.jar"
+  },
+  {
+   "path": "mods/letsdo-meadow-neoforge-1.4.10.jar",
+   "sha1": "dd30b394460c7994de8ab22e3ea0bf7d61fa42c6",
+   "size": 2965222,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/ra7o6Sl7/versions/7lmxOKYR/letsdo-meadow-neoforge-1.4.10.jar"
   },
   {
    "path": "mods/letsdo-vinery-neoforge-1.5.6.jar",
@@ -23106,6 +22483,13 @@
    "size": 757335,
    "mode": "sync",
    "url": "https://edge.forgecdn.net/files/7798/973/lfs_magic_fantasy-1.4.0-neoforge-1.21.1.jar"
+  },
+  {
+   "path": "mods/lightmanscurrency-1.21-2.3.0.6.jar",
+   "sha1": "bb16d428902b6d83c5203e9cf50984ef4b9f769a",
+   "size": 8073221,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/wvMc8AJt/versions/XMHRtEIk/lightmanscurrency-1.21-2.3.0.6.jar"
   },
   {
    "path": "mods/lionfishapi-3.1.jar",
@@ -23199,6 +22583,76 @@
    "url": "https://edge.forgecdn.net/files/9412/381/mctradepost-1.07.005-1.21.1.jar"
   },
   {
+   "path": "mods/mcw-bridges-3.1.2-mc1.21.1neoforge.jar",
+   "sha1": "71ece28129789a2123cf07e79938f488d8675bb2",
+   "size": 661387,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/GURcjz8O/versions/aQ7rY7ng/mcw-bridges-3.1.2-mc1.21.1neoforge.jar"
+  },
+  {
+   "path": "mods/mcw-doors-1.1.5-mc1.21.1neoforge.jar",
+   "sha1": "c127904f23db1a641dd9e065ec51c5c177cb4cd7",
+   "size": 1190404,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/kNxa8z3e/versions/u7BRX44F/mcw-doors-1.1.5-mc1.21.1neoforge.jar"
+  },
+  {
+   "path": "mods/mcw-furniture-3.4.1-mc1.21.1neoforge.jar",
+   "sha1": "3dccc819f14bcc60b3683edd82ca8c5e64964229",
+   "size": 2080436,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/dtWC90iB/versions/Z5V3Ps7S/mcw-furniture-3.4.1-mc1.21.1neoforge.jar"
+  },
+  {
+   "path": "mods/mcw-lights-1.1.5-mc1.21.1neoforge.jar",
+   "sha1": "13c1107caf26b2c60d8626b3658b26cc7f634b38",
+   "size": 525744,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/w4an97C2/versions/5U2kQZIL/mcw-lights-1.1.5-mc1.21.1neoforge.jar"
+  },
+  {
+   "path": "mods/mcw-mcwfences-1.2.1-mc1.21.1neoforge.jar",
+   "sha1": "b5580c3fc521ed8bf4db3e407bd590efc317f74d",
+   "size": 673871,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/GmwLse2I/versions/jVdb0r4W/mcw-mcwfences-1.2.1-mc1.21.1neoforge.jar"
+  },
+  {
+   "path": "mods/mcw-mcwpaths-1.1.1-mc1.21.1neoforge.jar",
+   "sha1": "4bb7e1d28eef19f87438881b0f582a15297b95ae",
+   "size": 777742,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/VRLhWB91/versions/tlymsxUG/mcw-mcwpaths-1.1.1-mc1.21.1neoforge.jar"
+  },
+  {
+   "path": "mods/mcw-mcwstairs-1.0.2-mc1.21.1neoforge.jar",
+   "sha1": "1ee43d693c821efc955a74e551f94372af90a140",
+   "size": 529082,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/iP3wH1ha/versions/4t8L0dGP/mcw-mcwstairs-1.0.2-mc1.21.1neoforge.jar"
+  },
+  {
+   "path": "mods/mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar",
+   "sha1": "eb1d3c118acb450cc2fe14c2ce7ce247a1bca60c",
+   "size": 1261268,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/C7I0BCni/versions/rQUE4LCz/mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar"
+  },
+  {
+   "path": "mods/mcw-roofs-2.3.2-mc1.21.1neoforge.jar",
+   "sha1": "05806ff152fab56f7c1b4b215d772ea73611283d",
+   "size": 1784829,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/B8jaH3P1/versions/jiXRXiSt/mcw-roofs-2.3.2-mc1.21.1neoforge.jar"
+  },
+  {
+   "path": "mods/mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar",
+   "sha1": "1f8b59e31f889f53b6296b42ee09d447e7e56620",
+   "size": 572870,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/n2fvCDlM/versions/StnP0RNi/mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar"
+  },
+  {
    "path": "mods/medieval_buildings-1.21.1-1.1.1-neoforge.jar",
    "sha1": "0a2214e95eb318ad64b3b3faf2cad036459ffc17",
    "size": 214623,
@@ -23246,6 +22700,13 @@
    "size": 2430324,
    "mode": "sync",
    "url": "https://cdn.modrinth.com/data/692GClaE/versions/OKyLanIn/modonomicon-1.21.1-neoforge-1.123.0.jar"
+  },
+  {
+   "path": "mods/moonlight-1.21.1-3.8.3-neoforge.jar",
+   "sha1": "046821d548a1269164c792bab46d55798085c285",
+   "size": 2327347,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/yBea1yLM/moonlight-1.21.1-3.8.3-neoforge.jar"
   },
   {
    "path": "mods/mythic_mounts-1.0V.jar",
@@ -23381,6 +22842,13 @@
    "url": "https://cdn.modrinth.com/data/E6867niZ/versions/VnOezhJR/rechiseledcreate-1.1.1-neoforge-mc1.21.jar"
   },
   {
+   "path": "mods/recruits-1.21.1-1.15.2.jar",
+   "sha1": "950b96c29619523c517133f01bc4a7347e9c050b",
+   "size": 2850634,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/WOg9lm4u/versions/IYZdzeH9/recruits-1.21.1-1.15.2.jar"
+  },
+  {
    "path": "mods/refm-0.3.13-1.21.1.jar",
    "sha1": "8b5c30f651ee4c58f22bdd8a70c72789368d83c5",
    "size": 2841260,
@@ -23428,13 +22896,6 @@
    "size": 76369,
    "mode": "sync",
    "url": "https://cdn.modrinth.com/data/B3pb093D/versions/hZ6B2Z0x/ritchiesprojectilelib-2.1.2%2Bmc.1.21.1-neoforge.jar"
-  },
-  {
-   "path": "mods/roadweaver-neoforge-2.3.2-1.21.1.jar",
-   "sha1": "8e45f6a407fbe0926fbad41510b876293e0e06ec",
-   "size": 3879190,
-   "mode": "sync",
-   "url": "https://cdn.modrinth.com/data/6jk8Pote/versions/D1y11uNH/roadweaver-neoforge-2.3.2-1.21.1.jar"
   },
   {
    "path": "mods/rpgprefabhouses-1.21.1-2.1.0.jar",
@@ -23612,6 +23073,13 @@
    "url": "https://cdn.modrinth.com/data/rOUBggPv/versions/81s25oaA/supermartijn642corelib-1.1.24-neoforge-mc1.21.jar"
   },
   {
+   "path": "mods/supplementaries-1.21.1-4.1.1-neoforge.jar",
+   "sha1": "b1e0c795341f98ce4980ef2d606f3b9f9ef38021",
+   "size": 13958834,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/ry2Njtnv/supplementaries-1.21.1-4.1.1-neoforge.jar"
+  },
+  {
    "path": "mods/swem-1.21.1-1.6.14.jar",
    "sha1": "55ba0684e7bd852ba298a666595ac9c9f83977af",
    "size": 12174359,
@@ -23624,6 +23092,20 @@
    "size": 3553006,
    "mode": "sync",
    "url": "https://cdn.modrinth.com/data/DjLobEOy/versions/DZxwgj6V/t_and_t-fabric-neoforge-1.13.11.jar"
+  },
+  {
+   "path": "mods/taxtg-2.0.1-neoforge-1.21.1.jar",
+   "sha1": "bb2a4588e72ff70358dc68950df219fabafcd453",
+   "size": 1247008,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/8a1Ksvnk/versions/kRGU4K6D/taxtg-2.0.1-neoforge-1.21.1.jar"
+  },
+  {
+   "path": "mods/tectonic-3.0.28-neoforge-21.1.jar",
+   "sha1": "db15156eec4320c2997c4dd4948119472de01224",
+   "size": 451757,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/lWDHr9jE/versions/n4iyW7aB/tectonic-3.0.28-neoforge-21.1.jar"
   },
   {
    "path": "mods/tonys_weapons-1.1.0-neoforge-1.21.1.jar",
@@ -23759,6 +23241,13 @@
    "url": "https://cdn.modrinth.com/data/1u6JkXh5/versions/WTAFvuRx/worldedit-mod-7.3.8.jar"
   },
   {
+   "path": "mods/worldx_trees-1.0.1+neoforge-1.21.1.jar",
+   "sha1": "4c22a21af9f16b27db538ab080e2faf243f96a92",
+   "size": 3508345,
+   "mode": "sync",
+   "url": "https://cdn.modrinth.com/data/Cf4Y6yvU/versions/5xGcsuUa/worldx_trees-1.0.1%2Bneoforge-1.21.1.jar"
+  },
+  {
    "path": "mods/wyrmroost-1.4.1.jar",
    "sha1": "3234b28f03e1b43101a0539a0774e9cb5c828de4",
    "size": 4361540,
@@ -23802,10 +23291,9 @@
   },
   {
    "path": "options.txt",
-   "sha1": "90d4152e17873df9a5d80faa89395fa33aefc915",
-   "size": 27629,
+   "sha1": "d3ffe54760aec31e17357dca86cc9a6ca62a3751",
+   "size": 27394,
    "mode": "once",
-   "template": true,
    "hosted": true
   },
   {
@@ -24158,6 +23646,13 @@
    "mode": "sync",
    "hosted": true,
    "bundle": "_bundles/resourcepacks_AURN_Monarch_Arsenal.bin.gz"
+  },
+  {
+   "path": "resourcepacks/AURN Weapon Sizes.zip",
+   "sha1": "b5ecf8a137ff07bcf76511955bd6dc5a424b97ba",
+   "size": 1673465,
+   "mode": "sync",
+   "hosted": true
   },
   {
    "path": "resourcepacks/AltiasHorseColors.zip",

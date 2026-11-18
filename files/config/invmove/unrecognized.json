@@ -54,7 +54,9 @@
     "com.ldtteam.blockui.BOScreen": true,
     "com.minecolonies.core.client.gui.containers.WindowCitizenInventory": true,
     "com.ovinter.mythsandlegends.client.gui.screen.research.ResearchScreen": true,
-    "snownee.jade.gui.HomeConfigScreen": true
+    "snownee.jade.gui.HomeConfigScreen": true,
+    "dev.corgitaco.enhancedcelestials.client.gui.EC2AnnouncementScreen": true,
+    "aurn.folk.client.CreatorScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,
@@ -77,6 +79,7 @@
     "com.breakinblocks.neovitae.client.hud.GuiEditHUD": true,
     "net.minecraft.client.gui.screens.social.SocialInteractionsScreen": true,
     "io.redspace.ironsspellbooks.gui.inscription_table.InscriptionTableScreen": true,
-    "com.minecolonies.core.client.gui.containers.WindowCitizenInventory": true
+    "com.minecolonies.core.client.gui.containers.WindowCitizenInventory": true,
+    "aurn.folk.client.CreatorScreen": true
   }
 }
