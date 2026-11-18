@@ -2,7 +2,7 @@
  "schema": 1,
  "name": "AURN",
  "title": "The Sundered Reach of Aurn",
- "version": "2026.11.18-newworld",
+ "version": "2026.11.18-newworld2",
  "minecraft": "1.21.1",
  "loader": {
   "type": "neoforge",
@@ -42,8 +42,8 @@
  ],
  "bundles": {
   "_bundles/config.bin.gz": {
-   "sha1": "a2d75f66bacc9b1c6a52c8ff5be7a0044a6d36d2",
-   "size": 1498643,
+   "sha1": "f2e308d29197507af37e6ebd94f11ba4776e5d72",
+   "size": 1499146,
    "files": 2566
   },
   "_bundles/resourcepacks_AURN_Monarch_Arsenal.bin.gz": {
@@ -17674,8 +17674,8 @@
   },
   {
    "path": "config/openloader/packs/aurn_weapon_caps.zip",
-   "sha1": "cbb28c75b37470ca4fb2083443a7aa9418f6be69",
-   "size": 617027,
+   "sha1": "c4d44547a2ad112a63faa4e2d3450b50d36a69f0",
+   "size": 621045,
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
