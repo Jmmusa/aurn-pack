@@ -2,7 +2,7 @@
  "schema": 1,
  "name": "AURN",
  "title": "The Sundered Reach of Aurn",
- "version": "2026.11.19-newworld3",
+ "version": "2026.11.19-newworld4",
  "minecraft": "1.21.1",
  "loader": {
   "type": "neoforge",
@@ -21401,8 +21401,8 @@
   },
   {
    "path": "mods/aurnfolk-1.0.0.jar",
-   "sha1": "508700e3658279ccfc89e523f0b5f0d2cbfd3791",
-   "size": 3606320,
+   "sha1": "2d4ceee02c95ed4effc6f73064d08a4a751fa3a4",
+   "size": 3606737,
    "mode": "sync",
    "hosted": true
   },
