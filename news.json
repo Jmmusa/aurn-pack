@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "date": "2026-11-22",
+   "tag": "Update",
+   "title": "Every blade has a story now",
+   "body": "New AURN tooltips: rarity by power, a tagline and lore for every weapon, armour and relic, animated sect manuals, and gear that hits a little harder."
+  },
+  {
    "date": "2026-11-17",
    "tag": "Launcher",
    "title": "The AURN Launcher is here",

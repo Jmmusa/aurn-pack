@@ -2,7 +2,7 @@
  "schema": 1,
  "name": "AURN",
  "title": "The Sundered Reach of Aurn",
- "version": "2026.11.22-newworld",
+ "version": "2026.11.22-tooltips",
  "minecraft": "1.21.1",
  "loader": {
   "type": "neoforge",
@@ -12709,6 +12709,13 @@
    "hosted": true
   },
   {
+   "path": "mods/aurngear-1.0.0.jar",
+   "sha1": "e0d3e50665045d1fb33b5ac1185f125499a51485",
+   "size": 4005,
+   "mode": "sync",
+   "hosted": true
+  },
+  {
    "path": "mods/aurnplan-0.1.0.jar",
    "sha1": "8a62e23d81b042a81d5ca983252fd401520af353",
    "size": 94501,
@@ -12719,6 +12726,13 @@
    "path": "mods/aurnskills-0.1.0.jar",
    "sha1": "f42381a02fecd1cf9758a2dcf06881eea49566a8",
    "size": 263504,
+   "mode": "sync",
+   "hosted": true
+  },
+  {
+   "path": "mods/aurntips-1.0.0.jar",
+   "sha1": "dea1199e06d8a209c0a1c14b0908d5e45b5780e0",
+   "size": 277082,
    "mode": "sync",
    "hosted": true
   },
