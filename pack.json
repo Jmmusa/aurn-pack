@@ -2,7 +2,7 @@
  "schema": 1,
  "name": "AURN",
  "title": "The Sundered Reach of Aurn",
- "version": "2026.11.22-tooltips",
+ "version": "2026.11.22-roads",
  "minecraft": "1.21.1",
  "loader": {
   "type": "neoforge",
@@ -12717,8 +12717,8 @@
   },
   {
    "path": "mods/aurnplan-0.1.0.jar",
-   "sha1": "8a62e23d81b042a81d5ca983252fd401520af353",
-   "size": 94501,
+   "sha1": "814774ee200430e046e161cf1a130cd820c46034",
+   "size": 96833,
    "mode": "sync",
    "hosted": true
   },
