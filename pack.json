@@ -2,7 +2,7 @@
  "schema": 1,
  "name": "AURN",
  "title": "The Sundered Reach of Aurn",
- "version": "2026.11.21-cities",
+ "version": "2026.11.22-newworld",
  "minecraft": "1.21.1",
  "loader": {
   "type": "neoforge",
@@ -42,8 +42,8 @@
  ],
  "bundles": {
   "_bundles/config.bin.gz": {
-   "sha1": "2471a6bd0287ae8ee3b57c875b63407fbf6e573d",
-   "size": 1737885,
+   "sha1": "b00850309e80de559aa37f37a9d3b939945455a5",
+   "size": 1737884,
    "files": 1477
   },
   "_bundles/resourcepacks_AURN_Monarch_Arsenal.bin.gz": {
@@ -5849,7 +5849,7 @@
   },
   {
    "path": "config/deeper_oceans.json",
-   "sha1": "841e87a54dd9c038d46adeba1b38ea361b3a42a0",
+   "sha1": "a2f5c2920ed34c66b8af086d2fe977b0c7fc5671",
    "size": 310,
    "mode": "config",
    "hosted": true,
@@ -8918,6 +8918,13 @@
    "mode": "config",
    "hosted": true,
    "bundle": "_bundles/config.bin.gz"
+  },
+  {
+   "path": "config/openloader/packs/AurnSwemCoats.zip",
+   "sha1": "aab2c365c4db75353170cacdf16184a02a0caf08",
+   "size": 18179252,
+   "mode": "config",
+   "hosted": true
   },
   {
    "path": "config/openloader/packs/aurn_weapon_caps.zip",
@@ -14380,6 +14387,13 @@
    "size": 12174359,
    "mode": "sync",
    "url": "https://edge.forgecdn.net/files/9156/395/swem-1.21.1-1.6.14.jar"
+  },
+  {
+   "path": "mods/swemaddendum-1.0.1--1.21.1.jar",
+   "sha1": "8e069d38628c3f2504c431e7962adc9b47e42d21",
+   "size": 350360,
+   "mode": "sync",
+   "hosted": true
   },
   {
    "path": "mods/t_and_t-fabric-neoforge-1.13.11.jar",
